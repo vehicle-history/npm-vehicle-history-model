@@ -1,4 +1,3 @@
-var options = require('config');
 var chai = require('chai');
 var should = chai.should();
 
