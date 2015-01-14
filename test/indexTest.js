@@ -1,18 +1,41 @@
 var chai = require('chai');
 var should = chai.should();
+var index = require('../index');
+var resolver = index.resolver;
 
 describe('index test', function () {
 
+  it('should export SearchCarRequest model', function (done) {
+
+    var SearchCarRequest = index.model.SearchCarRequest;
+    should.exist(SearchCarRequest);
+    done();
+  });
+
+  it('should export Car model', function (done) {
+
+    var Car = index.model.Car;
+    should.exist(Car);
+    done();
+  });
+
+  it('should export Report model', function (done) {
+
+    var Report = index.model.Report;
+    should.exist(Report);
+    done();
+  });
+
   it('should export meta version', function (done) {
 
-    var version = require('../index').VERSION;
+    var version = index.VERSION;
     should.exist(version);
     done();
   });
 
   it('should export CarEngineResolver with constants', function (done) {
 
-    var CarEngineResolver = require('../index').CarEngineResolver;
+    var CarEngineResolver = resolver.CarEngineResolver;
 
     should.exist(CarEngineResolver);
     should.exist(CarEngineResolver.ENGINE_CUBIC_CAPACITY_MAP_FIELD);
@@ -24,7 +47,7 @@ describe('index test', function () {
 
   it('should export CarInspectionResolver with constants', function (done) {
 
-    var CarInspectionResolver = require('../index').CarInspectionResolver;
+    var CarInspectionResolver = resolver.CarInspectionResolver;
 
     should.exist(CarInspectionResolver);
     should.exist(CarInspectionResolver.INSPECTION_STATUS_MAP_FIELD);
@@ -34,7 +57,7 @@ describe('index test', function () {
 
   it('should export CarMileageResolver with constants', function (done) {
 
-    var CarMileageResolver = require('../index').CarMileageResolver;
+    var CarMileageResolver = resolver.CarMileageResolver;
 
     should.exist(CarMileageResolver);
     should.exist(CarMileageResolver.MILEAGE_VALUE_MAP_FIELD);
@@ -46,7 +69,7 @@ describe('index test', function () {
 
   it('should export CarNameResolver with constants', function (done) {
 
-    var CarNameResolver = require('../index').CarNameResolver;
+    var CarNameResolver = resolver.CarNameResolver;
 
     should.exist(CarNameResolver);
     should.exist(CarNameResolver.MANUFACTURER_MAP_FIELD);
@@ -60,7 +83,7 @@ describe('index test', function () {
 
   it('should export CarPolicyResolver with constants', function (done) {
 
-    var CarPolicyResolver = require('../index').CarPolicyResolver;
+    var CarPolicyResolver = resolver.CarPolicyResolver;
 
     should.exist(CarPolicyResolver);
     should.exist(CarPolicyResolver.POLICY_STATUS_MAP_FIELD);
@@ -70,7 +93,7 @@ describe('index test', function () {
 
   it('should export CarProductionResolver with constants', function (done) {
 
-    var CarProductionResolver = require('../index').CarProductionResolver;
+    var CarProductionResolver = resolver.CarProductionResolver;
 
     should.exist(CarProductionResolver);
     should.exist(CarProductionResolver.PRODUCTION_YEAR_MAP_FIELD);
@@ -80,7 +103,7 @@ describe('index test', function () {
 
   it('should export CarRegistrationResolver with constants', function (done) {
 
-    var CarRegistrationResolver = require('../index').CarRegistrationResolver;
+    var CarRegistrationResolver = resolver.CarRegistrationResolver;
 
     should.exist(CarRegistrationResolver);
     should.exist(CarRegistrationResolver.REGISTRATION_STATUS_MAP_FIELD);
@@ -90,7 +113,7 @@ describe('index test', function () {
 
   it('should export CarStoleResolver', function (done) {
 
-    var CarStoleResolver = require('../index').CarStoleResolver;
+    var CarStoleResolver = resolver.CarStoleResolver;
 
     should.exist(CarStoleResolver);
     done();
@@ -98,7 +121,7 @@ describe('index test', function () {
 
   it('should export CarVariantResolver with constants', function (done) {
 
-    var CarVariantResolver = require('../index').CarVariantResolver;
+    var CarVariantResolver = resolver.CarVariantResolver;
 
     should.exist(CarVariantResolver);
     should.exist(CarVariantResolver.VARIANT_TYPE_MAP_FIELD);
