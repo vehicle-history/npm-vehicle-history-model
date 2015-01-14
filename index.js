@@ -7,7 +7,7 @@ module.exports = {
    * @type CarEngineResolver
    * @static
    */
-  CarEngineResolver: require('./lib/resolver/carEngineResolver'),
+  CarEngineResolver: require('./lib/resolver/carEngineResolver').CarEngineResolver,
 
   /**
    * the CarInspectionResolver class.
@@ -15,7 +15,7 @@ module.exports = {
    * @type CarInspectionResolver
    * @static
    */
-  CarInspectionResolver: require('./lib/resolver/carInspectionResolver'),
+  CarInspectionResolver: require('./lib/resolver/carInspectionResolver').CarInspectionResolver,
 
   /**
    * the CarMileageResolver class.
@@ -23,7 +23,7 @@ module.exports = {
    * @type CarMileageResolver
    * @static
    */
-  CarMileageResolver: require('./lib/resolver/carMileageResolver'),
+  CarMileageResolver: require('./lib/resolver/carMileageResolver').CarMileageResolver,
 
   /**
    * the CarNameResolver class.
@@ -31,7 +31,7 @@ module.exports = {
    * @type CarNameResolver
    * @static
    */
-  CarNameResolver: require('./lib/resolver/carNameResolver'),
+  CarNameResolver: require('./lib/resolver/carNameResolver').CarNameResolver,
 
   /**
    * the CarPolicyResolver class.
@@ -39,7 +39,7 @@ module.exports = {
    * @type CarPolicyResolver
    * @static
    */
-  CarPolicyResolver: require('./lib/resolver/carPolicyResolver'),
+  CarPolicyResolver: require('./lib/resolver/carPolicyResolver').CarPolicyResolver,
 
   /**
    * the CarProductionResolver class.
@@ -47,7 +47,7 @@ module.exports = {
    * @type CarProductionResolver
    * @static
    */
-  CarProductionResolver: require('./lib/resolver/carProductionResolver'),
+  CarProductionResolver: require('./lib/resolver/carProductionResolver').CarProductionResolver,
 
   /**
    * the CarRegistrationyResolver class.
@@ -55,7 +55,7 @@ module.exports = {
    * @type CarRegistrationyResolver
    * @static
    */
-  CarRegistrationyResolver: require('./lib/resolver/carRegistrationyResolver'),
+  CarRegistrationyResolver: require('./lib/resolver/carRegistrationyResolver').CarRegistrationyResolver,
 
   /**
    * the CarStoleResolver class.
@@ -63,7 +63,7 @@ module.exports = {
    * @type CarStoleResolver
    * @static
    */
-  CarStoleResolver: require('./lib/resolver/carStoleResolver'),
+  CarStoleResolver: require('./lib/resolver/carStoleResolver').CarStoleResolver,
 
   /**
    * the CarVariantResolver class.
@@ -71,7 +71,7 @@ module.exports = {
    * @type CarVariantResolver
    * @static
    */
-  CarVariantResolver: require('./lib/resolver/carVariantResolver'),
+  CarVariantResolver: require('./lib/resolver/carVariantResolver').CarVariantResolver,
 
   /**
    * the version of the library
