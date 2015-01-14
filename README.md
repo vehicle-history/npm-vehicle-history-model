@@ -1,11 +1,11 @@
 # vehicle-history-model
 [![npm version](https://badge.fury.io/js/vehicle-history-model.svg)](http://badge.fury.io/js/vehicle-history-model)
-[![Coverage Status](https://coveralls.io/repos/vehicle-history-model/npm-vehicle-history-model/badge.png?branch=master)](https://coveralls.io/r/vehicle-history-model/npm-vehicle-history-model?branch=parser)
-[![Build Status](https://travis-ci.org/vehicle-history-model/npm-vehicle-history-model.svg?branch=master)](https://travis-ci.org/vehicle-history-model/npm-vehicle-history-model)
+[![Coverage Status](https://coveralls.io/repos/vehicle-history/npm-vehicle-history-model/badge.svg?branch=master)](https://coveralls.io/r/vehicle-history/npm-vehicle-history-model?branch=master)
+[![Build Status](https://travis-ci.org/vehicle-history/npm-vehicle-history-model.svg?branch=master)](https://travis-ci.org/vehicle-history/npm-vehicle-history-model)
 
 [![NPM](https://nodei.co/npm/vehicle-history-model.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vehicle-history-model/)
 
-Check vehicle history based on vin number.
+Vehicle history model.
 
 ## Installation
 
