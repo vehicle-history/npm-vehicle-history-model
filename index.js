@@ -7,7 +7,7 @@ module.exports = {
    * @type CarEngineResolver
    * @static
    */
-//  CarEngineResolver: require('./lib/resolver/carEngineResolver'),
+  CarEngineResolver: require('./lib/resolver/carEngineResolver'),
 
   /**
    * the version of the library
