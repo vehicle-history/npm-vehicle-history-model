@@ -6,7 +6,7 @@ var expect = chai.expect;
 
 var carEngineResolver = new CarEngineResolver();
 
-describe('car engine parser test', function () {
+describe('car engine resolver test', function () {
 
   it('should return valid cc and fuel type', function (done) {
 

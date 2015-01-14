@@ -1,0 +1,137 @@
+{
+  "resolver": {
+    "variant": {
+      "types": [
+        {
+          "name": "CAR",
+          "values": [
+            "samochód osobowy"
+          ]
+        },
+        {
+          "name": "VAN",
+          "values": [
+            "samochód dostawczy"
+          ]
+        }
+      ],
+      "kinds": [
+        {
+          "name": "HATCHBACK",
+          "values": [
+            "samochód osobowy",
+            "wielozadaniowy",
+            "hatchback"
+          ]
+        },
+        {
+          "name": "LIMOUSINE",
+          "values": [
+            "limousine"
+          ]
+        },
+        {
+          "name": "SEDAN",
+          "values": [
+            "sedan"
+          ]
+        },
+        {
+          "name": "OTHER",
+          "values": [
+            "inny"
+          ]
+        }
+      ],
+      "engineFuels": [
+        {
+          "name": "PETROL",
+          "values": [
+            "benzyna",
+            "benzyna bezołowiowa"
+          ]
+        },
+        {
+          "name": "CNG",
+          "values": [
+            "cng"
+          ]
+        },
+        {
+          "name": "LPG",
+          "values": [
+            "lpg"
+          ]
+        },
+        {
+          "name": "DIESEL",
+          "values": [
+            "diesel"
+          ]
+        },
+        {
+          "name": "OTHER",
+          "values": [
+            "inny"
+          ]
+        }
+      ],
+      "policyStatus": [
+        {
+          "name": "UPTODATE",
+          "values": [
+            "aktualna"
+          ]
+        },
+        {
+          "name": "OUTDATED",
+          "values": [
+            "nie aktualna"
+          ]
+        }
+      ],
+      "registrationStatus": [
+        {
+          "name": "REGISTERED",
+          "values": [
+            "zarejestrowany"
+          ]
+        },
+        {
+          "name": "OUTDATED",
+          "values": [
+            "nie aktualna"
+          ]
+        }
+      ],
+      "inspectionStatus": [
+        {
+          "name": "UPTODATE",
+          "values": [
+            "aktualne"
+          ]
+        },
+        {
+          "name": "OUTDATED",
+          "values": [
+            "nie aktualne"
+          ]
+        }
+      ],
+      "mileageStatus": [
+        {
+          "name": "KM",
+          "values": [
+            "km"
+          ]
+        },
+        {
+          "name": "MILE",
+          "values": [
+            "mile"
+          ]
+        }
+      ]
+    }
+  }
+}
