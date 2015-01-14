@@ -36,6 +36,11 @@ npm test
 - [rewire](https://github.com/jhnns/rewire): Easy dependency injection for node.js unit testing
 
 
+## Changelog
+
+[CHANGELOG](CHANGELOG.md)
+
+
 ## License
 The MIT License (MIT)
 
