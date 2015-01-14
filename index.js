@@ -50,12 +50,12 @@ module.exports = {
   CarProductionResolver: require('./lib/resolver/carProductionResolver').CarProductionResolver,
 
   /**
-   * the CarRegistrationyResolver class.
-   * @property CarRegistrationyResolver
-   * @type CarRegistrationyResolver
+   * the CarRegistrationResolver class.
+   * @property CarRegistrationResolver
+   * @type CarRegistrationResolver
    * @static
    */
-  CarRegistrationyResolver: require('./lib/resolver/carRegistrationyResolver').CarRegistrationyResolver,
+  CarRegistrationResolver: require('./lib/resolver/carRegistrationResolver').CarRegistrationResolver,
 
   /**
    * the CarStoleResolver class.

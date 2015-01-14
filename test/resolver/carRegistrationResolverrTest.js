@@ -1,10 +1,10 @@
 var options = require('config');
-var CarRegistrationyResolver = require('../../lib/resolver/carRegistrationyResolver').CarRegistrationyResolver;
+var CarRegistrationResolver = require('../../lib/resolver/carRegistrationResolver').CarRegistrationResolver;
 var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-var carRegistrationyResolver = new CarRegistrationyResolver();
+var carRegistrationResolver = new CarRegistrationResolver();
 
 describe('car registration resolver test', function () {
 
@@ -14,7 +14,7 @@ describe('car registration resolver test', function () {
       'registration.status': 'zarejestrowany'
     };
 
-    var response = carRegistrationyResolver.resolve(map, options);
+    var response = carRegistrationResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.status);
@@ -28,7 +28,7 @@ describe('car registration resolver test', function () {
       'registration.status': null
     };
 
-    var response = carRegistrationyResolver.resolve(map, options);
+    var response = carRegistrationResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });

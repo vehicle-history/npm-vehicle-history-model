@@ -79,13 +79,13 @@ describe('index test', function () {
     done();
   });
 
-  it('should export CarRegistrationyResolver with constants', function (done) {
+  it('should export CarRegistrationResolver with constants', function (done) {
 
-    var CarRegistrationyResolver = require('../index').CarRegistrationyResolver;
+    var CarRegistrationResolver = require('../index').CarRegistrationResolver;
 
-    should.exist(CarRegistrationyResolver);
-    should.exist(CarRegistrationyResolver.REGISTRATION_STATUS_MAP_FIELD);
-    CarRegistrationyResolver.REGISTRATION_STATUS_MAP_FIELD.should.equal('registration.status');
+    should.exist(CarRegistrationResolver);
+    should.exist(CarRegistrationResolver.REGISTRATION_STATUS_MAP_FIELD);
+    CarRegistrationResolver.REGISTRATION_STATUS_MAP_FIELD.should.equal('registration.status');
     done();
   });
 
