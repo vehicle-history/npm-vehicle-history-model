@@ -13,7 +13,7 @@ describe('car stolen status resolver test', function () {
       'status.stolen': 'skradziony'
     };
 
-    var response = carStoleResolver.buildResponse(map);
+    var response = carStoleResolver.resolve(map);
     expect(response).to.be.true();
     done();
   });
@@ -24,7 +24,7 @@ describe('car stolen status resolver test', function () {
       'status.stolen': null
     };
 
-    var response = carStoleResolver.buildResponse(map);
+    var response = carStoleResolver.resolve(map);
     expect(response).to.be.false();
     done();
   });

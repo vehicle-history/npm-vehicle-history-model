@@ -15,7 +15,7 @@ describe('car engine resolver test', function () {
       'engine.fuel': 'benzyna'
     };
 
-    var response = carEngineResolver.buildResponse(map, options);
+    var response = carEngineResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.cubicCapacity);
@@ -32,7 +32,7 @@ describe('car engine resolver test', function () {
       'engine.fuel': null
     };
 
-    var response = carEngineResolver.buildResponse(map, options);
+    var response = carEngineResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });
@@ -44,7 +44,7 @@ describe('car engine resolver test', function () {
       'engine.fuel': null
     };
 
-    var response = carEngineResolver.buildResponse(map, options);
+    var response = carEngineResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.cubicCapacity);
     response.cubicCapacity.should.equal(1398);
@@ -60,7 +60,7 @@ describe('car engine resolver test', function () {
       'engine.fuel': 'unknown'
     };
 
-    var response = carEngineResolver.buildResponse(map, options);
+    var response = carEngineResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.fuel);
     expect(response.cubicCapacity).to.be.null();

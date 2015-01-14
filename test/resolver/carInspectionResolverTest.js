@@ -14,7 +14,7 @@ describe('car inspection resolver test', function () {
       'inspection.status': 'aktualne'
     };
 
-    var response = carInspectionResolver.buildResponse(map, options);
+    var response = carInspectionResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.status);
@@ -28,7 +28,7 @@ describe('car inspection resolver test', function () {
       'inspection.status': null
     };
 
-    var response = carInspectionResolver.buildResponse(map), options;
+    var response = carInspectionResolver.resolve(map), options;
     expect(response).to.be.null();
     done();
   });

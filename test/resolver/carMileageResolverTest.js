@@ -15,7 +15,7 @@ describe('car mileage resolver test', function () {
       'mileage.type': 'mile'
     };
 
-    var response = carMileageResolver.buildResponse(map, options);
+    var response = carMileageResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.value);
@@ -32,7 +32,7 @@ describe('car mileage resolver test', function () {
       'mileage.type': null
     };
 
-    var response = carMileageResolver.buildResponse(map, options);
+    var response = carMileageResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });
@@ -44,7 +44,7 @@ describe('car mileage resolver test', function () {
       'mileage.type': null
     };
 
-    var response = carMileageResolver.buildResponse(map, options);
+    var response = carMileageResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.value);
@@ -61,7 +61,7 @@ describe('car mileage resolver test', function () {
       'mileage.type': 'unknown'
     };
 
-    var response = carMileageResolver.buildResponse(map, options);
+    var response = carMileageResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
     expect(response.value).to.be.null();
@@ -76,7 +76,7 @@ describe('car mileage resolver test', function () {
       'mileage.type': 'unknown'
     };
 
-    var response = carMileageResolver.buildResponse(map, options);
+    var response = carMileageResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
     expect(response.value).to.be.null();

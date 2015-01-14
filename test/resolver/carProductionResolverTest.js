@@ -13,7 +13,7 @@ describe('car production resolver test', function () {
       'production.year': '2011'
     };
 
-    var response = carProductionResolver.buildResponse(map);
+    var response = carProductionResolver.resolve(map);
     should.exist(response);
     response.year.should.equal(2011);
     done();
@@ -26,7 +26,7 @@ describe('car production resolver test', function () {
       'production.year': null
     };
 
-    var response = carProductionResolver.buildResponse(map);
+    var response = carProductionResolver.resolve(map);
     expect(response).to.be.null();
     done();
 

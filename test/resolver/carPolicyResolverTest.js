@@ -14,7 +14,7 @@ describe('car policy resolver test', function () {
       'policy.status': 'aktualna'
     };
 
-    var response = carPolicyResolver.buildResponse(map, options);
+    var response = carPolicyResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.status);
@@ -28,7 +28,7 @@ describe('car policy resolver test', function () {
       'policy.status': null
     };
 
-    var response = carPolicyResolver.buildResponse(map, options);
+    var response = carPolicyResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });

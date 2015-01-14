@@ -15,7 +15,7 @@ describe('car variant resolver test', function () {
       'variant.kind': 'wielozadaniowy'
     };
 
-    var response = carVariantResolver.buildResponse(map, options);
+    var response = carVariantResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.type);
@@ -32,7 +32,7 @@ describe('car variant resolver test', function () {
       'variant.kind': null
     };
 
-    var response = carVariantResolver.buildResponse(map, options);
+    var response = carVariantResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });
@@ -44,7 +44,7 @@ describe('car variant resolver test', function () {
       'variant.kind': null
     };
 
-    var response = carVariantResolver.buildResponse(map, options);
+    var response = carVariantResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
     response.type.should.equal('VAN');
@@ -60,7 +60,7 @@ describe('car variant resolver test', function () {
       'variant.kind': null
     };
 
-    var response = carVariantResolver.buildResponse(map, options);
+    var response = carVariantResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
     response.type.should.equal('CAR');
@@ -76,7 +76,7 @@ describe('car variant resolver test', function () {
       'variant.kind': 'unknown'
     };
 
-    var response = carVariantResolver.buildResponse(map, options);
+    var response = carVariantResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
     response.type.should.equal('CAR');

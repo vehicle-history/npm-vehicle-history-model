@@ -14,7 +14,7 @@ describe('car registration resolver test', function () {
       'registration.status': 'zarejestrowany'
     };
 
-    var response = carRegistrationyResolver.buildResponse(map, options);
+    var response = carRegistrationyResolver.resolve(map, options);
 
     should.exist(response);
     should.exist(response.status);
@@ -28,7 +28,7 @@ describe('car registration resolver test', function () {
       'registration.status': null
     };
 
-    var response = carRegistrationyResolver.buildResponse(map, options);
+    var response = carRegistrationyResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });
