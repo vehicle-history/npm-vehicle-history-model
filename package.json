@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vehicle-history-model/npm-vehicle-history-model.git"
+    "url": "https://github.com/vehicle-history/npm-vehicle-history-model.git"
   },
   "bugs": {
-    "url": "https://github.com/vehicle-history-model/npm-vehicle-history-model/issues"
+    "url": "https://github.com/vehicle-history/npm-vehicle-history-model/issues"
   },
   "keywords": [
     "check",
@@ -37,7 +37,7 @@
     "email": "zenedith@wp.pl"
   },
   "license": "MIT",
-  "homepage": "https://github.com/vehicle-history-model/npm-vehicle-history-model",
+  "homepage": "https://github.com/vehicle-history/npm-vehicle-history-model",
   "engines": {
     "node": ">=0.10.0"
   },
