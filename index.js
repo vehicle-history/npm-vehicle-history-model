@@ -9,7 +9,7 @@ module.exports = {
      * @type SearchCarRequest
      * @static
      */
-    SearchCarRequest: require('./lib/model/SearchCarRequest').SearchCarRequest,
+    SearchCarRequest: require('./lib/model/searchCarRequest').SearchCarRequest,
 
     /**
      * the Car class.
