@@ -57,19 +57,19 @@ describe('car mileage resolver test', function () {
   it('should return default type for unknown value', function (done) {
 
     var map = {
-      'mileage.value': null,
+      'mileage.value': 111,
       'mileage.type': 'unknown'
     };
 
     var response = carMileageResolver.resolve(map, options);
     should.exist(response);
     should.exist(response.type);
-    expect(response.value).to.be.null();
+    response.value.should.equal(111);
     response.type.should.equal('KM');
     done();
   });
 
-  it('should return null value for null mileage value', function (done) {
+  it('should return null object for null mileage value', function (done) {
 
     var map = {
       'mileage.value': null,
@@ -77,10 +77,7 @@ describe('car mileage resolver test', function () {
     };
 
     var response = carMileageResolver.resolve(map, options);
-    should.exist(response);
-    should.exist(response.type);
-    expect(response.value).to.be.null();
-    response.type.should.equal('KM');
+    expect(response).to.be.null();
     done();
   });
 
