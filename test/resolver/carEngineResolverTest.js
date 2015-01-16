@@ -40,7 +40,7 @@ describe('car engine resolver test', function () {
   it('should return object with some null values', function (done) {
 
     var map = {
-      'engine.cc': 1398,
+      'engine.cc': '1398 cm³',
       'engine.fuel': null
     };
 
