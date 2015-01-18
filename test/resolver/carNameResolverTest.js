@@ -17,7 +17,7 @@ describe('car name resolver test', function () {
 
     var response = carNameResolver.resolve(map);
     should.exist(response);
-    response.manufacturer.should.equal('manufacturer');
+    response.make.should.equal('manufacturer');
     response.name.should.equal('name');
     response.model.should.equal('model');
     done();
@@ -48,7 +48,7 @@ describe('car name resolver test', function () {
 
     var response = carNameResolver.resolve(map);
     should.exist(response);
-    response.manufacturer.should.equal('manufacturer');
+    response.make.should.equal('manufacturer');
     expect(response.name).to.be.null();
     expect(response.model).to.be.null();
     done();

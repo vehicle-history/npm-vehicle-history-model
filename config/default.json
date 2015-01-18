@@ -5,13 +5,13 @@
         {
           "name": "CAR",
           "values": [
-            "samochód osobowy"
+            "car"
           ]
         },
         {
           "name": "VAN",
           "values": [
-            "samochód dostawczy"
+            "van"
           ]
         }
       ],
@@ -19,8 +19,6 @@
         {
           "name": "HATCHBACK",
           "values": [
-            "samochód osobowy",
-            "wielozadaniowy",
             "hatchback"
           ]
         },
@@ -37,9 +35,21 @@
           ]
         },
         {
+          "name": "COUPE",
+          "values": [
+            "coupe"
+          ]
+        },
+        {
+          "name": "COMBI",
+          "values": [
+            "combi"
+          ]
+        },
+        {
           "name": "OTHER",
           "values": [
-            "inny"
+            "other"
           ]
         }
       ],
@@ -47,8 +57,7 @@
         {
           "name": "PETROL",
           "values": [
-            "benzyna",
-            "benzyna bezołowiowa"
+            "petrol"
           ]
         },
         {
@@ -72,7 +81,7 @@
         {
           "name": "OTHER",
           "values": [
-            "inny"
+            "other"
           ]
         }
       ],
@@ -80,13 +89,13 @@
         {
           "name": "UPTODATE",
           "values": [
-            "aktualna"
+            "actual"
           ]
         },
         {
           "name": "OUTDATED",
           "values": [
-            "nie aktualna"
+            "not actual"
           ]
         }
       ],
@@ -94,13 +103,13 @@
         {
           "name": "REGISTERED",
           "values": [
-            "zarejestrowany"
+            "registered"
           ]
         },
         {
           "name": "OUTDATED",
           "values": [
-            "nie aktualna"
+            "not registered"
           ]
         }
       ],
@@ -108,13 +117,13 @@
         {
           "name": "UPTODATE",
           "values": [
-            "aktualne"
+            "actual"
           ]
         },
         {
           "name": "OUTDATED",
           "values": [
-            "nie aktualne"
+            "not actual"
           ]
         }
       ],

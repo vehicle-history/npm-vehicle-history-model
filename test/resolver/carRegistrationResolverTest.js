@@ -11,7 +11,8 @@ describe('car registration resolver test', function () {
   it('should return valid registration', function (done) {
 
     var map = {
-      'registration.status': 'zarejestrowany'
+      'registration.status': 'registered',
+      'registration.firstDate': '2007-08-08'
     };
 
     var response = carRegistrationResolver.resolve(map, options);
@@ -19,18 +20,19 @@ describe('car registration resolver test', function () {
     should.exist(response);
     should.exist(response.status);
     response.status.should.equal('REGISTERED');
+    response.firstAt.should.equal('2007-08-08');
     done();
   });
 
   it('should return null for all null values', function (done) {
 
     var map = {
-      'registration.status': null
+      'registration.status': null,
+      'registration.firstDate': null
     };
 
     var response = carRegistrationResolver.resolve(map, options);
     expect(response).to.be.null();
     done();
   });
-
 });

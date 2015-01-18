@@ -11,7 +11,7 @@ describe('car inspection resolver test', function () {
   it('should return valid inspection', function (done) {
 
     var map = {
-      'inspection.status': 'aktualne'
+      'inspection.status': 'actual'
     };
 
     var response = carInspectionResolver.resolve(map, options);

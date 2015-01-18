@@ -2,6 +2,10 @@ var meta = require('./lib/meta');
 
 module.exports = {
 
+  builder: {
+    carResponseBuilder: require('./lib/carResponseBuilder'),
+    responseBuilder: require('./lib/responseBuilder')
+  },
   model: {
     /**
      * the SearchCarRequest class.

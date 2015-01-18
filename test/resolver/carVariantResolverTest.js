@@ -11,8 +11,8 @@ describe('car variant resolver test', function () {
   it('should return valid type and kind', function (done) {
 
     var map = {
-      'variant.type': 'samochód dostawczy',
-      'variant.kind': 'wielozadaniowy'
+      'variant.type': 'van',
+      'variant.kind': 'hatchback'
     };
 
     var response = carVariantResolver.resolve(map, options);
@@ -40,7 +40,7 @@ describe('car variant resolver test', function () {
   it('should return object with some null values', function (done) {
 
     var map = {
-      'variant.type': 'samochód dostawczy',
+      'variant.type': 'van',
       'variant.kind': null
     };
 
