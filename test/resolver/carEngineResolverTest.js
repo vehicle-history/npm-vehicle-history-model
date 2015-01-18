@@ -11,7 +11,7 @@ describe('car engine resolver test', function () {
   it('should return valid cc and fuel type', function (done) {
 
     var map = {
-      'engine.cc': '1398',
+      'engine.cc': 1398,
       'engine.fuel': 'petrol'
     };
 
