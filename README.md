@@ -25,6 +25,7 @@ npm test
 
 ## Dependencies
 
+- [async](https://github.com/caolan/async): Higher-order functions and common patterns for asynchronous code
 - [winston](https://github.com/flatiron/winston): A multi-transport async logging library for Node.js
 
 ## Dev Dependencies
