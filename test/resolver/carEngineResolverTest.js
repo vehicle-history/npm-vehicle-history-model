@@ -12,7 +12,7 @@ describe('car engine resolver test', function () {
 
     var map = {
       'engine.cc': '1398',
-      'engine.fuel': 'benzyna'
+      'engine.fuel': 'petrol'
     };
 
     var response = carEngineResolver.resolve(map, options);

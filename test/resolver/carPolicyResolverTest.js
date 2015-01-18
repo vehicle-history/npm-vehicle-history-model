@@ -11,7 +11,7 @@ describe('car policy resolver test', function () {
   it('should return valid policy', function (done) {
 
     var map = {
-      'policy.status': 'aktualna'
+      'policy.status': 'actual'
     };
 
     var response = carPolicyResolver.resolve(map, options);

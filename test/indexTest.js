@@ -5,6 +5,20 @@ var resolver = index.resolver;
 
 describe('index test', function () {
 
+  it('should export carResponseBuilder function', function (done) {
+
+    var carResponseBuilder = index.builder.carResponseBuilder;
+    should.exist(carResponseBuilder);
+    done();
+  });
+
+  it('should export responseBuilder function', function (done) {
+
+    var responseBuilder = index.builder.responseBuilder;
+    should.exist(responseBuilder);
+    done();
+  });
+
   it('should export SearchCarRequest model', function (done) {
 
     var SearchCarRequest = index.model.SearchCarRequest;
