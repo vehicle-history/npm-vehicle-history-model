@@ -34,6 +34,8 @@ describe('response builder test', function () {
     };
 
     responseBuilder.build(map, searchCarRequest, options, function (err, response) {
+      console.log(response.events);
+
       should.exist(response);
       should.exist(response.car);
       var car = response.car;
