@@ -1,12 +1,12 @@
 var options = require('config');
-var SearchCarRequest = require('../lib/model/searchCarRequest').SearchCarRequest;
-var carResponseBuilder = require('../lib/carResponseBuilder');
+var SearchCarRequest = require('../../lib/model/searchCarRequest').SearchCarRequest;
+var responseBuilder = require('../../lib/builder/responseBuilder');
 var chai = require('chai');
 var should = chai.should();
 
-describe('car response builder test', function () {
+describe('response builder test', function () {
 
-  it('should build car response', function (done) {
+  it('should build response', function (done) {
 
     var plate = 'AAE 1111';
     var vin = 'ABC123456789DEF';
@@ -33,8 +33,12 @@ describe('car response builder test', function () {
       'plate.country': 'pl'
     };
 
-    carResponseBuilder.build(map, searchCarRequest, options, function (err, car) {
-      should.exist(car);
+    responseBuilder.build(map, searchCarRequest, options, function (err, response) {
+      console.log(response.events);
+
+      should.exist(response);
+      should.exist(response.car);
+      var car = response.car;
 
       car.name.make.should.equal('manufacturer');
       car.name.name.should.equal('name');

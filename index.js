@@ -3,8 +3,9 @@ var meta = require('./lib/meta');
 module.exports = {
 
   builder: {
-    carResponseBuilder: require('./lib/carResponseBuilder'),
-    responseBuilder: require('./lib/responseBuilder')
+    carResponseBuilder: require('./lib/builder/carResponseBuilder'),
+    eventsResponseBuilder: require('./lib/builder/eventsResponseBuilder'),
+    responseBuilder: require('./lib/builder/responseBuilder')
   },
   model: {
     /**

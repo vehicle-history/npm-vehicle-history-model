@@ -19,6 +19,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export eventsResponseBuilder function', function (done) {
+
+    var eventsResponseBuilder = index.builder.eventsResponseBuilder;
+    should.exist(eventsResponseBuilder);
+    done();
+  });
+
   it('should export SearchCarRequest model', function (done) {
 
     var SearchCarRequest = index.model.SearchCarRequest;
