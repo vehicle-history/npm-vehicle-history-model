@@ -20,7 +20,20 @@ describe('car registration resolver test', function () {
     should.exist(response);
     should.exist(response.status);
     response.status.should.equal('REGISTERED');
-    response.firstAt.should.equal('2007-08-08');
+    response.firstAt.should.equal('2007-08-07T22:00:00.000Z');
+    done();
+  });
+
+  it('should return null for empty date', function (done) {
+
+    var map = {
+      'registration.status': 'registered',
+      'registration.firstDate': 'not-parsable-data'
+    };
+
+    var response = carRegistrationResolver.resolve(map, options);
+    response.status.should.equal('REGISTERED');
+    expect(response.firstAt).to.be.null();
     done();
   });
 

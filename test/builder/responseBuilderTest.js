@@ -10,7 +10,7 @@ describe('response builder test', function () {
 
     var plate = 'AAE 1111';
     var vin = 'ABC123456789DEF';
-    var firstRegistrationDate = 'dd.mm.rrrr';
+    var firstRegistrationDate = '21-11-2011';
     var searchCarRequest = new SearchCarRequest(plate, vin, firstRegistrationDate);
 
     var map = {
@@ -34,8 +34,6 @@ describe('response builder test', function () {
     };
 
     responseBuilder.build(map, searchCarRequest, options, function (err, response) {
-      console.log(response.events);
-
       should.exist(response);
       should.exist(response.car);
       var car = response.car;
@@ -53,7 +51,7 @@ describe('response builder test', function () {
       car.production.year.should.equal(1988);
       car.policy.status.should.equal('OUTDATED');
       car.registration.status.should.equal('REGISTERED');
-      car.registration.firstAt.should.equal('dd.mm.rrrr');
+      car.registration.firstAt.should.equal('2011-11-20T23:00:00.000Z');
       car.inspection.status.should.equal('UPTODATE');
       car.mileage.value.should.equal(111);
       car.mileage.type.should.equal('MILE');
