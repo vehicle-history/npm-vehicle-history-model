@@ -140,6 +140,190 @@
             "mile"
           ]
         }
+      ],
+      "countries": [
+        {
+          "name": "PL",
+          "values": [
+            "PL"
+          ]
+        },
+        {
+          "name": "UK",
+          "values": [
+            "UK"
+          ]
+        }
+      ],
+      "makes": [
+        {
+          "name": "AUDI",
+          "values": [
+            "AUDI"
+          ]
+        },
+        {
+          "name": "BMW",
+          "values": [
+            "BMW"
+          ]
+        },
+        {
+          "name": "CHEVROLET",
+          "values": [
+            "CHEVROLET"
+          ]
+        },
+        {
+          "name": "CHRYSLER",
+          "values": [
+            "CHRYSLER"
+          ]
+        },
+        {
+          "name": "CITROEN",
+          "values": [
+            "CITROEN"
+          ]
+        },
+        {
+          "name": "DACIA",
+          "values": [
+            "DACIA"
+          ]
+        },
+        {
+          "name": "DAEWOO",
+          "values": [
+            "DAEWOO"
+          ]
+        },
+        {
+          "name": "FIAT",
+          "values": [
+            "FIAT"
+          ]
+        },
+        {
+          "name": "FORD",
+          "values": [
+            "FORD"
+          ]
+        },
+        {
+          "name": "HONDA",
+          "values": [
+            "HONDA"
+          ]
+        },
+        {
+          "name": "HYUNDAI",
+          "values": [
+            "HYUNDAI"
+          ]
+        },
+        {
+          "name": "JAGUAR",
+          "values": [
+            "JAGUAR"
+          ]
+        },
+        {
+          "name": "KIA",
+          "values": [
+            "KIA"
+          ]
+        },
+        {
+          "name": "LEXUS",
+          "values": [
+            "LEXUS"
+          ]
+        },
+        {
+          "name": "MERCEDES",
+          "values": [
+            "MERCEDES"
+          ]
+        },
+        {
+          "name": "MAZDA",
+          "values": [
+            "MAZDA"
+          ]
+        },
+        {
+          "name": "MINI",
+          "values": [
+            "MINI"
+          ]
+        },
+        {
+          "name": "MITSUBISHI",
+          "values": [
+            "MITSUBISHI"
+          ]
+        },
+        {
+          "name": "NISSAN",
+          "values": [
+            "NISSAN"
+          ]
+        },
+        {
+          "name": "OPEL",
+          "values": [
+            "OPEL"
+          ]
+        },
+        {
+          "name": "PEUGEOT",
+          "values": [
+            "PEUGEOT"
+          ]
+        },
+        {
+          "name": "RENAULT",
+          "values": [
+            "RENAULT"
+          ]
+        },
+        {
+          "name": "SEAT",
+          "values": [
+            "SEAT"
+          ]
+        },
+        {
+          "name": "SKODA",
+          "values": [
+            "SKODA"
+          ]
+        },
+        {
+          "name": "SUZUKI",
+          "values": [
+            "SUZUKI"
+          ]
+        },
+        {
+          "name": "TOYOTA",
+          "values": [
+            "TOYOTA"
+          ]
+        },
+        {
+          "name": "VOLKSWAGEN",
+          "values": [
+            "VOLKSWAGEN"
+          ]
+        },
+        {
+          "name": "VOLVO",
+          "values": [
+            "VOLVO"
+          ]
+        }
       ]
     }
   }
