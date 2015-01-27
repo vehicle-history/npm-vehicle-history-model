@@ -57,7 +57,7 @@ describe('car response builder test', function () {
       car.stolen.should.be.true();
 
       car.plate.value.should.equal('AAE 1111');
-      car.plate.country.should.equal('pl');
+      car.plate.country.should.equal('PL');
 
       car.vin.should.equal('ABC123456789DEF');
 
