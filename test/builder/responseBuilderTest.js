@@ -14,7 +14,7 @@ describe('response builder test', function () {
     var searchCarRequest = new SearchCarRequest(plate, vin, firstRegistrationDate);
 
     var map = {
-      'name.manufacturer': 'manufacturer',
+      'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
       'variant.type': 'van',
@@ -38,7 +38,7 @@ describe('response builder test', function () {
       should.exist(response.car);
       var car = response.car;
 
-      car.name.make.should.equal('manufacturer');
+      car.name.make.should.equal('AUDI');
       car.name.name.should.equal('name');
       car.name.model.should.equal('model');
 
