@@ -4,7 +4,8 @@ module.exports = {
 
   error: {
     VehicleNotFoundError: require('./lib/error/vehicleNotFoundError').VehicleNotFoundError,
-    ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
+    ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError,
+    InvalidVehiclePlateError: require('./lib/error/invalidVehiclePlateError').InvalidVehiclePlateError
   },
   builder: {
     carResponseBuilder: require('./lib/builder/carResponseBuilder'),

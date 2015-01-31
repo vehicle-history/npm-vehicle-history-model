@@ -19,6 +19,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export InvalidVehiclePlateError error', function (done) {
+
+    var InvalidVehiclePlateError = index.error.InvalidVehiclePlateError;
+    should.exist(InvalidVehiclePlateError);
+    done();
+  });
+
   it('should export carResponseBuilder function', function (done) {
 
     var carResponseBuilder = index.builder.carResponseBuilder;
