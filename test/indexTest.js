@@ -5,6 +5,20 @@ var resolver = index.resolver;
 
 describe('index test', function () {
 
+  it('should export VehicleNotFoundError error', function (done) {
+
+    var VehicleNotFoundError = index.error.VehicleNotFoundError;
+    should.exist(VehicleNotFoundError);
+    done();
+  });
+
+  it('should export ServiceUnavailableError error', function (done) {
+
+    var ServiceUnavailableError = index.error.ServiceUnavailableError;
+    should.exist(ServiceUnavailableError);
+    done();
+  });
+
   it('should export carResponseBuilder function', function (done) {
 
     var carResponseBuilder = index.builder.carResponseBuilder;

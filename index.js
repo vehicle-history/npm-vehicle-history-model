@@ -2,6 +2,10 @@ var meta = require('./lib/meta');
 
 module.exports = {
 
+  error: {
+    VehicleNotFoundError: require('./lib/error/vehicleNotFoundError').VehicleNotFoundError,
+    ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
+  },
   builder: {
     carResponseBuilder: require('./lib/builder/carResponseBuilder'),
     eventsResponseBuilder: require('./lib/builder/eventsResponseBuilder'),
