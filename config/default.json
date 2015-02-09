@@ -41,6 +41,12 @@
           ]
         },
         {
+          "name": "CONVERTIBLE",
+          "values": [
+            "convertible"
+          ]
+        },
+        {
           "name": "COMBI",
           "values": [
             "combi"
@@ -160,6 +166,12 @@
           "name": "AUDI",
           "values": [
             "AUDI"
+          ]
+        },
+        {
+          "name": "BENTLEY",
+          "values": [
+            "BENTLEY"
           ]
         },
         {
@@ -328,6 +340,12 @@
           "name": "VOLVO",
           "values": [
             "VOLVO"
+          ]
+        },
+        {
+          "name": "VAUXHALL",
+          "values": [
+            "VAUXHALL"
           ]
         }
       ]
