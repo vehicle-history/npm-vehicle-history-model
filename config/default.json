@@ -67,21 +67,21 @@
           ]
         },
         {
-          "name": "CNG",
+          "name": "PETROL_GAS",
           "values": [
-            "cng"
-          ]
-        },
-        {
-          "name": "LPG",
-          "values": [
-            "lpg"
+            "petrol/gas"
           ]
         },
         {
           "name": "DIESEL",
           "values": [
             "diesel"
+          ]
+        },
+        {
+          "name": "HYBRID",
+          "values": [
+            "hybrid electric"
           ]
         },
         {
