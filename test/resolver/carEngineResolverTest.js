@@ -33,7 +33,7 @@ describe('car engine resolver test', function () {
     };
 
     var response = carEngineResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 
@@ -61,7 +61,7 @@ describe('car engine resolver test', function () {
     };
 
     var response = carEngineResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 

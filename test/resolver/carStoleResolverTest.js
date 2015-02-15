@@ -14,7 +14,7 @@ describe('car stolen status resolver test', function () {
     };
 
     var response = carStoleResolver.resolve(map);
-    expect(response).to.be.true();
+    expect(response).to.be.true;
     done();
   });
 
@@ -25,7 +25,7 @@ describe('car stolen status resolver test', function () {
     };
 
     var response = carStoleResolver.resolve(map);
-    expect(response).to.be.false();
+    expect(response).to.be.false;
     done();
   });
 

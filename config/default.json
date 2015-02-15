@@ -348,6 +348,40 @@
             "VAUXHALL"
           ]
         }
+      ],
+      "owners": [
+        {
+          "name": "PRIVATE",
+          "values": [
+            "private"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "CHANGE_OWNER",
+          "values": [
+            "first-owner"
+          ]
+        },
+        {
+          "name": "REGISTRATION",
+          "values": [
+            "first-registration"
+          ]
+        },
+        {
+          "name": "DEREGISTRATION",
+          "values": [
+            "deregistration"
+          ]
+        },
+        {
+          "name": "INSPECTON",
+          "values": [
+            "inspection"
+          ]
+        }
       ]
     }
   }

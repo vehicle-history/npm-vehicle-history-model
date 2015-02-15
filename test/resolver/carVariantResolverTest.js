@@ -33,7 +33,7 @@ describe('car variant resolver test', function () {
     };
 
     var response = carVariantResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 

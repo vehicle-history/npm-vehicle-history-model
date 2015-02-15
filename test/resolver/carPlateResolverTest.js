@@ -29,7 +29,7 @@ describe('car plate resolver test', function () {
     };
 
     var response = carPlateResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 

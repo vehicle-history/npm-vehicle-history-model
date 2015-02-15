@@ -54,7 +54,7 @@ describe('car response builder test', function () {
       car.mileage.value.should.equal(111);
       car.mileage.type.should.equal('MILE');
 
-      car.stolen.should.be.true();
+      car.stolen.should.be.true;
 
       car.plate.value.should.equal('AAE 1111');
       car.plate.country.should.equal('PL');

@@ -33,7 +33,7 @@ describe('car registration resolver test', function () {
 
     var response = carRegistrationResolver.resolve(map, options);
     response.status.should.equal('REGISTERED');
-    expect(response.firstAt).to.be.null();
+    expect(response.firstAt).to.be.null;
     done();
   });
 
@@ -45,7 +45,7 @@ describe('car registration resolver test', function () {
     };
 
     var response = carRegistrationResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 });

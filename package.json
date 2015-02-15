@@ -1,20 +1,20 @@
 {
   "name": "vehicle-history-model",
-  "version": "0.9.16",
+  "version": "0.9.17",
   "description": "Vehicle history model.",
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "^0.1.5",
     "async": "^0.9.0",
     "datejs": "^1.0.0-rc3",
-    "winston": "^0.8.3"
+    "winston": "^0.9.0"
   },
   "devDependencies": {
-    "config": "^1.10.0",
-    "chai": "^1.10.0",
+    "config": "^1.11.0",
+    "chai": "^2.0.0",
     "istanbul": "^0.3.5",
     "mocha": "^2.1.0",
-    "rewire": "^2.1.4"
+    "rewire": "^2.2.0"
   },
   "scripts": {
     "prepublish": "npm prune",
@@ -45,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "vehicle-history-model@0.9.16",
-  "_from": "vehicle-history-model@^0.9.16"
+  "_id": "vehicle-history-model@0.9.17",
+  "_from": "vehicle-history-model@^0.9.17"
 }

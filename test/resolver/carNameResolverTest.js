@@ -34,7 +34,7 @@ describe('car name resolver test', function () {
     };
 
     var response = carNameResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
 
   });
@@ -50,8 +50,8 @@ describe('car name resolver test', function () {
     var response = carNameResolver.resolve(map, options);
     should.exist(response);
     response.make.should.equal('BMW');
-    expect(response.name).to.be.null();
-    expect(response.model).to.be.null();
+    expect(response.name).to.be.null;
+    expect(response.model).to.be.null;
     done();
 
   });
@@ -67,8 +67,8 @@ describe('car name resolver test', function () {
     var response = carNameResolver.resolve(map, options);
     should.exist(response);
     response.make.should.equal('UNKNOWN');
-    expect(response.name).to.be.null();
-    expect(response.model).to.be.null();
+    expect(response.name).to.be.null;
+    expect(response.model).to.be.null;
     done();
 
   });

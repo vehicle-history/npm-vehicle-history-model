@@ -27,7 +27,7 @@ describe('car production resolver test', function () {
     };
 
     var response = carProductionResolver.resolve(map);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
 
   });

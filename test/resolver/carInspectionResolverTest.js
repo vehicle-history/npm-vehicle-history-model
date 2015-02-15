@@ -29,7 +29,7 @@ describe('car inspection resolver test', function () {
     };
 
     var response = carInspectionResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 
