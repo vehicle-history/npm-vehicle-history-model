@@ -103,7 +103,7 @@ describe('response builder test', function () {
       expect(events).to.have.length(5);
 
       expect(events).to.have.deep.property('[0].type', 'PRODUCTION');
-      expect(events).to.have.deep.property('[0].createdAt', '1988-01-01T00:00:00.000Z');
+//      expect(events).to.have.deep.property('[0].createdAt', '1988-01-01T00:00:00.000Z');
       expect(events[0].note).to.be.null;
       expect(events[0].firstOwner).to.be.null;
       expect(events[0].ownerType).to.be.null;
