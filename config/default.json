@@ -371,6 +371,12 @@
           ]
         },
         {
+          "name": "ABROAD_REGISTRATION",
+          "values": [
+            "abroad-registration"
+          ]
+        },
+        {
           "name": "DEREGISTRATION",
           "values": [
             "deregistration"
