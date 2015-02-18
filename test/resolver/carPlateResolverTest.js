@@ -1,3 +1,4 @@
+var options = require('config');
 var CarPlateResolver = require('../../lib/resolver/carPlateResolver').CarPlateResolver;
 var chai = require('chai');
 var should = chai.should();
@@ -11,12 +12,12 @@ describe('car plate resolver test', function () {
 
     var map = {
       'plate.value': 'PAA 1111',
-      'plate.country' : 'pl'
+      'plate.country': 'pl'
     };
 
-    var response = carPlateResolver.resolve(map);
+    var response = carPlateResolver.resolve(map, options);
     response.value.should.equal('PAA 1111');
-    response.country.should.equal('pl');
+    response.country.should.equal('PL');
     done();
   });
 
@@ -24,12 +25,26 @@ describe('car plate resolver test', function () {
 
     var map = {
       'plate.value': '',
-      'plate.country' : ''
+      'plate.country': ''
     };
 
-    var response = carPlateResolver.resolve(map);
-    expect(response).to.be.null();
+    var response = carPlateResolver.resolve(map, options);
+    expect(response).to.be.null;
     done();
   });
 
+
+  it('should return UNKNOWN country for unknown value', function (done) {
+
+    var map = {
+      'plate.value': 'PAA 1111',
+      'plate.country': 'unknown-value'
+    };
+
+    var response = carPlateResolver.resolve(map, options);
+    response.value.should.equal('PAA 1111');
+    response.country.should.equal('UNKNOWN');
+    done();
+
+  });
 });

@@ -5,6 +5,27 @@ var resolver = index.resolver;
 
 describe('index test', function () {
 
+  it('should export VehicleNotFoundError error', function (done) {
+
+    var VehicleNotFoundError = index.error.VehicleNotFoundError;
+    should.exist(VehicleNotFoundError);
+    done();
+  });
+
+  it('should export ServiceUnavailableError error', function (done) {
+
+    var ServiceUnavailableError = index.error.ServiceUnavailableError;
+    should.exist(ServiceUnavailableError);
+    done();
+  });
+
+  it('should export InvalidVehiclePlateError error', function (done) {
+
+    var InvalidVehiclePlateError = index.error.InvalidVehiclePlateError;
+    should.exist(InvalidVehiclePlateError);
+    done();
+  });
+
   it('should export carResponseBuilder function', function (done) {
 
     var carResponseBuilder = index.builder.carResponseBuilder;
@@ -16,6 +37,13 @@ describe('index test', function () {
 
     var responseBuilder = index.builder.responseBuilder;
     should.exist(responseBuilder);
+    done();
+  });
+
+  it('should export eventsResponseBuilder function', function (done) {
+
+    var eventsResponseBuilder = index.builder.eventsResponseBuilder;
+    should.exist(eventsResponseBuilder);
     done();
   });
 

@@ -41,6 +41,12 @@
           ]
         },
         {
+          "name": "CONVERTIBLE",
+          "values": [
+            "convertible"
+          ]
+        },
+        {
           "name": "COMBI",
           "values": [
             "combi"
@@ -61,21 +67,21 @@
           ]
         },
         {
-          "name": "CNG",
+          "name": "PETROL_GAS",
           "values": [
-            "cng"
-          ]
-        },
-        {
-          "name": "LPG",
-          "values": [
-            "lpg"
+            "petrol/gas"
           ]
         },
         {
           "name": "DIESEL",
           "values": [
             "diesel"
+          ]
+        },
+        {
+          "name": "HYBRID",
+          "values": [
+            "hybrid electric"
           ]
         },
         {
@@ -138,6 +144,248 @@
           "name": "MILE",
           "values": [
             "mile"
+          ]
+        }
+      ],
+      "countries": [
+        {
+          "name": "PL",
+          "values": [
+            "PL"
+          ]
+        },
+        {
+          "name": "UK",
+          "values": [
+            "UK"
+          ]
+        }
+      ],
+      "makes": [
+        {
+          "name": "AUDI",
+          "values": [
+            "AUDI"
+          ]
+        },
+        {
+          "name": "BENTLEY",
+          "values": [
+            "BENTLEY"
+          ]
+        },
+        {
+          "name": "BMW",
+          "values": [
+            "BMW"
+          ]
+        },
+        {
+          "name": "CHEVROLET",
+          "values": [
+            "CHEVROLET"
+          ]
+        },
+        {
+          "name": "CHRYSLER",
+          "values": [
+            "CHRYSLER"
+          ]
+        },
+        {
+          "name": "CITROEN",
+          "values": [
+            "CITROEN"
+          ]
+        },
+        {
+          "name": "DACIA",
+          "values": [
+            "DACIA"
+          ]
+        },
+        {
+          "name": "DAEWOO",
+          "values": [
+            "DAEWOO"
+          ]
+        },
+        {
+          "name": "FIAT",
+          "values": [
+            "FIAT"
+          ]
+        },
+        {
+          "name": "FORD",
+          "values": [
+            "FORD"
+          ]
+        },
+        {
+          "name": "HONDA",
+          "values": [
+            "HONDA"
+          ]
+        },
+        {
+          "name": "HYUNDAI",
+          "values": [
+            "HYUNDAI"
+          ]
+        },
+        {
+          "name": "JAGUAR",
+          "values": [
+            "JAGUAR"
+          ]
+        },
+        {
+          "name": "KIA",
+          "values": [
+            "KIA"
+          ]
+        },
+        {
+          "name": "LEXUS",
+          "values": [
+            "LEXUS"
+          ]
+        },
+        {
+          "name": "MERCEDES",
+          "values": [
+            "MERCEDES"
+          ]
+        },
+        {
+          "name": "MAZDA",
+          "values": [
+            "MAZDA"
+          ]
+        },
+        {
+          "name": "MINI",
+          "values": [
+            "MINI"
+          ]
+        },
+        {
+          "name": "MITSUBISHI",
+          "values": [
+            "MITSUBISHI"
+          ]
+        },
+        {
+          "name": "NISSAN",
+          "values": [
+            "NISSAN"
+          ]
+        },
+        {
+          "name": "OPEL",
+          "values": [
+            "OPEL"
+          ]
+        },
+        {
+          "name": "PEUGEOT",
+          "values": [
+            "PEUGEOT"
+          ]
+        },
+        {
+          "name": "RENAULT",
+          "values": [
+            "RENAULT"
+          ]
+        },
+        {
+          "name": "SEAT",
+          "values": [
+            "SEAT"
+          ]
+        },
+        {
+          "name": "SKODA",
+          "values": [
+            "SKODA"
+          ]
+        },
+        {
+          "name": "SUZUKI",
+          "values": [
+            "SUZUKI"
+          ]
+        },
+        {
+          "name": "TOYOTA",
+          "values": [
+            "TOYOTA"
+          ]
+        },
+        {
+          "name": "TRIUMPH",
+          "values": [
+            "TRIUMPH"
+          ]
+        },
+        {
+          "name": "VOLKSWAGEN",
+          "values": [
+            "VOLKSWAGEN"
+          ]
+        },
+        {
+          "name": "VOLVO",
+          "values": [
+            "VOLVO"
+          ]
+        },
+        {
+          "name": "VAUXHALL",
+          "values": [
+            "VAUXHALL"
+          ]
+        }
+      ],
+      "owners": [
+        {
+          "name": "PRIVATE",
+          "values": [
+            "private"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "CHANGE_OWNER",
+          "values": [
+            "first-owner"
+          ]
+        },
+        {
+          "name": "REGISTRATION",
+          "values": [
+            "first-registration"
+          ]
+        },
+        {
+          "name": "ABROAD_REGISTRATION",
+          "values": [
+            "abroad-registration"
+          ]
+        },
+        {
+          "name": "DEREGISTRATION",
+          "values": [
+            "deregistration"
+          ]
+        },
+        {
+          "name": "INSPECTON",
+          "values": [
+            "inspection"
           ]
         }
       ]

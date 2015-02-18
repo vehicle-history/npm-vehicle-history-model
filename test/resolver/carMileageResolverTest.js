@@ -33,7 +33,7 @@ describe('car mileage resolver test', function () {
     };
 
     var response = carMileageResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 
@@ -77,7 +77,7 @@ describe('car mileage resolver test', function () {
     };
 
     var response = carMileageResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 

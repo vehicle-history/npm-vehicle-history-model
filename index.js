@@ -2,9 +2,15 @@ var meta = require('./lib/meta');
 
 module.exports = {
 
+  error: {
+    VehicleNotFoundError: require('./lib/error/vehicleNotFoundError').VehicleNotFoundError,
+    ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError,
+    InvalidVehiclePlateError: require('./lib/error/invalidVehiclePlateError').InvalidVehiclePlateError
+  },
   builder: {
-    carResponseBuilder: require('./lib/carResponseBuilder'),
-    responseBuilder: require('./lib/responseBuilder')
+    carResponseBuilder: require('./lib/builder/carResponseBuilder'),
+    eventsResponseBuilder: require('./lib/builder/eventsResponseBuilder'),
+    responseBuilder: require('./lib/builder/responseBuilder')
   },
   model: {
     /**

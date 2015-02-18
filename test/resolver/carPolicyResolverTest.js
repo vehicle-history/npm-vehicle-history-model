@@ -29,7 +29,7 @@ describe('car policy resolver test', function () {
     };
 
     var response = carPolicyResolver.resolve(map, options);
-    expect(response).to.be.null();
+    expect(response).to.be.null;
     done();
   });
 

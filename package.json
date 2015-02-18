@@ -1,24 +1,26 @@
 {
   "name": "vehicle-history-model",
-  "version": "0.9.4",
+  "version": "0.9.18",
   "description": "Vehicle history model.",
   "main": "./index.js",
   "dependencies": {
+    "assert-plus": "^0.1.5",
     "async": "^0.9.0",
-    "winston": "^0.8.3"
+    "datejs": "^1.0.0-rc3",
+    "winston": "^0.9.0"
   },
   "devDependencies": {
-    "config": "^1.10.0",
-    "chai": "^1.10.0",
+    "config": "^1.11.0",
+    "chai": "^2.0.0",
     "istanbul": "^0.3.5",
     "mocha": "^2.1.0",
-    "rewire": "^2.1.4"
+    "rewire": "^2.2.0"
   },
   "scripts": {
     "prepublish": "npm prune",
     "test": "mocha test/*",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks test/*",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks test/*"
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- test/*"
   },
   "repository": {
     "type": "git",
@@ -43,6 +45,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "vehicle-history-model@0.9.4",
-  "_from": "vehicle-history-model@^0.9.4"
+  "_id": "vehicle-history-model@0.9.18",
+  "_from": "vehicle-history-model@^0.9.18"
 }
