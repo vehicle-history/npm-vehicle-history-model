@@ -89,7 +89,7 @@ describe('response builder test', function () {
       car.policy.status.should.equal('OUTDATED');
       car.registration.status.should.equal('REGISTERED');
       car.registration.firstAt.should.equal('2011-11-21T00:00:00.000Z');
-      car.inspection.status.should.equal('UPTODATE');
+      car.inspection.status.should.equal('Fixed testsUPTODATE');
       car.mileage.value.should.equal(111);
       car.mileage.type.should.equal('MILE');
 
@@ -141,7 +141,8 @@ describe('response builder test', function () {
       expect(events[3].location).to.be.null;
       expect(events).to.have.deep.property('[3].expireAt', '2013-06-17T00:00:00.000Z');
       expect(events[3].abroadRegistration).to.be.null;
-      expect(events).to.have.deep.property('[3].mileage', 177000);
+      expect(events).to.have.deep.property('[3].mileage.value', 177000);
+      expect(events).to.have.deep.property('[3].mileage.type', 'KM');
 
       expect(events).to.have.deep.property('[4].type', 'DEREGISTRATION');
       expect(events).to.have.deep.property('[4].createdAt', '2014-06-17T00:00:00.000Z');
