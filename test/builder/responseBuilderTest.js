@@ -89,7 +89,7 @@ describe('response builder test', function () {
       car.policy.status.should.equal('OUTDATED');
       car.registration.status.should.equal('REGISTERED');
       car.registration.firstAt.should.equal('2011-11-21T00:00:00.000Z');
-      car.inspection.status.should.equal('Fixed testsUPTODATE');
+      car.inspection.status.should.equal('UPTODATE');
       car.mileage.value.should.equal(111);
       car.mileage.type.should.equal('MILE');
 
