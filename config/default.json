@@ -387,6 +387,12 @@
           "values": [
             "inspection"
           ]
+        },
+        {
+          "name": "CO_OWNER",
+          "values": [
+            "co-owner"
+          ]
         }
       ]
     }
