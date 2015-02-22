@@ -49,22 +49,28 @@ describe('index test', function () {
 
   it('should export SearchCarRequest model', function (done) {
 
-    var SearchCarRequest = index.model.SearchCarRequest;
-    should.exist(SearchCarRequest);
+    var searchCarRequest = index.model.searchCarRequest;
+    should.exist(searchCarRequest);
+    should.exist(searchCarRequest.SearchCarRequest);
+    should.exist(searchCarRequest.SearchCarRequestBuilder);
     done();
   });
 
   it('should export Car model', function (done) {
 
-    var Car = index.model.Car;
-    should.exist(Car);
+    var car = index.model.car;
+    should.exist(car);
+    should.exist(car.Car);
+    should.exist(car.CarBuilder);
     done();
   });
 
   it('should export Report model', function (done) {
 
-    var Report = index.model.Report;
-    should.exist(Report);
+    var report = index.model.report;
+    should.exist(report);
+    should.exist(report.Report);
+    should.exist(report.ReportBuilder);
     done();
   });
 

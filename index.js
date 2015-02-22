@@ -14,30 +14,29 @@ module.exports = {
   },
   model: {
     /**
-     * the SearchCarRequest class.
-     * @property SearchCarRequest
-     * @type SearchCarRequest
+     * the searchCarRequest model and builder.
+     * @property searchCarRequest
+     * @type searchCarRequest
      * @static
      */
-    SearchCarRequest: require('./lib/model/searchCarRequest').SearchCarRequest,
+    searchCarRequest: require('./lib/model/searchCarRequest'),
 
     /**
-     * the Car class.
-     * @property Car
-     * @type Car
+     * the car model and builder.
+     * @property car
+     * @type car
      * @static
      */
-    Car: require('./lib/model/response/car').Car,
+    car: require('./lib/model/response/car'),
 
     /**
-     * the Report class.
-     * @property Report
-     * @type Report
+     * the report model and builder.
+     * @property report
+     * @type report
      * @static
      */
-    Report: require('./lib/model/response/report').Report
+    report: require('./lib/model/response/report')
   },
-
 
   /**
    * the version of the library
