@@ -1,5 +1,4 @@
 var options = require('config');
-var SearchCarRequest = require('../../lib/model/searchCarRequest').SearchCarRequest;
 var eventsResolver = require('../../lib/resolver/eventsResolver');
 var chai = require('chai');
 var should = chai.should();

@@ -34,8 +34,8 @@ describe('resolver builder test', function () {
       'registration.status': 'registered',
       'registration.firstDate': '21-11-2011',
       'inspection.status': 'actual',
-      'mileage.value': null,
-      'mileage.type': null,
+      'mileage.value': 177000,
+      'mileage.type': 'KM',
       'status.stolen': true,
       'events': [
         { date: '13.05.2012',
