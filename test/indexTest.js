@@ -74,6 +74,27 @@ describe('index test', function () {
     done();
   });
 
+  it('should export resolver', function (done) {
+
+    var resolver = index.resolver.resolver;
+    should.exist(resolver);
+    done();
+  });
+
+  it('should export eventsResolver', function (done) {
+
+    var eventsResolver = index.resolver.eventsResolver;
+    should.exist(eventsResolver);
+    done();
+  });
+
+  it('should export vehicleResolver', function (done) {
+
+    var vehicleResolver = index.resolver.vehicleResolver;
+    should.exist(vehicleResolver);
+    done();
+  });
+
   it('should export meta version', function (done) {
 
     var version = index.VERSION;

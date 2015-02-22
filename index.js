@@ -12,6 +12,11 @@ module.exports = {
     eventsResponseBuilder: require('./lib/builder/eventsResponseBuilder'),
     responseBuilder: require('./lib/builder/responseBuilder')
   },
+  resolver: {
+    resolver: require('./lib/resolver/resolver'),
+    eventsResolver: require('./lib/resolver/eventsResolver'),
+    vehicleResolver: require('./lib/resolver/vehicleResolver')
+  },
   model: {
     /**
      * the searchCarRequest model and builder.
