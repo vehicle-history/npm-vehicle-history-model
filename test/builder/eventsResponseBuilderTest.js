@@ -1,13 +1,12 @@
 var options = require('config');
-var SearchCarRequest = require('../../lib/model/searchCarRequest').SearchCarRequest;
 var eventsResponseBuilder = require('../../lib/builder/eventsResponseBuilder');
 var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-describe('car response builder test', function () {
+describe('events response builder test', function () {
 
-  it('should build car response', function (done) {
+  it('should build events response', function (done) {
 
     var map = {
       'plate.value': 'AAE 1111',
@@ -74,13 +73,24 @@ describe('car response builder test', function () {
           firstOwner: null,
           mileage: null,
           abroadRegistration: null
+        },
+        { type: 'CO_OWNER',
+          ownerType: 'PRIVATE',
+          location: null,
+          note: null,
+          createdAt: '2014-06-16T22:00:00.000Z',
+          expireAt: null,
+          description: 'co owner',
+          firstOwner: null,
+          mileage: null,
+          abroadRegistration: null
         }
       ]
     };
 
     eventsResponseBuilder.build(map, function (err, events) {
       should.exist(events);
-      expect(events).to.have.length(6);
+      expect(events).to.have.length(7);
 
       expect(events).to.have.deep.property('[0].type', 'PRODUCTION');
 //      expect(events).to.have.deep.property('[0].createdAt', '2012-06-13T00:00:00.000Z');
@@ -142,6 +152,16 @@ describe('car response builder test', function () {
       expect(events).to.have.deep.property('[5].expireAt', null);
       expect(events).to.have.deep.property('[5].abroadRegistration', null);
       expect(events).to.have.deep.property('[5].mileage', null);
+
+      expect(events).to.have.deep.property('[6].type', 'CO_OWNER');
+//      expect(events).to.have.deep.property('[6].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[6].note', null);
+      expect(events).to.have.deep.property('[6].firstOwner', null);
+      expect(events).to.have.deep.property('[6].ownerType', 'PRIVATE');
+      expect(events).to.have.deep.property('[6].location', null);
+      expect(events).to.have.deep.property('[6].expireAt', null);
+      expect(events).to.have.deep.property('[6].abroadRegistration', null);
+      expect(events).to.have.deep.property('[6].mileage', null);
 
       done();
     });
