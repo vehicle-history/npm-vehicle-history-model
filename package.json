@@ -1,6 +1,6 @@
 {
   "name": "vehicle-history-model",
-  "version": "0.9.22",
+  "version": "0.9.23",
   "description": "Vehicle history model.",
   "main": "./index.js",
   "dependencies": {
@@ -46,6 +46,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "vehicle-history-model@0.9.22",
-  "_from": "vehicle-history-model@^0.9.22"
+  "_id": "vehicle-history-model@0.9.23",
+  "_from": "vehicle-history-model@^0.9.23"
 }
