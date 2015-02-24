@@ -65,6 +65,15 @@ describe('events resolver builder test', function () {
           location: null,
           note: 'note',
           mileage: null
+        },
+        { date: '17.06.2014',
+          type: 'changed-registration-location',
+          description: 'changed-registration-location',
+          owner: null,
+          coowner: null,
+          location: 'wielkopolskie',
+          note: 'note',
+          mileage: null
         }
       ]
     };
@@ -75,7 +84,7 @@ describe('events resolver builder test', function () {
 
       var events = map.events;
 
-      expect(events).to.have.length(6);
+      expect(events).to.have.length(7);
 
       expect(events).to.have.deep.property('[0].type', 'CHANGE_OWNER');
 //      expect(events).to.have.deep.property('[0].createdAt', '2012-06-13T00:00:00.000Z');
@@ -137,6 +146,17 @@ describe('events resolver builder test', function () {
       expect(events).to.have.deep.property('[5].expireAt', null);
       expect(events).to.have.deep.property('[5].abroadRegistration', null);
       expect(events).to.have.deep.property('[5].mileage', null);
+
+      expect(events).to.have.deep.property('[6].type', 'CHANGED_REGISTRATION_LOCATION');
+//      expect(events).to.have.deep.property('[6].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[6].note', 'note');
+      expect(events).to.have.deep.property('[6].firstOwner', null);
+      expect(events).to.have.deep.property('[6].ownerType', null);
+      expect(events).to.have.deep.property('[6].location.state', 'wielkopolskie');
+      expect(events).to.have.deep.property('[6].location.country', 'PL');
+      expect(events).to.have.deep.property('[6].expireAt', null);
+      expect(events).to.have.deep.property('[6].abroadRegistration', null);
+      expect(events).to.have.deep.property('[6].mileage', null);
 
       done();
     });

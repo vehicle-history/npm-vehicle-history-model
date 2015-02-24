@@ -393,6 +393,12 @@
           "values": [
             "co-owner"
           ]
+        },
+        {
+          "name": "CHANGED_REGISTRATION_LOCATION",
+          "values": [
+            "changed-registration-location"
+          ]
         }
       ]
     }

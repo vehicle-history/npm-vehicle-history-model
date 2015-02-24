@@ -84,13 +84,27 @@ describe('events response builder test', function () {
           firstOwner: null,
           mileage: null,
           abroadRegistration: null
-        }
+        },
+        { type: 'CHANGED_REGISTRATION_LOCATION',
+          ownerType: null,
+          location: {
+            state: 'wielkopolskie',
+            country: 'PL'
+          },
+          note: null,
+          createdAt: '2012-05-12T22:00:00.000Z',
+          expireAt: null,
+          description: 'Changed registration location',
+          firstOwner: null,
+          mileage: null,
+          abroadRegistration: null
+        },
       ]
     };
 
     eventsResponseBuilder.build(map, function (err, events) {
       should.exist(events);
-      expect(events).to.have.length(7);
+      expect(events).to.have.length(8);
 
       expect(events).to.have.deep.property('[0].type', 'PRODUCTION');
 //      expect(events).to.have.deep.property('[0].createdAt', '2012-06-13T00:00:00.000Z');
@@ -162,6 +176,17 @@ describe('events response builder test', function () {
       expect(events).to.have.deep.property('[6].expireAt', null);
       expect(events).to.have.deep.property('[6].abroadRegistration', null);
       expect(events).to.have.deep.property('[6].mileage', null);
+
+      expect(events).to.have.deep.property('[7].type', 'CHANGED_REGISTRATION_LOCATION');
+//      expect(events).to.have.deep.property('[7].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[7].note', null);
+      expect(events).to.have.deep.property('[7].firstOwner', null);
+      expect(events).to.have.deep.property('[7].ownerType', null);
+      expect(events).to.have.deep.property('[7].location.state', 'wielkopolskie');
+      expect(events).to.have.deep.property('[7].location.country', 'PL');
+      expect(events).to.have.deep.property('[7].expireAt', null);
+      expect(events).to.have.deep.property('[7].abroadRegistration', null);
+      expect(events).to.have.deep.property('[7].mileage', null);
 
       done();
     });
