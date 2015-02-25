@@ -13,6 +13,12 @@
           "values": [
             "van"
           ]
+        },
+        {
+          "name": "MOTORCYCLE",
+          "values": [
+            "motorcycle"
+          ]
         }
       ],
       "kinds": [
@@ -47,9 +53,45 @@
           ]
         },
         {
-          "name": "COMBI",
+          "name": "ESTATE",
           "values": [
-            "combi"
+            "estate"
+          ]
+        },
+        {
+          "name": "HEARSE",
+          "values": [
+            "hearse"
+          ]
+        },
+        {
+          "name": "STANDARD",
+          "values": [
+            "standard"
+          ]
+        },
+        {
+          "name": "SPORT",
+          "values": [
+            "sport"
+          ]
+        },
+        {
+          "name": "CRUISER",
+          "values": [
+            "cruiser"
+          ]
+        },
+        {
+          "name": "TOURING",
+          "values": [
+            "touring"
+          ]
+        },
+        {
+          "name": "SPORT_TOURING",
+          "values": [
+            "sport_touring"
           ]
         },
         {
