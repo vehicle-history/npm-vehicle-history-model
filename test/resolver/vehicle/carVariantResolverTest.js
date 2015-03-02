@@ -9,14 +9,14 @@ describe('car variant resolver test', function () {
   it('should return valid type and kind', function (done) {
 
     var map = {
-      'variant.type': 'van',
+      'variant.type': 'car',
       'variant.kind': 'hatchback'
     };
 
     carVariantResolver.resolve(map, options);
 
     should.exist(map['variant.type']);
-    map['variant.type'].should.equal('VAN');
+    map['variant.type'].should.equal('CAR');
 
     should.exist(map['variant.kind']);
     map['variant.kind'].should.equal('HATCHBACK');
@@ -45,14 +45,14 @@ describe('car variant resolver test', function () {
   it('should return object with some null values', function (done) {
 
     var map = {
-      'variant.type': 'van',
+      'variant.type': 'car',
       'variant.kind': null
     };
 
     carVariantResolver.resolve(map, options);
 
     should.exist(map['variant.type']);
-    map['variant.type'].should.equal('VAN');
+    map['variant.type'].should.equal('CAR');
 
     should.exist(map['variant.kind']);
     map['variant.kind'].should.equal('UNKNOWN');

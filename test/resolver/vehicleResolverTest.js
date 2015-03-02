@@ -12,7 +12,7 @@ describe('vehicle resolver test', function () {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
-      'variant.type': 'van',
+      'variant.type': 'car',
       'variant.kind': 'limousine',
       'engine.cc': '1396',
       'engine.fuel': 'diesel',
@@ -38,7 +38,7 @@ describe('vehicle resolver test', function () {
       expect(map).to.have.property('name.model', 'model');
 
 
-      expect(map).to.have.property('variant.type', 'VAN');
+      expect(map).to.have.property('variant.type', 'CAR');
       expect(map).to.have.property('variant.kind', 'LIMOUSINE');
 
       expect(map).to.have.property('engine.cc', 1396);

@@ -9,7 +9,7 @@ describe('car variant builder test', function () {
   it('should return valid type and kind', function (done) {
 
     var map = {
-      'variant.type': 'VAN',
+      'variant.type': 'CAR',
       'variant.kind': 'HATCHBACK'
     };
 
@@ -17,7 +17,7 @@ describe('car variant builder test', function () {
 
     should.exist(response);
     should.exist(response.type);
-    response.type.should.equal('VAN');
+    response.type.should.equal('CAR');
     should.exist(response.kind);
     response.kind.should.equal('HATCHBACK');
     done();
@@ -44,14 +44,14 @@ describe('car variant builder test', function () {
   it('should return object with some null values', function (done) {
 
     var map = {
-      'variant.type': 'VAN',
+      'variant.type': 'CAR',
       'variant.kind': 'UNKNOWN'
     };
 
     var response = variantBuilder.build(map);
     should.exist(response);
     should.exist(response.type);
-    response.type.should.equal('VAN');
+    response.type.should.equal('CAR');
     should.exist(response.kind);
     response.kind.should.equal('UNKNOWN');
     done();
