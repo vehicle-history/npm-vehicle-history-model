@@ -13,6 +13,12 @@
           "values": [
             "van"
           ]
+        },
+        {
+          "name": "MOTORCYCLE",
+          "values": [
+            "motorcycle"
+          ]
         }
       ],
       "kinds": [
@@ -47,9 +53,57 @@
           ]
         },
         {
-          "name": "COMBI",
+          "name": "ESTATE",
           "values": [
-            "combi"
+            "estate"
+          ]
+        },
+        {
+          "name": "HEARSE",
+          "values": [
+            "hearse"
+          ]
+        },
+        {
+          "name": "OFF_ROAD",
+          "values": [
+            "off_road"
+          ]
+        },
+        {
+          "name": "VAN",
+          "values": [
+            "van"
+          ]
+        },
+        {
+          "name": "STANDARD",
+          "values": [
+            "standard"
+          ]
+        },
+        {
+          "name": "SPORT",
+          "values": [
+            "sport"
+          ]
+        },
+        {
+          "name": "CRUISER",
+          "values": [
+            "cruiser"
+          ]
+        },
+        {
+          "name": "TOURING",
+          "values": [
+            "touring"
+          ]
+        },
+        {
+          "name": "SPORT_TOURING",
+          "values": [
+            "sport_touring"
           ]
         },
         {
@@ -355,6 +409,12 @@
           "values": [
             "private"
           ]
+        },
+        {
+          "name": "COMPANY",
+          "values": [
+            "company"
+          ]
         }
       ],
       "events": [
@@ -392,6 +452,12 @@
           "name": "CO_OWNER",
           "values": [
             "co-owner"
+          ]
+        },
+        {
+          "name": "CHANGED_REGISTRATION_LOCATION",
+          "values": [
+            "changed-registration-location"
           ]
         }
       ]

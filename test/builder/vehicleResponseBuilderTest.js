@@ -13,7 +13,7 @@ describe('vehicle response builder test', function () {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
-      'variant.type': 'VAN',
+      'variant.type': 'CAR',
       'variant.kind': 'LIMOUSINE',
       'engine.cc': 1396,
       'engine.fuel': 'DIESEL',
@@ -37,7 +37,7 @@ describe('vehicle response builder test', function () {
       expect(car).to.have.deep.property('name.name', 'name');
       expect(car).to.have.deep.property('name.model', 'model');
 
-      expect(car).to.have.deep.property('type.type', 'VAN');
+      expect(car).to.have.deep.property('type.type', 'CAR');
       expect(car).to.have.deep.property('type.kind', 'LIMOUSINE');
 
       expect(car).to.have.deep.property('engine.cubicCapacity', 1396);
