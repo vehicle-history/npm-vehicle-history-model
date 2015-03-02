@@ -65,6 +65,18 @@
           ]
         },
         {
+          "name": "OFF_ROAD",
+          "values": [
+            "off_road"
+          ]
+        },
+        {
+          "name": "VAN",
+          "values": [
+            "van"
+          ]
+        },
+        {
           "name": "STANDARD",
           "values": [
             "standard"
@@ -396,6 +408,12 @@
           "name": "PRIVATE",
           "values": [
             "private"
+          ]
+        },
+        {
+          "name": "COMPANY",
+          "values": [
+            "company"
           ]
         }
       ],
