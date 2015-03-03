@@ -9,15 +9,33 @@
           ]
         },
         {
-          "name": "VAN",
-          "values": [
-            "van"
-          ]
-        },
-        {
           "name": "MOTORCYCLE",
           "values": [
             "motorcycle"
+          ]
+        },
+        {
+          "name": "BUS",
+          "values": [
+            "bus"
+          ]
+        },
+        {
+          "name": "TRACTOR",
+          "values": [
+            "tractor"
+          ]
+        },
+        {
+          "name": "LIGHT_TRAILER",
+          "values": [
+            "light_trailer"
+          ]
+        },
+        {
+          "name": "TRUCK",
+          "values": [
+            "truck"
           ]
         }
       ],
@@ -77,6 +95,18 @@
           ]
         },
         {
+          "name": "WAGON",
+          "values": [
+            "wagon"
+          ]
+        },
+        {
+          "name": "WHEELED",
+          "values": [
+            "wheeled"
+          ]
+        },
+        {
           "name": "STANDARD",
           "values": [
             "standard"
@@ -110,6 +140,12 @@
           "name": "OTHER",
           "values": [
             "other"
+          ]
+        },
+        {
+          "name": "OTHER_NOT_CAMPING",
+          "values": [
+            "other_not_camping"
           ]
         }
       ],
@@ -185,6 +221,12 @@
           "values": [
             "not actual"
           ]
+        },
+        {
+          "name": "UNKNOWN",
+          "values": [
+            "not known"
+          ]
         }
       ],
       "mileageStatus": [
@@ -220,6 +262,12 @@
           "name": "AUDI",
           "values": [
             "AUDI"
+          ]
+        },
+        {
+          "name": "ALFA_ROMEO",
+          "values": [
+            "ALFA_ROMEO"
           ]
         },
         {
@@ -292,6 +340,12 @@
           "name": "JAGUAR",
           "values": [
             "JAGUAR"
+          ]
+        },
+        {
+          "name": "YAMAHA",
+          "values": [
+            "YAMAHA"
           ]
         },
         {
@@ -373,6 +427,30 @@
           ]
         },
         {
+          "name": "SETRA",
+          "values": [
+            "SETRA"
+          ]
+        },
+        {
+          "name": "SCANIA",
+          "values": [
+            "SCANIA"
+          ]
+        },
+        {
+          "name": "SPRITE_SPORT",
+          "values": [
+            "SPRITE_SPORT"
+          ]
+        },
+        {
+          "name": "SAAB",
+          "values": [
+            "SAAB"
+          ]
+        },
+        {
           "name": "TOYOTA",
           "values": [
             "TOYOTA"
@@ -382,6 +460,12 @@
           "name": "TRIUMPH",
           "values": [
             "TRIUMPH"
+          ]
+        },
+        {
+          "name": "URSUS",
+          "values": [
+            "URSUS"
           ]
         },
         {
