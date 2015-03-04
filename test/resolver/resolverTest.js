@@ -150,7 +150,7 @@ describe('resolver builder test', function () {
       expect(events).to.have.deep.property('[2].abroadRegistration', false);
       expect(events).to.have.deep.property('[2].mileage', null);
 
-      expect(events).to.have.deep.property('[3].type', 'INSPECTON');
+      expect(events).to.have.deep.property('[3].type', 'INSPECTION');
 //      expect(events).to.have.deep.property('[3].createdAt', '2013-06-17T00:00:00.000Z');
       expect(events).to.have.deep.property('[3].note', null);
       expect(events).to.have.deep.property('[3].firstOwner', null);
