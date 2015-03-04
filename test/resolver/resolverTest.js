@@ -42,6 +42,8 @@ describe('resolver builder test', function () {
           type: 'first-owner',
           description: 'First owner',
           owner: 'private',
+          coowner: null,
+          holder: null,
           location: 'wielkopolskie',
           note: null,
           mileage: null
@@ -50,6 +52,8 @@ describe('resolver builder test', function () {
           type: 'abroad-registration',
           description: 'Abroad registration',
           owner: null,
+          coowner: null,
+          holder: null,
           location: null,
           note: null,
           mileage: null
@@ -58,6 +62,8 @@ describe('resolver builder test', function () {
           type: 'first-registration',
           description: 'First registration',
           owner: null,
+          coowner: null,
+          holder: null,
           location: null,
           note: null,
           mileage: null
@@ -66,6 +72,8 @@ describe('resolver builder test', function () {
           type: 'inspection',
           description: 'Inspection (17.06.2014)',
           owner: null,
+          coowner: null,
+          holder: null,
           location: null,
           note: null,
           mileage: '177 000 km'
@@ -74,6 +82,18 @@ describe('resolver builder test', function () {
           type: 'deregistration',
           description: 'Deregistration',
           owner: null,
+          coowner: null,
+          holder: null,
+          location: null,
+          note: 'note',
+          mileage: null
+        },
+        { date: '17.06.2014',
+          type: 'holder',
+          description: 'holder',
+          owner: null,
+          coowner: null,
+          holder: 'private',
           location: null,
           note: 'note',
           mileage: null
@@ -117,7 +137,7 @@ describe('resolver builder test', function () {
 
       expect(map).to.have.property('vin.value', 'ABC123456789DEF');
 
-      expect(events).to.have.length(5);
+      expect(events).to.have.length(6);
 
       expect(events).to.have.deep.property('[0].type', 'CHANGE_OWNER');
 //      expect(events).to.have.deep.property('[0].createdAt', '2012-06-13T00:00:00.000Z');
@@ -169,6 +189,16 @@ describe('resolver builder test', function () {
       expect(events).to.have.deep.property('[4].expireAt', null);
       expect(events).to.have.deep.property('[4].abroadRegistration', null);
       expect(events).to.have.deep.property('[4].mileage', null);
+
+      expect(events).to.have.deep.property('[5].type', 'HOLDER');
+//      expect(events).to.have.deep.property('[5].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[5].note', 'note');
+      expect(events).to.have.deep.property('[5].firstOwner', null);
+      expect(events).to.have.deep.property('[5].ownerType', 'PRIVATE');
+      expect(events).to.have.deep.property('[5].location', null);
+      expect(events).to.have.deep.property('[5].expireAt', null);
+      expect(events).to.have.deep.property('[5].abroadRegistration', null);
+      expect(events).to.have.deep.property('[5].mileage', null);
 
       done();
     });
