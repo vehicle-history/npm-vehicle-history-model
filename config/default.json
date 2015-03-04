@@ -15,6 +15,12 @@
           ]
         },
         {
+          "name": "MOPED",
+          "values": [
+            "moped"
+          ]
+        },
+        {
           "name": "BUS",
           "values": [
             "bus"
@@ -367,6 +373,12 @@
           ]
         },
         {
+          "name": "KAWASAKI",
+          "values": [
+            "KAWASAKI"
+          ]
+        },
+        {
           "name": "LEXUS",
           "values": [
             "LEXUS"
@@ -421,6 +433,12 @@
           ]
         },
         {
+          "name": "ROMET_MOTORS",
+          "values": [
+            "ROMET_MOTORS"
+          ]
+        },
+        {
           "name": "SEAT",
           "values": [
             "SEAT"
@@ -472,6 +490,12 @@
           "name": "TRIUMPH",
           "values": [
             "TRIUMPH"
+          ]
+        },
+        {
+          "name": "TEMA",
+          "values": [
+            "TEMA"
           ]
         },
         {
@@ -548,6 +572,12 @@
           "name": "CO_OWNER",
           "values": [
             "co-owner"
+          ]
+        },
+        {
+          "name": "HOLDER",
+          "values": [
+            "holder"
           ]
         },
         {
