@@ -9,6 +9,12 @@
           ]
         },
         {
+          "name": "SPECIAL_CAR",
+          "values": [
+            "special_car"
+          ]
+        },
+        {
           "name": "MOTORCYCLE",
           "values": [
             "motorcycle"
@@ -520,6 +526,12 @@
           "name": "VAUXHALL",
           "values": [
             "VAUXHALL"
+          ]
+        },
+        {
+          "name": "WANGYE",
+          "values": [
+            "WANGYE"
           ]
         }
       ],
