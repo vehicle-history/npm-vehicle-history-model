@@ -15,6 +15,12 @@
           ]
         },
         {
+          "name": "OTHER_CAR",
+          "values": [
+            "other_car"
+          ]
+        },
+        {
           "name": "MOTORCYCLE",
           "values": [
             "motorcycle"
@@ -155,6 +161,12 @@
           ]
         },
         {
+          "name": "QUAD",
+          "values": [
+            "quad"
+          ]
+        },
+        {
           "name": "OTHER_NOT_CAMPING",
           "values": [
             "other_not_camping"
@@ -215,9 +227,9 @@
           ]
         },
         {
-          "name": "OUTDATED",
+          "name": "UNREGISTERED",
           "values": [
-            "not registered"
+            "unregistered"
           ]
         }
       ],
@@ -382,6 +394,12 @@
           "name": "KAWASAKI",
           "values": [
             "KAWASAKI"
+          ]
+        },
+        {
+          "name": "LIAZ",
+          "values": [
+            "LIAZ"
           ]
         },
         {
