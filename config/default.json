@@ -125,6 +125,12 @@
           ]
         },
         {
+          "name": "TRAILER",
+          "values": [
+            "trailer"
+          ]
+        },
+        {
           "name": "STANDARD",
           "values": [
             "standard"
@@ -190,6 +196,11 @@
           "name": "DIESEL",
           "values": [
             "diesel"
+          ]
+        },{
+          "name": "MIXED_FUEL_OIL",
+          "values": [
+            "mixed_fuel_oil"
           ]
         },
         {
@@ -331,9 +342,21 @@
           ]
         },
         {
+          "name": "DAIMLER",
+          "values": [
+            "DAIMLER"
+          ]
+        },
+        {
           "name": "DAEWOO",
           "values": [
             "DAEWOO"
+          ]
+        },
+        {
+          "name": "DODGE",
+          "values": [
+            "DODGE"
           ]
         },
         {
@@ -376,6 +399,12 @@
           "name": "JAGUAR",
           "values": [
             "JAGUAR"
+          ]
+        },
+        {
+          "name": "JEEP",
+          "values": [
+            "JEEP"
           ]
         },
         {
@@ -454,6 +483,12 @@
           "name": "RENAULT",
           "values": [
             "RENAULT"
+          ]
+        },
+        {
+          "name": "ROVER",
+          "values": [
+            "ROVER"
           ]
         },
         {
@@ -550,6 +585,12 @@
           "name": "WANGYE",
           "values": [
             "WANGYE"
+          ]
+        },
+        {
+          "name": "WAZ",
+          "values": [
+            "WAZ"
           ]
         }
       ],
