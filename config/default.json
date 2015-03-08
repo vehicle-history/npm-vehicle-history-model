@@ -177,6 +177,12 @@
           "values": [
             "other_not_camping"
           ]
+        },
+        {
+          "name": "CITY",
+          "values": [
+            "city"
+          ]
         }
       ],
       "engineFuels": [
@@ -197,7 +203,8 @@
           "values": [
             "diesel"
           ]
-        },{
+        },
+        {
           "name": "MIXED_FUEL_OIL",
           "values": [
             "mixed_fuel_oil"
@@ -312,6 +319,12 @@
           ]
         },
         {
+          "name": "BRENDERUP",
+          "values": [
+            "BRENDERUP"
+          ]
+        },
+        {
           "name": "BMW",
           "values": [
             "BMW"
@@ -342,6 +355,12 @@
           ]
         },
         {
+          "name": "DAF",
+          "values": [
+            "DAF"
+          ]
+        },
+        {
           "name": "DAIMLER",
           "values": [
             "DAIMLER"
@@ -366,6 +385,12 @@
           ]
         },
         {
+          "name": "FERRO",
+          "values": [
+            "FERRO"
+          ]
+        },
+        {
           "name": "FSO",
           "values": [
             "FSO"
@@ -384,6 +409,12 @@
           ]
         },
         {
+          "name": "GMC",
+          "values": [
+            "GMC"
+          ]
+        },
+        {
           "name": "HONDA",
           "values": [
             "HONDA"
@@ -393,6 +424,12 @@
           "name": "HYUNDAI",
           "values": [
             "HYUNDAI"
+          ]
+        },
+        {
+          "name": "HYOSUNG",
+          "values": [
+            "HYOSUNG"
           ]
         },
         {
@@ -423,6 +460,18 @@
           "name": "KAWASAKI",
           "values": [
             "KAWASAKI"
+          ]
+        },
+        {
+          "name": "LANCIA",
+          "values": [
+            "LANCIA"
+          ]
+        },
+        {
+          "name": "LEXUS",
+          "values": [
+            "LEXUS"
           ]
         },
         {
@@ -462,9 +511,27 @@
           ]
         },
         {
+          "name": "MAJESTIC_AUTO",
+          "values": [
+            "MAJESTIC_AUTO"
+          ]
+        },
+        {
           "name": "NISSAN",
           "values": [
             "NISSAN"
+          ]
+        },
+        {
+          "name": "MZ",
+          "values": [
+            "MZ"
+          ]
+        },
+        {
+          "name": "MAN",
+          "values": [
+            "MAN"
           ]
         },
         {
@@ -495,6 +562,30 @@
           "name": "ROMET_MOTORS",
           "values": [
             "ROMET_MOTORS"
+          ]
+        },
+        {
+          "name": "RIEJU",
+          "values": [
+            "RIEJU"
+          ]
+        },
+        {
+          "name": "ROLLS_ROYCE",
+          "values": [
+            "rolls royce"
+          ]
+        },
+        {
+          "name": "SAM",
+          "values": [
+            "SAM"
+          ]
+        },
+        {
+          "name": "SIMSON",
+          "values": [
+            "SIMSON"
           ]
         },
         {
@@ -537,6 +628,12 @@
           "name": "SAAB",
           "values": [
             "SAAB"
+          ]
+        },
+        {
+          "name": "SMART",
+          "values": [
+            "SMART"
           ]
         },
         {
@@ -591,6 +688,12 @@
           "name": "WAZ",
           "values": [
             "WAZ"
+          ]
+        },
+        {
+          "name": "YAMASAKI",
+          "values": [
+            "YAMASAKI"
           ]
         }
       ],
