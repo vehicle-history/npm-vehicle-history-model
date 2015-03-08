@@ -385,6 +385,12 @@
           ]
         },
         {
+          "name": "FERRO",
+          "values": [
+            "FERRO"
+          ]
+        },
+        {
           "name": "FSO",
           "values": [
             "FSO"
@@ -460,6 +466,12 @@
           "name": "LANCIA",
           "values": [
             "LANCIA"
+          ]
+        },
+        {
+          "name": "LEXUS",
+          "values": [
+            "LEXUS"
           ]
         },
         {
@@ -556,6 +568,12 @@
           "name": "RIEJU",
           "values": [
             "RIEJU"
+          ]
+        },
+        {
+          "name": "ROLLS_ROYCE",
+          "values": [
+            "rolls royce"
           ]
         },
         {
