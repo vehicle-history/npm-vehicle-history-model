@@ -661,6 +661,12 @@
           ]
         },
         {
+          "name": "SUBARU",
+          "values": [
+            "SUBARU"
+          ]
+        },
+        {
           "name": "SMART",
           "values": [
             "SMART"
