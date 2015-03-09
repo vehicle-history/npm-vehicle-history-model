@@ -349,6 +349,12 @@
           ]
         },
         {
+          "name": "CASE_IH",
+          "values": [
+            "CASE_IH"
+          ]
+        },
+        {
           "name": "DACIA",
           "values": [
             "DACIA"
@@ -469,6 +475,12 @@
           ]
         },
         {
+          "name": "LDV",
+          "values": [
+            "LDV"
+          ]
+        },
+        {
           "name": "LEXUS",
           "values": [
             "LEXUS"
@@ -520,6 +532,12 @@
           "name": "NISSAN",
           "values": [
             "NISSAN"
+          ]
+        },
+        {
+          "name": "NIEWIADOW",
+          "values": [
+            "NIEWIADOW"
           ]
         },
         {
@@ -649,6 +667,12 @@
           ]
         },
         {
+          "name": "THULE",
+          "values": [
+            "THULE"
+          ]
+        },
+        {
           "name": "TEMA",
           "values": [
             "TEMA"
@@ -658,6 +682,12 @@
           "name": "URSUS",
           "values": [
             "URSUS"
+          ]
+        },
+        {
+          "name": "UAZ",
+          "values": [
+            "UAZ"
           ]
         },
         {
@@ -688,6 +718,12 @@
           "name": "WAZ",
           "values": [
             "WAZ"
+          ]
+        },
+        {
+          "name": "WSK",
+          "values": [
+            "WSK"
           ]
         },
         {
