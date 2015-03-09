@@ -131,6 +131,12 @@
           ]
         },
         {
+          "name": "TROLLEY",
+          "values": [
+            "trolley"
+          ]
+        },
+        {
           "name": "STANDARD",
           "values": [
             "standard"
