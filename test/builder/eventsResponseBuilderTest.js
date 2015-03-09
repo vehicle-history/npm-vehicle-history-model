@@ -63,6 +63,17 @@ describe('events response builder test', function () {
           },
           abroadRegistration: null
         },
+        { type: 'HOLDER',
+          ownerType: null,
+          location: null,
+          note: null,
+          createdAt: '2013-06-16T22:00:00.000Z',
+          expireAt: null,
+          description: 'Holder',
+          firstOwner: null,
+          mileage: null,
+          abroadRegistration: null
+        },
         { type: 'DEREGISTRATION',
           ownerType: null,
           location: null,
@@ -156,16 +167,16 @@ describe('events response builder test', function () {
 //      expect(events).to.have.deep.property('[4].expireAt', '2013-06-17T00:00:00.000Z');
       expect(events).to.have.deep.property('[4].mileage.value', 177000);
       expect(events).to.have.deep.property('[4].mileage.type', 'KM');
-      
-      expect(events).to.have.deep.property('[5].type', 'INSPECTON');
-//      expect(events).to.have.deep.property('[5].createdAt', '2013-06-17T00:00:00.000Z');
+
+      expect(events).to.have.deep.property('[5].type', 'HOLDER');
+//      expect(events).to.have.deep.property('[5].createdAt', '2014-06-17T00:00:00.000Z');
       expect(events).to.have.deep.property('[5].note', null);
       expect(events).to.have.deep.property('[5].firstOwner', null);
       expect(events).to.have.deep.property('[5].ownerType', null);
       expect(events).to.have.deep.property('[5].location', null);
-//      expect(events).to.have.deep.property('[5].expireAt', '2013-06-17T00:00:00.000Z');
-      expect(events).to.have.deep.property('[5].mileage.value', 177000);
-      expect(events).to.have.deep.property('[5].mileage.type', 'KM');
+      expect(events).to.have.deep.property('[5].expireAt', null);
+      expect(events).to.have.deep.property('[5].abroadRegistration', null);
+      expect(events).to.have.deep.property('[5].mileage', null);
 
       expect(events).to.have.deep.property('[6].type', 'DEREGISTRATION');
 //      expect(events).to.have.deep.property('[6].createdAt', '2014-06-17T00:00:00.000Z');
