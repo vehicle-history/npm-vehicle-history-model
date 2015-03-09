@@ -51,6 +51,12 @@
           ]
         },
         {
+          "name": "HEAVY_TRAILER",
+          "values": [
+            "heavy_trailer"
+          ]
+        },
+        {
           "name": "TRUCK",
           "values": [
             "truck"
