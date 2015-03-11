@@ -367,6 +367,12 @@
           ]
         },
         {
+          "name": "COLES",
+          "values": [
+            "COLES"
+          ]
+        },
+        {
           "name": "CASE_IH",
           "values": [
             "CASE_IH"
@@ -487,6 +493,12 @@
           ]
         },
         {
+          "name": "JUNAK",
+          "values": [
+            "JUNAK"
+          ]
+        },
+        {
           "name": "JONWAY",
           "values": [
             "jonway"
@@ -508,6 +520,12 @@
           "name": "KAWASAKI",
           "values": [
             "KAWASAKI"
+          ]
+        },
+        {
+          "name": "KYMCO",
+          "values": [
+            "KYMCO"
           ]
         },
         {
@@ -601,6 +619,12 @@
           ]
         },
         {
+          "name": "PIAGGIO",
+          "values": [
+            "PIAGGIO"
+          ]
+        },
+        {
           "name": "PEUGEOT",
           "values": [
             "PEUGEOT"
@@ -622,6 +646,12 @@
           "name": "ROMET_MOTORS",
           "values": [
             "ROMET_MOTORS"
+          ]
+        },,
+        {
+          "name": "ROUTER",
+          "values": [
+            "ROUTER"
           ]
         },
         {
@@ -676,6 +706,12 @@
           "name": "SCANIA",
           "values": [
             "SCANIA"
+          ]
+        },
+        {
+          "name": "SCHMITZ_CARGOBULL",
+          "values": [
+            "SCHMITZ_CARGOBULL"
           ]
         },
         {
