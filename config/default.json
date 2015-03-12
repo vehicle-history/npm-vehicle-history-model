@@ -137,6 +137,12 @@
           ]
         },
         {
+          "name": "LOAD_CAPACITY_OF_8_TONS",
+          "values": [
+            "load_capacity_of_8_tons"
+          ]
+        },
+        {
           "name": "TROLLEY",
           "values": [
             "trolley"
@@ -439,6 +445,12 @@
           ]
         },
         {
+          "name": "FS_LUBLIN",
+          "values": [
+            "FS_LUBLIN"
+          ]
+        },
+        {
           "name": "FORD",
           "values": [
             "FORD"
@@ -499,6 +511,12 @@
           ]
         },
         {
+          "name": "JOHN_DEERE",
+          "values": [
+            "JOHN_DEERE"
+          ]
+        },
+        {
           "name": "JONWAY",
           "values": [
             "jonway"
@@ -529,6 +547,12 @@
           ]
         },
         {
+          "name": "KOCH",
+          "values": [
+            "KOCH"
+          ]
+        },
+        {
           "name": "LANCIA",
           "values": [
             "LANCIA"
@@ -556,6 +580,18 @@
           "name": "LEXUS",
           "values": [
             "LEXUS"
+          ]
+        },
+        {
+          "name": "LONGJIA",
+          "values": [
+            "LONGJIA"
+          ]
+        },
+        {
+          "name": "LAND_ROVER",
+          "values": [
+            "LAND_ROVER"
           ]
         },
         {
@@ -598,6 +634,12 @@
           "name": "NIEWIADOW",
           "values": [
             "NIEWIADOW"
+          ]
+        },
+        {
+          "name": "MG",
+          "values": [
+            "MG"
           ]
         },
         {
