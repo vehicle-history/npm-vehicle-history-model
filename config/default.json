@@ -137,6 +137,12 @@
           ]
         },
         {
+          "name": "LOAD_CAPACITY_OF_8_TONS",
+          "values": [
+            "load_capacity_of_8_tons"
+          ]
+        },
+        {
           "name": "TROLLEY",
           "values": [
             "trolley"
@@ -325,15 +331,45 @@
           ]
         },
         {
+          "name": "APRILIA",
+          "values": [
+            "APRILIA"
+          ]
+        },
+        {
           "name": "BENTLEY",
           "values": [
             "BENTLEY"
           ]
         },
         {
+          "name": "BENZHOU",
+          "values": [
+            "BENZHOU"
+          ]
+        },
+        {
           "name": "BRENDERUP",
           "values": [
             "BRENDERUP"
+          ]
+        },
+        {
+          "name": "BORO",
+          "values": [
+            "BORO"
+          ]
+        },
+        {
+          "name": "BOVA",
+          "values": [
+            "BOVA"
+          ]
+        },
+        {
+          "name": "BAOTIAN",
+          "values": [
+            "BAOTIAN"
           ]
         },
         {
@@ -349,6 +385,12 @@
           ]
         },
         {
+          "name": "CAN_AM",
+          "values": [
+            "CAN_AM"
+          ]
+        },
+        {
           "name": "CHRYSLER",
           "values": [
             "CHRYSLER"
@@ -358,6 +400,12 @@
           "name": "CITROEN",
           "values": [
             "CITROEN"
+          ]
+        },
+        {
+          "name": "COLES",
+          "values": [
+            "COLES"
           ]
         },
         {
@@ -382,6 +430,12 @@
           "name": "DAIMLER",
           "values": [
             "DAIMLER"
+          ]
+        },
+        {
+          "name": "DAIHATSU",
+          "values": [
+            "daihatsu"
           ]
         },
         {
@@ -421,6 +475,18 @@
           ]
         },
         {
+          "name": "FS_LUBLIN",
+          "values": [
+            "FS_LUBLIN"
+          ]
+        },
+        {
+          "name": "FUXIANDA",
+          "values": [
+            "FUXIANDA"
+          ]
+        },
+        {
           "name": "FORD",
           "values": [
             "FORD"
@@ -433,9 +499,33 @@
           ]
         },
         {
+          "name": "GNIOTPOL",
+          "values": [
+            "GNIOTPOL"
+          ]
+        },
+        {
+          "name": "HAOTIAN",
+          "values": [
+            "HAOTIAN"
+          ]
+        },
+        {
           "name": "HONDA",
           "values": [
             "HONDA"
+          ]
+        },
+        {
+          "name": "HUONIAO",
+          "values": [
+            "HUONIAO"
+          ]
+        },
+        {
+          "name": "HUEFFERMANN",
+          "values": [
+            "HUEFFERMANN"
           ]
         },
         {
@@ -451,9 +541,27 @@
           ]
         },
         {
+          "name": "IVECO",
+          "values": [
+            "iveco"
+          ]
+        },
+        {
+          "name": "INTERNATIONAL",
+          "values": [
+            "INTERNATIONAL"
+          ]
+        },
+        {
           "name": "JAGUAR",
           "values": [
             "JAGUAR"
+          ]
+        },
+        {
+          "name": "JAWA",
+          "values": [
+            "JAWA"
           ]
         },
         {
@@ -463,9 +571,33 @@
           ]
         },
         {
+          "name": "JUNAK",
+          "values": [
+            "JUNAK"
+          ]
+        },
+        {
+          "name": "JOHN_DEERE",
+          "values": [
+            "JOHN_DEERE"
+          ]
+        },
+        {
+          "name": "JONWAY",
+          "values": [
+            "jonway"
+          ]
+        },
+        {
           "name": "YAMAHA",
           "values": [
             "YAMAHA"
+          ]
+        },
+        {
+          "name": "KANGDA",
+          "values": [
+            "KANGDA"
           ]
         },
         {
@@ -478,6 +610,24 @@
           "name": "KAWASAKI",
           "values": [
             "KAWASAKI"
+          ]
+        },
+        {
+          "name": "KYMCO",
+          "values": [
+            "KYMCO"
+          ]
+        },
+        {
+          "name": "KOCH",
+          "values": [
+            "KOCH"
+          ]
+        },
+        {
+          "name": "KTM",
+          "values": [
+            "KTM"
           ]
         },
         {
@@ -508,6 +658,18 @@
           "name": "LEXUS",
           "values": [
             "LEXUS"
+          ]
+        },
+        {
+          "name": "LONGJIA",
+          "values": [
+            "LONGJIA"
+          ]
+        },
+        {
+          "name": "LAND_ROVER",
+          "values": [
+            "LAND_ROVER"
           ]
         },
         {
@@ -553,6 +715,12 @@
           ]
         },
         {
+          "name": "MG",
+          "values": [
+            "MG"
+          ]
+        },
+        {
           "name": "MZ",
           "values": [
             "MZ"
@@ -565,9 +733,21 @@
           ]
         },
         {
+          "name": "OGAR",
+          "values": [
+            "OGAR"
+          ]
+        },
+        {
           "name": "OPEL",
           "values": [
             "OPEL"
+          ]
+        },
+        {
+          "name": "PIAGGIO",
+          "values": [
+            "PIAGGIO"
           ]
         },
         {
@@ -592,6 +772,12 @@
           "name": "ROMET_MOTORS",
           "values": [
             "ROMET_MOTORS"
+          ]
+        },
+        {
+          "name": "ROUTER",
+          "values": [
+            "ROUTER"
           ]
         },
         {
@@ -649,6 +835,12 @@
           ]
         },
         {
+          "name": "SCHMITZ_CARGOBULL",
+          "values": [
+            "SCHMITZ_CARGOBULL"
+          ]
+        },
+        {
           "name": "SPRITE_SPORT",
           "values": [
             "SPRITE_SPORT"
@@ -661,9 +853,27 @@
           ]
         },
         {
+          "name": "SUBARU",
+          "values": [
+            "SUBARU"
+          ]
+        },
+        {
           "name": "SMART",
           "values": [
             "SMART"
+          ]
+        },
+        {
+          "name": "TATA",
+          "values": [
+            "TATA"
+          ]
+        },
+        {
+          "name": "TOROS",
+          "values": [
+            "TOROS"
           ]
         },
         {
@@ -739,9 +949,21 @@
           ]
         },
         {
+          "name": "YINMU",
+          "values": [
+            "YINMU"
+          ]
+        },
+        {
           "name": "YAMASAKI",
           "values": [
             "YAMASAKI"
+          ]
+        },
+        {
+          "name": "ZIPP",
+          "values": [
+            "ZIPP"
           ]
         }
       ],
@@ -806,6 +1028,12 @@
           "name": "CHANGED_REGISTRATION_LOCATION",
           "values": [
             "changed-registration-location"
+          ]
+        },
+        {
+          "name": "STOLEN",
+          "values": [
+            "stolen"
           ]
         }
       ]
