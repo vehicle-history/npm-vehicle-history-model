@@ -523,6 +523,12 @@
           ]
         },
         {
+          "name": "HUEFFERMANN",
+          "values": [
+            "HUEFFERMANN"
+          ]
+        },
+        {
           "name": "HYUNDAI",
           "values": [
             "HYUNDAI"
@@ -616,6 +622,12 @@
           "name": "KOCH",
           "values": [
             "KOCH"
+          ]
+        },
+        {
+          "name": "KTM",
+          "values": [
+            "KTM"
           ]
         },
         {
