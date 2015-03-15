@@ -100,6 +100,31 @@ describe('response builder test', function () {
           firstOwner: null,
           mileage: null,
           abroadRegistration: null
+        },
+        { type: 'CHANGED_REGISTRATION_LOCATION',
+          ownerType: null,
+          location: {
+            state: 'wielkopolskie',
+            country: 'PL'
+          },
+          note: null,
+          createdAt: '2012-05-12T22:00:00.000Z',
+          expireAt: null,
+          description: 'Changed registration location',
+          firstOwner: null,
+          mileage: null,
+          abroadRegistration: null
+        },
+        { type: 'STOLEN',
+          ownerType: null,
+          location: null,
+          note: null,
+          createdAt: '2012-05-12T22:00:00.000Z',
+          expireAt: null,
+          description: 'Stolen',
+          firstOwner: null,
+          mileage: null,
+          abroadRegistration: null
         }
       ]
     };
@@ -139,6 +164,8 @@ describe('response builder test', function () {
       expect(vehicle).to.have.deep.property('plate.country', 'PL');
 
       expect(vehicle).to.have.property('vin', 'ABC123456789DEF');
+
+      expect(events).to.have.length(9);
 
       expect(events).to.have.deep.property('[0].type', 'PRODUCTION');
 //      expect(events).to.have.deep.property('[0].createdAt', '2012-06-13T00:00:00.000Z');
@@ -209,6 +236,27 @@ describe('response builder test', function () {
       expect(events).to.have.deep.property('[6].expireAt', null);
       expect(events).to.have.deep.property('[6].abroadRegistration', null);
       expect(events).to.have.deep.property('[6].mileage', null);
+
+      expect(events).to.have.deep.property('[7].type', 'CHANGED_REGISTRATION_LOCATION');
+//      expect(events).to.have.deep.property('[7].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[7].note', null);
+      expect(events).to.have.deep.property('[7].firstOwner', null);
+      expect(events).to.have.deep.property('[7].ownerType', null);
+      expect(events).to.have.deep.property('[7].location.state', 'wielkopolskie');
+      expect(events).to.have.deep.property('[7].location.country', 'PL');
+      expect(events).to.have.deep.property('[7].expireAt', null);
+      expect(events).to.have.deep.property('[7].abroadRegistration', null);
+      expect(events).to.have.deep.property('[7].mileage', null);
+
+      expect(events).to.have.deep.property('[8].type', 'STOLEN');
+//      expect(events).to.have.deep.property('[8].createdAt', '2014-06-17T00:00:00.000Z');
+      expect(events).to.have.deep.property('[8].note', null);
+      expect(events).to.have.deep.property('[8].firstOwner', null);
+      expect(events).to.have.deep.property('[8].ownerType', null);
+      expect(events).to.have.deep.property('[8].location', null);
+      expect(events).to.have.deep.property('[8].expireAt', null);
+      expect(events).to.have.deep.property('[8].abroadRegistration', null);
+      expect(events).to.have.deep.property('[8].mileage', null);
 
       done();
     });
