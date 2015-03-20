@@ -191,6 +191,12 @@
           ]
         },
         {
+          "name": "LOADER",
+          "values": [
+            "loader"
+          ]
+        },
+        {
           "name": "OTHER_NOT_CAMPING",
           "values": [
             "other_not_camping"
@@ -200,6 +206,18 @@
           "name": "CITY",
           "values": [
             "city"
+          ]
+        },
+        {
+          "name": "INTERCITY",
+          "values": [
+            "intercity"
+          ]
+        },
+        {
+          "name": "CRANE",
+          "values": [
+            "crane"
           ]
         }
       ],
@@ -325,6 +343,12 @@
           ]
         },
         {
+          "name": "ALTRAD",
+          "values": [
+            "ALTRAD"
+          ]
+        },
+        {
           "name": "ALFA_ROMEO",
           "values": [
             "ALFA_ROMEO"
@@ -445,6 +469,12 @@
           ]
         },
         {
+          "name": "DERBI",
+          "values": [
+            "DERBI"
+          ]
+        },
+        {
           "name": "DODGE",
           "values": [
             "DODGE"
@@ -511,6 +541,18 @@
           ]
         },
         {
+          "name": "HAILI",
+          "values": [
+            "HAILI"
+          ]
+        },
+        {
+          "name": "HARLEY_DAVIDSON",
+          "values": [
+            "HARLEY_DAVIDSON"
+          ]
+        },
+        {
           "name": "HONDA",
           "values": [
             "HONDA"
@@ -568,6 +610,12 @@
           "name": "JEEP",
           "values": [
             "JEEP"
+          ]
+        },
+        {
+          "name": "JINCHENG",
+          "values": [
+            "JINCHENG"
           ]
         },
         {
@@ -652,6 +700,12 @@
           "name": "LIAZ",
           "values": [
             "LIAZ"
+          ]
+        },
+        {
+          "name": "LINGBEN",
+          "values": [
+            "LINGBEN"
           ]
         },
         {
@@ -799,6 +853,12 @@
           ]
         },
         {
+          "name": "SIAMOTO",
+          "values": [
+            "SIAMOTO"
+          ]
+        },
+        {
           "name": "SIMSON",
           "values": [
             "SIMSON"
@@ -895,6 +955,12 @@
           ]
         },
         {
+          "name": "TGB",
+          "values": [
+            "TGB"
+          ]
+        },
+        {
           "name": "TEMA",
           "values": [
             "TEMA"
@@ -943,6 +1009,18 @@
           ]
         },
         {
+          "name": "WIOLA",
+          "values": [
+            "WIOLA"
+          ]
+        },
+        {
+          "name": "WLADIMIREC",
+          "values": [
+            "WLADIMIREC"
+          ]
+        },
+        {
           "name": "WSK",
           "values": [
             "WSK"
@@ -955,15 +1033,33 @@
           ]
         },
         {
+          "name": "YIBEN",
+          "values": [
+            "YIBEN"
+          ]
+        },
+        {
           "name": "YAMASAKI",
           "values": [
             "YAMASAKI"
           ]
         },
         {
+          "name": "ZASŁAW",
+          "values": [
+            "ZASŁAW"
+          ]
+        },
+        {
           "name": "ZIPP",
           "values": [
             "ZIPP"
+          ]
+        },
+        {
+          "name": "ZETOR",
+          "values": [
+            "ZETOR"
           ]
         }
       ],
