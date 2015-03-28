@@ -1,3 +1,28 @@
+0.9.36 / 2015-03-28
+===================
+
+  * Merge pull request [#20](https://github.com/vehicle-history/npm-vehicle-history-model/issues/20) from vehicle-history/new-makes-and-cistern-kind
+  
+    New makes:
+    
+    * CPI
+    * DAVID_BROWN
+    * INCA
+    * KAESSBOHRER
+    * KEEWAY
+    * LANDINI
+    * SANOK
+    * SCHWARZMUELLER
+    * SHINERAY
+    * SOMMER
+    * WESTFALIA
+    * YINXIANG
+    * ZNEN
+    
+    New kinds:
+    
+    * CISTERN
+
 0.9.35 / 2015-03-21
 ===================
 
