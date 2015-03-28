@@ -179,12 +179,6 @@
           ]
         },
         {
-          "name": "OTHER",
-          "values": [
-            "other"
-          ]
-        },
-        {
           "name": "QUAD",
           "values": [
             "quad"
