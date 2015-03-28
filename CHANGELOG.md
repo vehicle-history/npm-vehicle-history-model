@@ -28,10 +28,78 @@
 
   * Merge pull request [#19](https://github.com/vehicle-history/npm-vehicle-history-model/issues/19) from vehicle-history/new-types
 
+    New makes:
+
+    * ALTRAD
+    * DERBI
+    * HAILI
+    * HARLEY_DAVIDSON
+    * JINCHENG
+    * LINGBEN
+    * SIAMOTO
+    * TGB
+    * WIOLA
+    * WLADIMIREC
+    * YIBEN
+    * ZASŁAW
+    * ZETOR
+
+    New kinds:
+
+    * LOADER
+    * INTERCITY
+    * CRANE
+
 0.9.34 / 2015-03-15
 ===================
 
   * Merge pull request [#18](https://github.com/vehicle-history/npm-vehicle-history-model/issues/18) from vehicle-history/update-enums
+
+    New makes:
+
+    * APRILIA
+    * BENZHOU
+    * BORO
+    * BOVA
+    * BAOTIAN
+    * CAN_AM
+    * COLES
+    * DAIHATSU
+    * FS_LUBLIN
+    * FUXIANDA
+    * GNIOTPOL
+    * HAOTIAN
+    * HUONIAO
+    * HUEFFERMANN
+    * IVECO
+    * INTERNATIONAL
+    * JAWA
+    * JUNAK
+    * JOHN_DEERE
+    * JONWAY
+    * KANGDA
+    * KYMCO
+    * KOCH
+    * KTM
+    * LONGJIA
+    * MG
+    * OGAR
+    * PIAGGIO
+    * ROUTER
+    * SCHMITZ_CARGOBULL
+    * SUBARU
+    * TATA
+    * TOROS
+    * YINMU
+    * ZIPP
+
+    New kinds:
+
+    * LOAD_CAPACITY_OF_8_TONS
+
+    New events:
+
+    * STOLEN
 
 0.9.33 / 2015-03-09
 ===================
