@@ -106,17 +106,62 @@
 
   * Merge pull request [#17](https://github.com/vehicle-history/npm-vehicle-history-model/issues/17) from vehicle-history/update
 
+    New makes:
+
+    * CASE_IH
+    * LDV
+    * NIEWIADOW
+    * THULE
+    * UAZ
+    * WSK
+
+    New kinds:
+
+    * HEAVY_TRAILER
+    * TROLLEY
+
 0.9.32 / 2015-03-08
 ===================
 
   * Merge pull request [#16](https://github.com/vehicle-history/npm-vehicle-history-model/issues/16) from vehicle-history/update
 
+    New makes:
+
+    * BRENDERUP
+    * DAF
+    * GMC
+    * HYOSUNG
+    * LANCIA
+    * MAJESTIC_AUTO
+    * MZ
+    * MAN
+    * RIEJU
+    * SAM
+    * SIMSON
+    * SMART
+    * YAMASAKI
+
+    New kinds:
+
+    * CITY
+
 0.9.31 / 2015-03-07
 ===================
 
-  * Bumped version
   * Merge pull request [#15](https://github.com/vehicle-history/npm-vehicle-history-model/issues/15) from vehicle-history/update-enums
-    Added new make and variant type
+
+    New makes:
+
+    * DAIMLER
+    * DODGE
+    * FERRO
+    * JEEP
+    * ROVER
+    * WAZ
+
+    New kinds:
+
+    * TRAILER
 
 0.9.30 / 2015-03-07
 ===================
@@ -124,17 +169,51 @@
   * Merge pull request [#14](https://github.com/vehicle-history/npm-vehicle-history-model/issues/14) from vehicle-history/new-enums
     Added new make and variant type
 
+    New makes:
+
+    * LIAZ
+
+    New types:
+
+    * OTHER_CAR
+
+    New kinds:
+
+    * QUAD
+
 0.9.29 / 2015-03-05
 ===================
 
   * Merge pull request [#13](https://github.com/vehicle-history/npm-vehicle-history-model/issues/13) from vehicle-history/new-types
     Added new make and variant type
 
+    New makes:
+
+    * WANGYE
+
+    New types:
+
+    * SPECIAL_CAR
+
 0.9.28 / 2015-03-04
 ===================
 
   * Merge pull request [#12](https://github.com/vehicle-history/npm-vehicle-history-model/issues/12) from vehicle-history/new-enums
     Added new enums and new event HOLDER
+
+    New makes:
+
+    * KAWASAKI
+    * ROMET_MOTORS
+    * TEMA
+
+    New types:
+
+    * MOPED
+
+    New events:
+
+    * HOLDER
 
 0.9.27 / 2015-03-04
 ===================
