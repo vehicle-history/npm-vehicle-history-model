@@ -1,3 +1,13 @@
+0.9.35 / 2015-03-21
+===================
+
+  * Merge pull request [#19](https://github.com/vehicle-history/npm-vehicle-history-model/issues/19) from vehicle-history/new-types
+
+0.9.34 / 2015-03-15
+===================
+
+  * Merge pull request [#18](https://github.com/vehicle-history/npm-vehicle-history-model/issues/18) from vehicle-history/update-enums
+
 0.9.33 / 2015-03-09
 ===================
 

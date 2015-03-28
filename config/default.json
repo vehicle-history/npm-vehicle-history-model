@@ -191,9 +191,21 @@
           ]
         },
         {
+          "name": "OTHER",
+          "values": [
+            "other"
+          ]
+        },
+        {
           "name": "LOADER",
           "values": [
             "loader"
+          ]
+        },
+        {
+          "name": "CISTERN",
+          "values": [
+            "cistern"
           ]
         },
         {
@@ -433,6 +445,12 @@
           ]
         },
         {
+          "name": "CPI",
+          "values": [
+            "CPI"
+          ]
+        },
+        {
           "name": "CASE_IH",
           "values": [
             "CASE_IH"
@@ -466,6 +484,12 @@
           "name": "DAEWOO",
           "values": [
             "DAEWOO"
+          ]
+        },
+        {
+          "name": "DAVID_BROWN",
+          "values": [
+            "DAVID_BROWN"
           ]
         },
         {
@@ -589,6 +613,12 @@
           ]
         },
         {
+          "name": "INCA",
+          "values": [
+            "INCA"
+          ]
+        },
+        {
           "name": "INTERNATIONAL",
           "values": [
             "INTERNATIONAL"
@@ -661,6 +691,18 @@
           ]
         },
         {
+          "name": "KAESSBOHRER",
+          "values": [
+            "KAESSBOHRER"
+          ]
+        },
+        {
+          "name": "KEEWAY",
+          "values": [
+            "KEEWAY"
+          ]
+        },
+        {
           "name": "KYMCO",
           "values": [
             "KYMCO"
@@ -682,6 +724,12 @@
           "name": "LANCIA",
           "values": [
             "LANCIA"
+          ]
+        },
+        {
+          "name": "LANDINI",
+          "values": [
+            "LANDINI"
           ]
         },
         {
@@ -853,6 +901,12 @@
           ]
         },
         {
+          "name": "SANOK",
+          "values": [
+            "SANOK"
+          ]
+        },
+        {
           "name": "SIAMOTO",
           "values": [
             "SIAMOTO"
@@ -901,6 +955,18 @@
           ]
         },
         {
+          "name": "SCHWARZMUELLER",
+          "values": [
+            "SCHWARZMUELLER"
+          ]
+        },
+        {
+          "name": "SHINERAY",
+          "values": [
+            "SHINERAY"
+          ]
+        },
+        {
           "name": "SPRITE_SPORT",
           "values": [
             "SPRITE_SPORT"
@@ -922,6 +988,12 @@
           "name": "SMART",
           "values": [
             "SMART"
+          ]
+        },
+        {
+          "name": "SOMMER",
+          "values": [
+            "SOMMER"
           ]
         },
         {
@@ -1009,6 +1081,12 @@
           ]
         },
         {
+          "name": "WESTFALIA",
+          "values": [
+            "WESTFALIA"
+          ]
+        },
+        {
           "name": "WIOLA",
           "values": [
             "WIOLA"
@@ -1030,6 +1108,12 @@
           "name": "YINMU",
           "values": [
             "YINMU"
+          ]
+        },
+        {
+          "name": "YINXIANG",
+          "values": [
+            "YINXIANG"
           ]
         },
         {
@@ -1060,6 +1144,12 @@
           "name": "ZETOR",
           "values": [
             "ZETOR"
+          ]
+        },
+        {
+          "name": "ZNEN",
+          "values": [
+            "ZNEN"
           ]
         }
       ],
