@@ -143,6 +143,12 @@
           ]
         },
         {
+          "name": "LOAD_CAPACITY_OF_2_TONS",
+          "values": [
+            "load_capacity_of_2_tons"
+          ]
+        },
+        {
           "name": "TROLLEY",
           "values": [
             "trolley"
@@ -345,127 +351,127 @@
         {
           "name": "AUDI",
           "values": [
-            "AUDI"
+            "audi"
           ]
         },
         {
           "name": "ALTRAD",
           "values": [
-            "ALTRAD"
+            "altrad"
           ]
         },
         {
           "name": "ALFA_ROMEO",
           "values": [
-            "ALFA_ROMEO"
+            "alfa_romeo"
           ]
         },
         {
           "name": "APRILIA",
           "values": [
-            "APRILIA"
+            "aprilia"
           ]
         },
         {
           "name": "BENTLEY",
           "values": [
-            "BENTLEY"
+            "bentley"
           ]
         },
         {
           "name": "BENZHOU",
           "values": [
-            "BENZHOU"
+            "benzhou"
           ]
         },
         {
           "name": "BRENDERUP",
           "values": [
-            "BRENDERUP"
+            "brenderup"
           ]
         },
         {
           "name": "BORO",
           "values": [
-            "BORO"
+            "boro"
           ]
         },
         {
           "name": "BOVA",
           "values": [
-            "BOVA"
+            "bova"
           ]
         },
         {
           "name": "BAOTIAN",
           "values": [
-            "BAOTIAN"
+            "baotian"
           ]
         },
         {
           "name": "BMW",
           "values": [
-            "BMW"
+            "bmw"
           ]
         },
         {
           "name": "CHEVROLET",
           "values": [
-            "CHEVROLET"
+            "chevrolet"
           ]
         },
         {
           "name": "CAN_AM",
           "values": [
-            "CAN_AM"
+            "can_am"
           ]
         },
         {
           "name": "CHRYSLER",
           "values": [
-            "CHRYSLER"
+            "chrysler"
           ]
         },
         {
           "name": "CITROEN",
           "values": [
-            "CITROEN"
+            "citroen"
           ]
         },
         {
           "name": "COLES",
           "values": [
-            "COLES"
+            "coles"
           ]
         },
         {
           "name": "CPI",
           "values": [
-            "CPI"
+            "cpi"
           ]
         },
         {
           "name": "CASE_IH",
           "values": [
-            "CASE_IH"
+            "case_ih"
           ]
         },
         {
           "name": "DACIA",
           "values": [
-            "DACIA"
+            "dacia"
           ]
         },
         {
           "name": "DAF",
           "values": [
-            "DAF"
+            "daf"
           ]
         },
         {
           "name": "DAIMLER",
           "values": [
-            "DAIMLER"
+            "daimler"
           ]
         },
         {
@@ -477,127 +483,127 @@
         {
           "name": "DAEWOO",
           "values": [
-            "DAEWOO"
+            "daewoo"
           ]
         },
         {
           "name": "DAVID_BROWN",
           "values": [
-            "DAVID_BROWN"
+            "david_brown"
           ]
         },
         {
           "name": "DERBI",
           "values": [
-            "DERBI"
+            "derbi"
           ]
         },
         {
           "name": "DODGE",
           "values": [
-            "DODGE"
+            "dodge"
           ]
         },
         {
           "name": "FIAT",
           "values": [
-            "FIAT"
+            "fiat"
           ]
         },
         {
           "name": "FERRO",
           "values": [
-            "FERRO"
+            "ferro"
           ]
         },
         {
           "name": "FSO",
           "values": [
-            "FSO"
+            "fso"
           ]
         },
         {
           "name": "FSM",
           "values": [
-            "FSM"
+            "fsm"
           ]
         },
         {
           "name": "FS_LUBLIN",
           "values": [
-            "FS_LUBLIN"
+            "fs_lublin"
           ]
         },
         {
           "name": "FUXIANDA",
           "values": [
-            "FUXIANDA"
+            "fuxianda"
           ]
         },
         {
           "name": "FORD",
           "values": [
-            "FORD"
+            "ford"
           ]
         },
         {
           "name": "GMC",
           "values": [
-            "GMC"
+            "gmc"
           ]
         },
         {
           "name": "GNIOTPOL",
           "values": [
-            "GNIOTPOL"
+            "gniotpol"
           ]
         },
         {
           "name": "HAOTIAN",
           "values": [
-            "HAOTIAN"
+            "haotian"
           ]
         },
         {
           "name": "HAILI",
           "values": [
-            "HAILI"
+            "haili"
           ]
         },
         {
           "name": "HARLEY_DAVIDSON",
           "values": [
-            "HARLEY_DAVIDSON"
+            "harley_davidson"
           ]
         },
         {
           "name": "HONDA",
           "values": [
-            "HONDA"
+            "honda"
           ]
         },
         {
           "name": "HUONIAO",
           "values": [
-            "HUONIAO"
+            "huoniao"
           ]
         },
         {
           "name": "HUEFFERMANN",
           "values": [
-            "HUEFFERMANN"
+            "hueffermann"
           ]
         },
         {
           "name": "HYUNDAI",
           "values": [
-            "HYUNDAI"
+            "hyundai"
           ]
         },
         {
           "name": "HYOSUNG",
           "values": [
-            "HYOSUNG"
+            "hyosung"
           ]
         },
         {
@@ -609,49 +615,49 @@
         {
           "name": "INCA",
           "values": [
-            "INCA"
+            "inca"
           ]
         },
         {
           "name": "INTERNATIONAL",
           "values": [
-            "INTERNATIONAL"
+            "international"
           ]
         },
         {
           "name": "JAGUAR",
           "values": [
-            "JAGUAR"
+            "jaguar"
           ]
         },
         {
           "name": "JAWA",
           "values": [
-            "JAWA"
+            "jawa"
           ]
         },
         {
           "name": "JEEP",
           "values": [
-            "JEEP"
+            "jeep"
           ]
         },
         {
           "name": "JINCHENG",
           "values": [
-            "JINCHENG"
+            "jincheng"
           ]
         },
         {
           "name": "JUNAK",
           "values": [
-            "JUNAK"
+            "junak"
           ]
         },
         {
           "name": "JOHN_DEERE",
           "values": [
-            "JOHN_DEERE"
+            "john_deere"
           ]
         },
         {
@@ -663,223 +669,229 @@
         {
           "name": "YAMAHA",
           "values": [
-            "YAMAHA"
+            "yamaha"
           ]
         },
         {
           "name": "KANGDA",
           "values": [
-            "KANGDA"
+            "kangda"
           ]
         },
         {
           "name": "KIA",
           "values": [
-            "KIA"
+            "kia"
           ]
         },
         {
           "name": "KAWASAKI",
           "values": [
-            "KAWASAKI"
+            "kawasaki"
           ]
         },
         {
           "name": "KAESSBOHRER",
           "values": [
-            "KAESSBOHRER"
+            "kaessbohrer"
           ]
         },
         {
           "name": "KEEWAY",
           "values": [
-            "KEEWAY"
+            "keeway"
           ]
         },
         {
           "name": "KYMCO",
           "values": [
-            "KYMCO"
+            "kymco"
           ]
         },
         {
           "name": "KOCH",
           "values": [
-            "KOCH"
+            "koch"
+          ]
+        },
+        {
+          "name": "KRONE",
+          "values": [
+            "krone"
           ]
         },
         {
           "name": "KTM",
           "values": [
-            "KTM"
+            "ktm"
           ]
         },
         {
           "name": "LANCIA",
           "values": [
-            "LANCIA"
+            "lancia"
           ]
         },
         {
           "name": "LANDINI",
           "values": [
-            "LANDINI"
+            "landini"
           ]
         },
         {
           "name": "LDV",
           "values": [
-            "LDV"
+            "ldv"
           ]
         },
         {
           "name": "LEXUS",
           "values": [
-            "LEXUS"
+            "lexus"
           ]
         },
         {
           "name": "LIAZ",
           "values": [
-            "LIAZ"
+            "liaz"
           ]
         },
         {
           "name": "LINGBEN",
           "values": [
-            "LINGBEN"
+            "lingben"
           ]
         },
         {
           "name": "LEXUS",
           "values": [
-            "LEXUS"
+            "lexus"
           ]
         },
         {
           "name": "LONGJIA",
           "values": [
-            "LONGJIA"
+            "longjia"
           ]
         },
         {
           "name": "LAND_ROVER",
           "values": [
-            "LAND_ROVER"
+            "land_rover"
           ]
         },
         {
           "name": "MERCEDES",
           "values": [
-            "MERCEDES"
+            "mercedes"
           ]
         },
         {
           "name": "MAZDA",
           "values": [
-            "MAZDA"
+            "mazda"
           ]
         },
         {
           "name": "MINI",
           "values": [
-            "MINI"
+            "mini"
           ]
         },
         {
           "name": "MITSUBISHI",
           "values": [
-            "MITSUBISHI"
+            "mitsubishi"
           ]
         },
         {
           "name": "MAJESTIC_AUTO",
           "values": [
-            "MAJESTIC_AUTO"
+            "majestic_auto"
           ]
         },
         {
           "name": "NISSAN",
           "values": [
-            "NISSAN"
+            "nissan"
           ]
         },
         {
           "name": "NIEWIADOW",
           "values": [
-            "NIEWIADOW"
+            "niewiadow"
           ]
         },
         {
           "name": "MG",
           "values": [
-            "MG"
+            "mg"
           ]
         },
         {
           "name": "MZ",
           "values": [
-            "MZ"
+            "mz"
           ]
         },
         {
           "name": "MAN",
           "values": [
-            "MAN"
+            "man"
           ]
         },
         {
           "name": "OGAR",
           "values": [
-            "OGAR"
+            "ogar"
           ]
         },
         {
           "name": "OPEL",
           "values": [
-            "OPEL"
+            "opel"
           ]
         },
         {
           "name": "PIAGGIO",
           "values": [
-            "PIAGGIO"
+            "piaggio"
           ]
         },
         {
           "name": "PEUGEOT",
           "values": [
-            "PEUGEOT"
+            "peugeot"
           ]
         },
         {
           "name": "RENAULT",
           "values": [
-            "RENAULT"
+            "renault"
           ]
         },
         {
           "name": "ROVER",
           "values": [
-            "ROVER"
+            "rover"
           ]
         },
         {
           "name": "ROMET_MOTORS",
           "values": [
-            "ROMET_MOTORS"
+            "romet_motors"
           ]
         },
         {
           "name": "ROUTER",
           "values": [
-            "ROUTER"
+            "router"
           ]
         },
         {
           "name": "RIEJU",
           "values": [
-            "RIEJU"
+            "rieju"
           ]
         },
         {
@@ -891,259 +903,277 @@
         {
           "name": "SAM",
           "values": [
-            "SAM"
+            "sam"
           ]
         },
         {
           "name": "SANOK",
           "values": [
-            "SANOK"
+            "sanok"
           ]
         },
         {
           "name": "SIAMOTO",
           "values": [
-            "SIAMOTO"
+            "siamoto"
           ]
         },
         {
           "name": "SIMSON",
           "values": [
-            "SIMSON"
+            "simson"
           ]
         },
         {
           "name": "SEAT",
           "values": [
-            "SEAT"
+            "seat"
           ]
         },
         {
           "name": "SKODA",
           "values": [
-            "SKODA"
+            "skoda"
           ]
         },
         {
           "name": "SUZUKI",
           "values": [
-            "SUZUKI"
+            "suzuki"
           ]
         },
         {
           "name": "SETRA",
           "values": [
-            "SETRA"
+            "setra"
           ]
         },
         {
           "name": "SCANIA",
           "values": [
-            "SCANIA"
+            "scania"
           ]
         },
         {
           "name": "SCHMITZ_CARGOBULL",
           "values": [
-            "SCHMITZ_CARGOBULL"
+            "schmitz_cargobull"
           ]
         },
         {
           "name": "SCHWARZMUELLER",
           "values": [
-            "SCHWARZMUELLER"
+            "schwarzmueller"
           ]
         },
         {
           "name": "SHINERAY",
           "values": [
-            "SHINERAY"
+            "shineray"
+          ]
+        },
+        {
+          "name": "SHENKE",
+          "values": [
+            "shenke"
           ]
         },
         {
           "name": "SPRITE_SPORT",
           "values": [
-            "SPRITE_SPORT"
+            "sprite_sport"
+          ]
+        },
+        {
+          "name": "SSANGYONG",
+          "values": [
+            "ssangyong"
+          ]
+        },
+        {
+          "name": "STAR",
+          "values": [
+            "star"
           ]
         },
         {
           "name": "SAAB",
           "values": [
-            "SAAB"
+            "saab"
           ]
         },
         {
           "name": "SUBARU",
           "values": [
-            "SUBARU"
+            "subaru"
           ]
         },
         {
           "name": "SMART",
           "values": [
-            "SMART"
+            "smart"
           ]
         },
         {
           "name": "SOMMER",
           "values": [
-            "SOMMER"
+            "sommer"
           ]
         },
         {
           "name": "TATA",
           "values": [
-            "TATA"
+            "tata"
           ]
         },
         {
           "name": "TOROS",
           "values": [
-            "TOROS"
+            "toros"
           ]
         },
         {
           "name": "TOYOTA",
           "values": [
-            "TOYOTA"
+            "toyota"
           ]
         },
         {
           "name": "TRIUMPH",
           "values": [
-            "TRIUMPH"
+            "triumph"
           ]
         },
         {
           "name": "THULE",
           "values": [
-            "THULE"
+            "thule"
           ]
         },
         {
           "name": "TGB",
           "values": [
-            "TGB"
+            "tgb"
           ]
         },
         {
           "name": "TEMA",
           "values": [
-            "TEMA"
+            "tema"
           ]
         },
         {
           "name": "URSUS",
           "values": [
-            "URSUS"
+            "ursus"
           ]
         },
         {
           "name": "UAZ",
           "values": [
-            "UAZ"
+            "uaz"
           ]
         },
         {
           "name": "VOLKSWAGEN",
           "values": [
-            "VOLKSWAGEN"
+            "volkswagen"
           ]
         },
         {
           "name": "VOLVO",
           "values": [
-            "VOLVO"
+            "volvo"
           ]
         },
         {
           "name": "VAUXHALL",
           "values": [
-            "VAUXHALL"
+            "vauxhall"
           ]
         },
         {
           "name": "WANGYE",
           "values": [
-            "WANGYE"
+            "wangye"
           ]
         },
         {
           "name": "WAZ",
           "values": [
-            "WAZ"
+            "waz"
           ]
         },
         {
           "name": "WESTFALIA",
           "values": [
-            "WESTFALIA"
+            "westfalia"
           ]
         },
         {
           "name": "WIOLA",
           "values": [
-            "WIOLA"
+            "wiola"
           ]
         },
         {
           "name": "WLADIMIREC",
           "values": [
-            "WLADIMIREC"
+            "wladimirec"
           ]
         },
         {
           "name": "WSK",
           "values": [
-            "WSK"
+            "wsk"
           ]
         },
         {
           "name": "YINMU",
           "values": [
-            "YINMU"
+            "yinmu"
           ]
         },
         {
           "name": "YINXIANG",
           "values": [
-            "YINXIANG"
+            "yinxiang"
           ]
         },
         {
           "name": "YIBEN",
           "values": [
-            "YIBEN"
+            "yiben"
           ]
         },
         {
           "name": "YAMASAKI",
           "values": [
-            "YAMASAKI"
+            "yamasaki"
           ]
         },
         {
           "name": "ZASŁAW",
           "values": [
-            "ZASŁAW"
+            "zasław"
           ]
         },
         {
           "name": "ZIPP",
           "values": [
-            "ZIPP"
+            "zipp"
           ]
         },
         {
           "name": "ZETOR",
           "values": [
-            "ZETOR"
+            "zetor"
           ]
         },
         {
           "name": "ZNEN",
           "values": [
-            "ZNEN"
+            "znen"
           ]
         }
       ],
