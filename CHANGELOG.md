@@ -1,3 +1,23 @@
+0.9.37 / 2015-04-01
+===================
+
+  * Merge pull request [#22](https://github.com/vehicle-history/npm-vehicle-history-model/issues/22) from vehicle-history/update-dependencies
+    Updated dependencies
+
+  * Merge pull request [#21](https://github.com/vehicle-history/npm-vehicle-history-model/issues/21) from vehicle-history/new-makes
+
+    New makes:
+
+    * KRONE
+    * SHENKE
+    * SSANGYONG
+    * STAR
+
+    New kinds:
+
+    * LOAD_CAPACITY_OF_2_TONS
+
+
 0.9.36 / 2015-03-28
 ===================
 
