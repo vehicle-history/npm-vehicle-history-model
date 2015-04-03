@@ -1,3 +1,25 @@
+0.9.38 / 2015-04-03
+===================
+
+  * Merge pull request [#23](https://github.com/vehicle-history/npm-vehicle-history-model/issues/23) from vehicle-history/new-enums
+
+    New makes:
+
+    * CASE
+    * DOLL
+    * FLIEGL
+    * FSR
+    * KRAZ
+    * LADA
+    * PLYMOUTH
+    * PORSCHE
+    * ZASŁAW -> ZASLAW
+
+    New kinds:
+
+    * LOAD_CAPACITY_MORE_THAN_8_TONS
+
+
 0.9.37 / 2015-04-01
 ===================
 
