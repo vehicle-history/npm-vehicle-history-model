@@ -1,3 +1,11 @@
+0.9.39 / 2015-04-03
+===================
+
+  * Merge pull request [#24](https://github.com/vehicle-history/npm-vehicle-history-model/issues/24) from vehicle-history/enum-fallback-logs
+    Changed logs for enums fallback
+  * Changed logs for enums fallback
+
+
 0.9.38 / 2015-04-03
 ===================
 
