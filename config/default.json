@@ -355,9 +355,21 @@
       ],
       "makes": [
         {
+          "name": "ACCESS",
+          "values": [
+            "access"
+          ]
+        },
+        {
           "name": "AUDI",
           "values": [
             "audi"
+          ]
+        },
+        {
+          "name": "AUTOSAN",
+          "values": [
+            "autosan"
           ]
         },
         {
@@ -541,6 +553,12 @@
           ]
         },
         {
+          "name": "FSC",
+          "values": [
+            "fsc"
+          ]
+        },
+        {
           "name": "FSO",
           "values": [
             "fso"
@@ -625,6 +643,12 @@
           ]
         },
         {
+          "name": "HURRICANE",
+          "values": [
+            "hurricane"
+          ]
+        },
+        {
           "name": "HYUNDAI",
           "values": [
             "hyundai"
@@ -652,6 +676,12 @@
           "name": "INTERNATIONAL",
           "values": [
             "international"
+          ]
+        },
+        {
+          "name": "ISUZU",
+          "values": [
+            "isuzu"
           ]
         },
         {
@@ -745,6 +775,12 @@
           ]
         },
         {
+          "name": "KOEGEL",
+          "values": [
+            "koegel"
+          ]
+        },
+        {
           "name": "KRAZ",
           "values": [
             "kraz"
@@ -790,6 +826,12 @@
           "name": "LIAZ",
           "values": [
             "liaz"
+          ]
+        },
+        {
+          "name": "LINCOLN",
+          "values": [
+            "lincoln"
           ]
         },
         {
@@ -847,15 +889,9 @@
           ]
         },
         {
-          "name": "NISSAN",
+          "name": "M_72",
           "values": [
-            "nissan"
-          ]
-        },
-        {
-          "name": "NIEWIADOW",
-          "values": [
-            "niewiadow"
+            "m_72"
           ]
         },
         {
@@ -874,6 +910,36 @@
           "name": "MAN",
           "values": [
             "man"
+          ]
+        },
+        {
+          "name": "MBK",
+          "values": [
+            "mbk"
+          ]
+        },
+        {
+          "name": "MASSEY_FERGUSON",
+          "values": [
+            "massey_ferguson"
+          ]
+        },
+        {
+          "name": "MULTICAR",
+          "values": [
+            "multicar"
+          ]
+        },
+        {
+          "name": "NISSAN",
+          "values": [
+            "nissan"
+          ]
+        },
+        {
+          "name": "NIEWIADOW",
+          "values": [
+            "niewiadow"
           ]
         },
         {
@@ -1045,6 +1111,12 @@
           ]
         },
         {
+          "name": "SLUPSK",
+          "values": [
+            "slupsk"
+          ]
+        },
+        {
           "name": "SAAB",
           "values": [
             "saab"
@@ -1069,9 +1141,21 @@
           ]
         },
         {
+          "name": "SWIDNIK_TRADE",
+          "values": [
+            "swidnik_trade"
+          ]
+        },
+        {
           "name": "TATA",
           "values": [
             "tata"
+          ]
+        },
+        {
+          "name": "TASSO",
+          "values": [
+            "tasso"
           ]
         },
         {
@@ -1084,6 +1168,12 @@
           "name": "TOYOTA",
           "values": [
             "toyota"
+          ]
+        },
+        {
+          "name": "TRABANT",
+          "values": [
+            "trabant"
           ]
         },
         {
