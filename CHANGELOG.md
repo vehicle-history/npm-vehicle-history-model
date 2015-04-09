@@ -1,3 +1,27 @@
+0.9.40 / 2015-04-09
+===================
+
+  * Merge pull request [#25](https://github.com/vehicle-history/npm-vehicle-history-model/issues/25) from vehicle-history/new-enum-values
+
+  New makes:
+
+  * ACCESS
+  * AUTOSAN
+  * FSC
+  * HURRICANE
+  * ISUZU
+  * KOEGEL
+  * LINCOLN
+  * M_72
+  * MBK
+  * MASSEY_FERGUSON
+  * MULTICAR
+  * SLUPSK
+  * SWIDNIK_TRADE
+  * TASSO
+  * TRABANT
+
+
 0.9.39 / 2015-04-03
 ===================
 
