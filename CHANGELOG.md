@@ -1,3 +1,27 @@
+0.9.41 / 2015-04-27
+===================
+
+  * Merge pull request [#26](https://github.com/vehicle-history/npm-vehicle-history-model/issues/26) from vehicle-history/new-makes-and-types
+
+  New makes:
+
+  * ASTON_MARTIN
+  * GILERA
+  * HOBBY
+  * HUSQVARNA
+  * JELCZ
+  * SANYANG
+  * STOPEXIM
+  * SYLAND
+  * WIELTON
+  * WNP_SUSKI
+  * YIYING
+
+  New variant kinds:
+
+  * PLATFORM
+
+
 0.9.40 / 2015-04-09
 ===================
 
