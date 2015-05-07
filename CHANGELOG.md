@@ -1,3 +1,25 @@
+  * Merge pull request [#27](https://github.com/vehicle-history/npm-vehicle-history-model/issues/27) from vehicle-history/new-makes
+
+  New makes
+
+  * AWO
+  * CADILLAC
+  * DAFIER
+  * FUXIN
+  * GENERAL_TRAILERS
+  * HANGLONG
+  * JANMIL
+  * JIAJI
+  * JMSTAR
+  * METAL_FACH
+  * NEW_HOLLAND
+  * PROTON
+  * RIYA
+  * RYDWAN
+  * SUPERBYKE
+  * SWIFT
+  * QINGQI
+
 0.9.41 / 2015-04-27
 ===================
 
