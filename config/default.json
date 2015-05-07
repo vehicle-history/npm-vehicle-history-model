@@ -403,6 +403,12 @@
           ]
         },
         {
+          "name": "AWO",
+          "values": [
+            "awo"
+          ]
+        },
+        {
           "name": "BENTLEY",
           "values": [
             "bentley"
@@ -448,6 +454,12 @@
           "name": "CHEVROLET",
           "values": [
             "chevrolet"
+          ]
+        },
+        {
+          "name": "CADILLAC",
+          "values": [
+            "cadillac"
           ]
         },
         {
@@ -502,6 +514,12 @@
           "name": "DAF",
           "values": [
             "daf"
+          ]
+        },
+        {
+          "name": "DAFIER",
+          "values": [
+            "dafier"
           ]
         },
         {
@@ -601,9 +619,21 @@
           ]
         },
         {
+          "name": "FUXIN",
+          "values": [
+            "fuxin"
+          ]
+        },
+        {
           "name": "FORD",
           "values": [
             "ford"
+          ]
+        },
+        {
+          "name": "GENERAL_TRAILERS",
+          "values": [
+            "general_trailers"
           ]
         },
         {
@@ -622,6 +652,12 @@
           "name": "GNIOTPOL",
           "values": [
             "gniotpol"
+          ]
+        },
+        {
+          "name": "HANGLONG",
+          "values": [
+            "hanglong"
           ]
         },
         {
@@ -721,9 +757,21 @@
           ]
         },
         {
+          "name": "JANMIL",
+          "values": [
+            "janmil"
+          ]
+        },
+        {
           "name": "JAWA",
           "values": [
             "jawa"
+          ]
+        },
+        {
+          "name": "JEEP",
+          "values": [
+            "jeep"
           ]
         },
         {
@@ -733,9 +781,9 @@
           ]
         },
         {
-          "name": "JEEP",
+          "name": "JIAJI",
           "values": [
-            "jeep"
+            "jiaji"
           ]
         },
         {
@@ -748,6 +796,12 @@
           "name": "JUNAK",
           "values": [
             "junak"
+          ]
+        },
+        {
+          "name": "JMSTAR",
+          "values": [
+            "jmstar"
           ]
         },
         {
@@ -895,15 +949,33 @@
           ]
         },
         {
-          "name": "MERCEDES",
+          "name": "MAN",
           "values": [
-            "mercedes"
+            "man"
+          ]
+        },
+        {
+          "name": "MASSEY_FERGUSON",
+          "values": [
+            "massey_ferguson"
           ]
         },
         {
           "name": "MAZDA",
           "values": [
             "mazda"
+          ]
+        },
+        {
+          "name": "MERCEDES",
+          "values": [
+            "mercedes"
+          ]
+        },
+        {
+          "name": "METAL_FACH",
+          "values": [
+            "metal_fach"
           ]
         },
         {
@@ -943,27 +1015,21 @@
           ]
         },
         {
-          "name": "MAN",
-          "values": [
-            "man"
-          ]
-        },
-        {
           "name": "MBK",
           "values": [
             "mbk"
           ]
         },
         {
-          "name": "MASSEY_FERGUSON",
-          "values": [
-            "massey_ferguson"
-          ]
-        },
-        {
           "name": "MULTICAR",
           "values": [
             "multicar"
+          ]
+        },
+        {
+          "name": "NEW_HOLLAND",
+          "values": [
+            "new_holland"
           ]
         },
         {
@@ -1015,6 +1081,12 @@
           ]
         },
         {
+          "name": "PROTON",
+          "values": [
+            "proton"
+          ]
+        },
+        {
           "name": "RENAULT",
           "values": [
             "renault"
@@ -1042,6 +1114,18 @@
           "name": "RIEJU",
           "values": [
             "rieju"
+          ]
+        },
+        {
+          "name": "RIYA",
+          "values": [
+            "riya"
+          ]
+        },
+        {
+          "name": "RYDWAN",
+          "values": [
+            "rydwan"
           ]
         },
         {
@@ -1090,6 +1174,12 @@
           "name": "SKODA",
           "values": [
             "skoda"
+          ]
+        },
+        {
+          "name": "SUPERBYKE",
+          "values": [
+            "superbyke"
           ]
         },
         {
@@ -1192,6 +1282,12 @@
           "name": "SWIDNIK_TRADE",
           "values": [
             "swidnik_trade"
+          ]
+        },
+        {
+          "name": "SWIFT",
+          "values": [
+            "swift"
           ]
         },
         {
@@ -1336,6 +1432,12 @@
           "name": "WSK",
           "values": [
             "wsk"
+          ]
+        },
+        {
+          "name": "QINGQI",
+          "values": [
+            "qingqi"
           ]
         },
         {
