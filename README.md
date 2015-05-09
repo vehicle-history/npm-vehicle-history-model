@@ -26,8 +26,11 @@ npm test
 
 ## Dependencies
 
+- [assert-plus](https://github.com/mcavage/node-assert-plus): Extra assertions on top of node&#39;s assert module
 - [async](https://github.com/caolan/async): Higher-order functions and common patterns for asynchronous code
-- [winston](https://github.com/flatiron/winston): A multi-transport async logging library for Node.js
+- [datejs](https://github.com/abritinthebay/datejs): DateJS is the most full-featured, internationalized, open-source JavaScript Date Library.
+- [winston](https://github.com/winstonjs/winston): A multi-transport async logging library for Node.js
+- [winston-loggly](https://github.com/indexzero/winston-loggly): A Loggly transport for winston
 
 ## Dev Dependencies
 
@@ -35,6 +38,7 @@ npm test
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
+
 
 
 ## Changelog
