@@ -1,3 +1,43 @@
+0.9.43 / 2015-05-24
+===================
+
+  * Merge pull request [#28](https://github.com/vehicle-history/npm-vehicle-history-model/issues/28) from vehicle-history/update-24-05-15
+
+  New makes
+
+  * BELARUS
+  * BETA
+  * BIALORUS
+  * BURSTNER
+  * CI_CARAVANS
+  * DUCATI
+  * EGLMOTOR
+  * GAZ
+  * HUATIAN
+  * IFA
+  * KREIDLER
+  * LAMBORGHINI
+  * LIFAN
+  * MALAGUTI
+  * MBK_INDUSTRIE
+  * MCC
+  * NEPTUN
+  * RHON
+  * SAMPO
+  * SONIK
+  * STEYR
+  * TAOTAO
+  * WILK
+  * ZHWEKI
+  * ZIL
+  * ZUMICO
+
+  New variant kinds:
+
+  * MPV
+
+0.9.42 / 2015-05-08
+===================
   * Merge pull request [#27](https://github.com/vehicle-history/npm-vehicle-history-model/issues/27) from vehicle-history/new-makes
 
   New makes
