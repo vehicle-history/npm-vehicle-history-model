@@ -221,6 +221,12 @@
           ]
         },
         {
+          "name": "MPV",
+          "values": [
+            "mpv"
+          ]
+        },
+        {
           "name": "OTHER_NOT_CAMPING",
           "values": [
             "other_not_camping"
@@ -421,6 +427,18 @@
           ]
         },
         {
+          "name": "BETA",
+          "values": [
+            "beta"
+          ]
+        },
+        {
+          "name": "BIALORUS",
+          "values": [
+            "bialorus"
+          ]
+        },
+        {
           "name": "BRENDERUP",
           "values": [
             "brenderup"
@@ -439,6 +457,12 @@
           ]
         },
         {
+          "name": "BURSTNER",
+          "values": [
+            "burstner"
+          ]
+        },
+        {
           "name": "BAOTIAN",
           "values": [
             "baotian"
@@ -448,6 +472,12 @@
           "name": "BMW",
           "values": [
             "bmw"
+          ]
+        },
+        {
+          "name": "BELARUS",
+          "values": [
+            "belarus"
           ]
         },
         {
@@ -478,6 +508,12 @@
           "name": "CITROEN",
           "values": [
             "citroen"
+          ]
+        },
+        {
+          "name": "CI_CARAVANS",
+          "values": [
+            "ci_caravans"
           ]
         },
         {
@@ -565,6 +601,18 @@
           ]
         },
         {
+          "name": "DUCATI",
+          "values": [
+            "ducati"
+          ]
+        },
+        {
+          "name": "EGLMOTOR",
+          "values": [
+            "eglmotor"
+          ]
+        },
+        {
           "name": "FIAT",
           "values": [
             "fiat"
@@ -631,6 +679,12 @@
           ]
         },
         {
+          "name": "GAZ",
+          "values": [
+            "gaz"
+          ]
+        },
+        {
           "name": "GENERAL_TRAILERS",
           "values": [
             "general_trailers"
@@ -691,6 +745,12 @@
           ]
         },
         {
+          "name": "HUATIAN",
+          "values": [
+            "huatian"
+          ]
+        },
+        {
           "name": "HUSQVARNA",
           "values": [
             "husqvarna"
@@ -724,6 +784,12 @@
           "name": "HYOSUNG",
           "values": [
             "hyosung"
+          ]
+        },
+        {
+          "name": "IFA",
+          "values": [
+            "ifa"
           ]
         },
         {
@@ -877,6 +943,12 @@
           ]
         },
         {
+          "name": "KREIDLER",
+          "values": [
+            "kreidler"
+          ]
+        },
+        {
           "name": "KRONE",
           "values": [
             "krone"
@@ -886,6 +958,12 @@
           "name": "KTM",
           "values": [
             "ktm"
+          ]
+        },
+        {
+          "name": "LAMBORGHINI",
+          "values": [
+            "lamborghini"
           ]
         },
         {
@@ -916,6 +994,12 @@
           "name": "LIAZ",
           "values": [
             "liaz"
+          ]
+        },
+        {
+          "name": "LIFAN",
+          "values": [
+            "lifan"
           ]
         },
         {
@@ -955,6 +1039,12 @@
           ]
         },
         {
+          "name": "MALAGUTI",
+          "values": [
+            "malaguti"
+          ]
+        },
+        {
           "name": "MASSEY_FERGUSON",
           "values": [
             "massey_ferguson"
@@ -964,6 +1054,12 @@
           "name": "MAZDA",
           "values": [
             "mazda"
+          ]
+        },
+        {
+          "name": "MBK_INDUSTRIE",
+          "values": [
+            "mbk_industrie"
           ]
         },
         {
@@ -1003,6 +1099,12 @@
           ]
         },
         {
+          "name": "MCC",
+          "values": [
+            "mcc"
+          ]
+        },
+        {
           "name": "MG",
           "values": [
             "mg"
@@ -1030,6 +1132,12 @@
           "name": "NEW_HOLLAND",
           "values": [
             "new_holland"
+          ]
+        },
+        {
+          "name": "NEPTUN",
+          "values": [
+            "neptun"
           ]
         },
         {
@@ -1093,6 +1201,12 @@
           ]
         },
         {
+          "name": "RHON",
+          "values": [
+            "rhon"
+          ]
+        },
+        {
           "name": "ROVER",
           "values": [
             "rover"
@@ -1138,6 +1252,12 @@
           "name": "SAM",
           "values": [
             "sam"
+          ]
+        },
+        {
+          "name": "SAMPO",
+          "values": [
+            "sampo"
           ]
         },
         {
@@ -1279,6 +1399,18 @@
           ]
         },
         {
+          "name": "SONIK",
+          "values": [
+            "sonik"
+          ]
+        },
+        {
+          "name": "STEYR",
+          "values": [
+            "steyr"
+          ]
+        },
+        {
           "name": "SWIDNIK_TRADE",
           "values": [
             "swidnik_trade"
@@ -1306,6 +1438,12 @@
           "name": "TASSO",
           "values": [
             "tasso"
+          ]
+        },
+        {
+          "name": "TAOTAO",
+          "values": [
+            "taotao"
           ]
         },
         {
@@ -1405,6 +1543,12 @@
           ]
         },
         {
+          "name": "WILK",
+          "values": [
+            "wilk"
+          ]
+        },
+        {
           "name": "WIOLA",
           "values": [
             "wiola"
@@ -1489,9 +1633,27 @@
           ]
         },
         {
+          "name": "ZHWEKI",
+          "values": [
+            "zhweki"
+          ]
+        },
+        {
+          "name": "ZIL",
+          "values": [
+            "zil"
+          ]
+        },
+        {
           "name": "ZNEN",
           "values": [
             "znen"
+          ]
+        },
+        {
+          "name": "ZUMICO",
+          "values": [
+            "zumico"
           ]
         }
       ],
