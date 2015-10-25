@@ -11,9 +11,9 @@
     "winston-loggly": "^1.1.0"
   },
   "devDependencies": {
-    "config": "^1.14.0",
     "chai": "^3.0.0",
-    "istanbul": "^0.3.17",
+    "config": "^1.14.0",
+    "istanbul": "^0.4.0",
     "mocha": "^2.2.5"
   },
   "scripts": {
