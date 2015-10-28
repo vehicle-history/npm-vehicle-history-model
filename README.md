@@ -1,8 +1,10 @@
 # vehicle-history-model
 [![npm version](https://badge.fury.io/js/vehicle-history-model.svg)](http://badge.fury.io/js/vehicle-history-model)
+[![bitHound Score](https://www.bithound.io/github/vehicle-history/npm-vehicle-history-model/badges/score.svg)](https://www.bithound.io/github/vehicle-history/npm-vehicle-history-model)
 [![Coverage Status](https://coveralls.io/repos/vehicle-history/npm-vehicle-history-model/badge.svg?branch=master)](https://coveralls.io/r/vehicle-history/npm-vehicle-history-model?branch=master)
 [![Build Status](https://travis-ci.org/vehicle-history/npm-vehicle-history-model.svg?branch=master)](https://travis-ci.org/vehicle-history/npm-vehicle-history-model)
 [![Dependency Status](https://david-dm.org/vehicle-history/npm-vehicle-history-model.svg)](https://david-dm.org/vehicle-history/npm-vehicle-history-model)
+[![devDependency Status](https://david-dm.org/vehicle-history/npm-vehicle-history-model/dev-status.svg)](https://david-dm.org/vehicle-history/npm-vehicle-history-model#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/vehicle-history-model.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vehicle-history-model/)
 
@@ -38,7 +40,6 @@ npm test
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
-
 
 
 ## Changelog
