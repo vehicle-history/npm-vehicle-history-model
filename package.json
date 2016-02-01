@@ -5,16 +5,16 @@
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "^1.0.0",
-    "async": "^1.5.0",
+    "async": "^1.5.2",
     "datejs": "^1.0.0-rc3",
     "winston": "^2.1.1",
-    "winston-loggly": "^1.2.0"
+    "winston-loggly": "^1.3.1"
   },
   "devDependencies": {
-    "config": "^1.17.1",
-    "chai": "^3.4.1",
-    "istanbul": "^0.4.1",
-    "mocha": "^2.3.4"
+    "config": "^1.19.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
   },
   "scripts": {
     "prepublish": "npm prune",
