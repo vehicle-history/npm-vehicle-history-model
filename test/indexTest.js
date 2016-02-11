@@ -74,6 +74,15 @@ describe('index test', function () {
     done();
   });
 
+  it('should export vehicleReportsCollection model', function (done) {
+
+    var vehicleReportsCollection = index.model.vehicleReportsCollection;
+    should.exist(vehicleReportsCollection);
+    should.exist(vehicleReportsCollection.VehicleReportsCollection);
+    should.exist(vehicleReportsCollection.VehicleReportsCollectionBuilder);
+    done();
+  });
+
   it('should export resolver', function (done) {
 
     var resolver = index.resolver.resolver;
