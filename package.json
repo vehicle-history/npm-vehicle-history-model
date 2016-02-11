@@ -1,6 +1,6 @@
 {
   "name": "vehicle-history-model",
-  "version": "0.9.49",
+  "version": "0.10.0",
   "description": "Vehicle history model.",
   "main": "./index.js",
   "dependencies": {
@@ -42,9 +42,9 @@
   "license": "MIT",
   "homepage": "https://github.com/vehicle-history/npm-vehicle-history-model",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=5.6.0"
   },
   "readmeFilename": "README.md",
-  "_id": "vehicle-history-model@0.9.49",
-  "_from": "vehicle-history-model@^0.9.49"
+  "_id": "vehicle-history-model@0.10.0",
+  "_from": "vehicle-history-model@^0.10.0"
 }
