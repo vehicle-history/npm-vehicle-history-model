@@ -24,8 +24,8 @@ describe('vehicleReportsCollection model test', function () {
   it('should create model by builder', function (done) {
 
     var vehicleReportsCollectionModel = new vehicleReportsCollection.VehicleReportsCollectionBuilder()
-      .withVehicle(count)
-      .withEvents(vehicleReports)
+      .withCount(count)
+      .withVehicleReports(vehicleReports)
       .build();
 
     should.exist(vehicleReportsCollectionModel);
