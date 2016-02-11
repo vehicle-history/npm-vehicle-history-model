@@ -40,7 +40,15 @@ module.exports = {
      * @type report
      * @static
      */
-    report: require('./lib/model/response/report')
+    report: require('./lib/model/response/report'),
+
+    /**
+     * the vehicleReportsCollection model and builder.
+     * @property vehicleReportsCollection
+     * @type vehicleReportsCollection
+     * @static
+     */
+    vehicleReportsCollection: require('./lib/model/response/vehicleReportsCollection')
   },
 
   /**
