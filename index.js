@@ -17,6 +17,10 @@ module.exports = {
     eventsResolver: require('./lib/resolver/eventsResolver'),
     vehicleResolver: require('./lib/resolver/vehicleResolver')
   },
+  enum: {
+    eventEnum: require('./lib/enum/eventEnum'),
+    variantEnum: require('./lib/enum/variantEnum')
+  },
   model: {
     /**
      * the searchCarRequest model and builder.
@@ -48,7 +52,11 @@ module.exports = {
      * @type vehicleReportsCollection
      * @static
      */
-    vehicleReportsCollection: require('./lib/model/response/vehicleReportsCollection')
+    vehicleReportsCollection: require('./lib/model/response/vehicleReportsCollection'),
+
+    changedRegistrationLocationEvent: require('./lib/model/response/event/changedRegistrationLocationEvent'),
+    inspectionEvent: require('./lib/model/response/event/inspectionEvent'),
+    location: require('./lib/model/response/vehicle/location')
   },
 
   /**

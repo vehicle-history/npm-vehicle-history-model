@@ -47,6 +47,20 @@ describe('index test', function () {
     done();
   });
 
+  it('should export eventEnum function', function (done) {
+
+    var eventEnum = index.enum.eventEnum;
+    should.exist(eventEnum);
+    done();
+  });
+
+  it('should export variantEnum function', function (done) {
+
+    var variantEnum = index.enum.variantEnum;
+    should.exist(variantEnum);
+    done();
+  });
+
   it('should export SearchCarRequest model', function (done) {
 
     var searchCarRequest = index.model.searchCarRequest;
@@ -80,6 +94,27 @@ describe('index test', function () {
     should.exist(vehicleReportsCollection);
     should.exist(vehicleReportsCollection.VehicleReportsCollection);
     should.exist(vehicleReportsCollection.VehicleReportsCollectionBuilder);
+    done();
+  });
+
+  it('should export changedRegistrationLocationEvent function', function (done) {
+
+    var changedRegistrationLocationEvent = index.model.changedRegistrationLocationEvent;
+    should.exist(changedRegistrationLocationEvent);
+    done();
+  });
+
+  it('should export inspectionEvent function', function (done) {
+
+    var inspectionEvent = index.model.inspectionEvent;
+    should.exist(inspectionEvent);
+    done();
+  });
+
+  it('should export location function', function (done) {
+
+    var location = index.model.location;
+    should.exist(location);
     done();
   });
 
