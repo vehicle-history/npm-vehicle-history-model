@@ -118,6 +118,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export mileage function', function (done) {
+
+    var mileage = index.model.mileage;
+    should.exist(mileage);
+    done();
+  });
+
   it('should export resolver', function (done) {
 
     var resolver = index.resolver.resolver;

@@ -56,7 +56,8 @@ module.exports = {
 
     changedRegistrationLocationEvent: require('./lib/model/response/event/changedRegistrationLocationEvent'),
     inspectionEvent: require('./lib/model/response/event/inspectionEvent'),
-    location: require('./lib/model/response/vehicle/location')
+    location: require('./lib/model/response/vehicle/location'),
+    mileage: require('./lib/model/response/vehicle/mileage')
   },
 
   /**
