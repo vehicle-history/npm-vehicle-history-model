@@ -19,7 +19,8 @@ module.exports = {
   },
   enum: {
     eventEnum: require('./lib/enum/eventEnum'),
-    variantEnum: require('./lib/enum/variantEnum')
+    variantEnum: require('./lib/enum/variantEnum'),
+    mileageEnum: require('./lib/enum/mileageEnum')
   },
   model: {
     /**

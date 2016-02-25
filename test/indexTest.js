@@ -61,6 +61,13 @@ describe('index test', function () {
     done();
   });
 
+  it('should export mileageEnum function', function (done) {
+
+    var mileageEnum = index.enum.mileageEnum;
+    should.exist(mileageEnum);
+    done();
+  });
+
   it('should export SearchCarRequest model', function (done) {
 
     var searchCarRequest = index.model.searchCarRequest;
