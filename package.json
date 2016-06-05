@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "config": "1.20.4",
+    "config": "^1.21.0",
     "istanbul": "0.4.3",
     "mocha": "2.5.3"
   },
