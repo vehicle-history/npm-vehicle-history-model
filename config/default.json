@@ -409,6 +409,12 @@
           ]
         },
         {
+          "name": "AIXAM",
+          "values": [
+            "aixam"
+          ]
+        },
+        {
           "name": "AWO",
           "values": [
             "awo"
@@ -1411,6 +1417,12 @@
           ]
         },
         {
+          "name": "STEMA",
+          "values": [
+            "stema"
+          ]
+        },
+        {
           "name": "SWIDNIK_TRADE",
           "values": [
             "swidnik_trade"
@@ -1426,6 +1438,12 @@
           "name": "SYLAND",
           "values": [
             "syland"
+          ]
+        },
+        {
+          "name": "SYM",
+          "values": [
+            "sym"
           ]
         },
         {
