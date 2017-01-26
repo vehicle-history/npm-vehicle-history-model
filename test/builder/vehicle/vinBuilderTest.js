@@ -1,31 +1,31 @@
-var options = require('config');
-var vinBuilder = require('../../../lib/builder/vehicle/vinBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const vinBuilder = require('../../../lib/builder/vehicle/vinBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car vin builder test', function () {
+describe('car vin builder test', () => {
 
-  it('should return vin', function (done) {
+  it('should return vin', done => {
 
-    var map = {
+    const map = {
       'vin.value': 'number'
     };
 
-    var response = vinBuilder.build(map);
+    const response = vinBuilder.build(map);
 
     response.should.equal('number');
 
     done();
   });
 
-  it('should return null', function (done) {
+  it('should return null', done => {
 
-    var map = {
+    const map = {
       'vin.value': null
     };
 
-    var response = vinBuilder.build(map);
+    const response = vinBuilder.build(map);
     expect(response).to.be.null;
     done();
   });

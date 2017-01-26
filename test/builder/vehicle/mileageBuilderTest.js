@@ -1,19 +1,19 @@
-var options = require('config');
-var mileageBuilder = require('../../../lib/builder/vehicle/mileageBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const mileageBuilder = require('../../../lib/builder/vehicle/mileageBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car mileage builder test', function () {
+describe('car mileage builder test', () => {
 
-  it('should build mileage model', function (done) {
+  it('should build mileage model', done => {
 
-    var map = {
+    const map = {
       'mileage.value': 13981,
       'mileage.type': 'MILE'
     };
 
-    var response = mileageBuilder.build(map);
+    const response = mileageBuilder.build(map);
 
     should.exist(response);
     should.exist(response.value);
@@ -23,14 +23,14 @@ describe('car mileage builder test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'mileage.value': null,
       'mileage.type': null
     };
 
-    var response = mileageBuilder.build(map);
+    const response = mileageBuilder.build(map);
     expect(response).to.be.null;
     done();
   });

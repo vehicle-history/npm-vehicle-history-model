@@ -1,24 +1,24 @@
-var chai = require('chai');
-var should = chai.should();
-var car = require('../../../lib/model/response/car');
+const chai = require('chai');
+const should = chai.should();
+const car = require('../../../lib/model/response/car');
 
-describe('car model test', function () {
+describe('car model test', () => {
 
-  var name = {name: 'name'};
-  var type = {type: 'type'};
-  var engine = {engine: 'engine'};
-  var production = {production: 'production'};
-  var policy = {policy: 'policy'};
-  var registration = {registration: 'registration'};
-  var inspection = {inspection: 'inspection'};
-  var mileage = {mileage: 'mileage'};
-  var stolen = {stolen: 'stolen'};
-  var plate = {plate: 'plate'};
-  var vin = {vin: 'vin'};
+  const name = 'name';
+  const type = 'type';
+  const engine = 'engine';
+  const production = 'production';
+  const policy = 'policy';
+  const registration = 'registration';
+  const inspection = 'inspection';
+  const mileage = 'mileage';
+  const stolen = 'stolen';
+  const plate = 'plate';
+  const vin = 'vin';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var carModel = new car.Car(
+    const carModel = new car.Car(
       name,
       type,
       engine,
@@ -44,13 +44,12 @@ describe('car model test', function () {
     carModel.stolen.should.be.equal(stolen);
     carModel.plate.should.be.equal(plate);
     carModel.vin.should.be.equal(vin);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var carModel = new car.CarBuilder()
+    const carModel = new car.CarBuilder()
       .withName(name)
       .withType(type)
       .withEngine(engine)
@@ -76,7 +75,6 @@ describe('car model test', function () {
     carModel.stolen.should.be.equal(stolen);
     carModel.plate.should.be.equal(plate);
     carModel.vin.should.be.equal(vin);
-
     done();
   });
 

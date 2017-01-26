@@ -1,14 +1,14 @@
-var options = require('config');
-var carPlateResolver = require('../../../lib/resolver/vehicle/carPlateResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carPlateResolver = require('../../../lib/resolver/vehicle/carPlateResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car plate resolver test', function () {
+describe('car plate resolver test', () => {
 
-  it('should return plate', function (done) {
+  it('should return plate', done => {
 
-    var map = {
+    const map = {
       'plate.value': 'PAA 1111',
       'plate.country': 'pl'
     };
@@ -23,9 +23,9 @@ describe('car plate resolver test', function () {
     done();
   });
 
-  it('should return UNKNOWN country for null values', function (done) {
+  it('should return UNKNOWN country for null values', done => {
 
-    var map = {
+    const map = {
       'plate.value': null,
       'plate.country': null
     };
@@ -38,9 +38,9 @@ describe('car plate resolver test', function () {
     done();
   });
 
-  it('should return UNKNOWN country for unknown value and null plate', function (done) {
+  it('should return UNKNOWN country for unknown value and null plate', done => {
 
-    var map = {
+    const map = {
       'plate.value': null,
       'plate.country': 'unknown'
     };
@@ -54,9 +54,9 @@ describe('car plate resolver test', function () {
   });
 
 
-  it('should return UNKNOWN country for unknown value', function (done) {
+  it('should return UNKNOWN country for unknown value', done => {
 
-    var map = {
+    const map = {
       'plate.value': 'PAA 1111',
       'plate.country': 'unknown-value'
     };

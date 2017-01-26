@@ -1,30 +1,35 @@
-var chai = require('chai');
-var should = chai.should();
-var location = require('../../../../lib/model/response/vehicle/location');
+const chai = require('chai');
+const should = chai.should();
+const location = require('../../../../lib/model/response/vehicle/location');
 
-describe('location model test', function () {
+describe('location model test', () => {
 
-  it('should create model', function (done) {
+  const country = 'country';
+  const state = 'state';
 
-    var locationModel = new location.Location('wielkopolskie', 'PL');
+  it('should create model', done => {
+
+    const locationModel = new location.Location(
+      country,
+      state
+    );
+
     should.exist(locationModel);
-    locationModel.state.should.be.equal('wielkopolskie');
-    locationModel.country.should.be.equal('PL');
-
+    locationModel.country.should.be.equal(country);
+    locationModel.state.should.be.equal(state);
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var locationModel = new location.LocationBuilder()
-      .withState('wielkopolskie')
-      .withCountry('PL')
+    const locationModel = new location.LocationBuilder()
+      .withCountry(country)
+      .withState(state)
       .build();
 
     should.exist(locationModel);
-    locationModel.state.should.be.equal('wielkopolskie');
-    locationModel.country.should.be.equal('PL');
-
+    locationModel.country.should.be.equal(country);
+    locationModel.state.should.be.equal(state);
     done();
   });
 

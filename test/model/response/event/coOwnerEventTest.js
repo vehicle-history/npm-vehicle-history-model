@@ -1,17 +1,17 @@
-var chai = require('chai');
-var should = chai.should();
-var coOwnerEvent = require('../../../../lib/model/response/event/coOwnerEvent');
+const chai = require('chai');
+const should = chai.should();
+const coOwnerEvent = require('../../../../lib/model/response/event/coOwnerEvent');
 
-describe('coOwnerEvent model test', function () {
+describe('coOwnerEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var ownerType = 'PRIVATE';
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const ownerType = 'PRIVATE';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new coOwnerEvent.ChangeOwnerEvent(
+    const model = new coOwnerEvent.CoOwnerEvent(
       type, createdAt, description, ownerType
     );
 
@@ -24,9 +24,9 @@ describe('coOwnerEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new coOwnerEvent.ChangeOwnerEventBuilder()
+    const model = new coOwnerEvent.CoOwnerEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

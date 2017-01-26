@@ -1,16 +1,16 @@
-var chai = require('chai');
-var should = chai.should();
-var nameModule = require('../../../../lib/model/response/vehicle/name');
+const chai = require('chai');
+const should = chai.should();
+const nameModule = require('../../../../lib/model/response/vehicle/name');
 
-describe('name model test', function () {
+describe('name model test', () => {
 
-  var make = 'KIA';
-  var name = 'UB';
-  var model = 'Rio';
+  const make = 'make';
+  const name = 'name';
+  const model = 'model';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var nameModel = new nameModule.Name(
+    const nameModel = new nameModule.Name(
       make,
       name,
       model
@@ -20,13 +20,12 @@ describe('name model test', function () {
     nameModel.make.should.be.equal(make);
     nameModel.name.should.be.equal(name);
     nameModel.model.should.be.equal(model);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var nameModel = new nameModule.NameBuilder()
+    const nameModel = new nameModule.NameBuilder()
       .withMake(make)
       .withName(name)
       .withModel(model)
@@ -36,7 +35,6 @@ describe('name model test', function () {
     nameModel.make.should.be.equal(make);
     nameModel.name.should.be.equal(name);
     nameModel.model.should.be.equal(model);
-
     done();
   });
 

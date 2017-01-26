@@ -1,16 +1,16 @@
-var chai = require('chai');
-var should = chai.should();
-var productionEvent = require('../../../../lib/model/response/event/productionEvent');
+const chai = require('chai');
+const should = chai.should();
+const productionEvent = require('../../../../lib/model/response/event/productionEvent');
 
-describe('productionEvent model test', function () {
+describe('productionEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new productionEvent.ProductionEvent(
+    const model = new productionEvent.ProductionEvent(
       type, createdAt, description
     );
 
@@ -22,9 +22,9 @@ describe('productionEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new productionEvent.ProductionEventBuilder()
+    const model = new productionEvent.ProductionEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

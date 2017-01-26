@@ -1,15 +1,15 @@
-var chai = require('chai');
-var should = chai.should();
-var mileage = require('../../../../lib/model/response/vehicle/mileage');
+const chai = require('chai');
+const should = chai.should();
+const mileage = require('../../../../lib/model/response/vehicle/mileage');
 
-describe('mileage model test', function () {
+describe('mileage model test', () => {
 
-  var value = 1234;
-  var type = 'KM';
+  const value = 'value';
+  const type = 'type';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var mileageModel = new mileage.Mileage(
+    const mileageModel = new mileage.Mileage(
       value,
       type
     );
@@ -17,13 +17,12 @@ describe('mileage model test', function () {
     should.exist(mileageModel);
     mileageModel.value.should.be.equal(value);
     mileageModel.type.should.be.equal(type);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var mileageModel = new mileage.MileageBuilder()
+    const mileageModel = new mileage.MileageBuilder()
       .withValue(value)
       .withType(type)
       .build();
@@ -31,7 +30,6 @@ describe('mileage model test', function () {
     should.exist(mileageModel);
     mileageModel.value.should.be.equal(value);
     mileageModel.type.should.be.equal(type);
-
     done();
   });
 

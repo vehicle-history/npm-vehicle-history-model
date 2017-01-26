@@ -1,41 +1,41 @@
-var options = require('config');
-var stoleBuilder = require('../../../lib/builder/vehicle/stoleBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const stoleBuilder = require('../../../lib/builder/vehicle/stoleBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car stole builder test', function () {
+describe('car stole builder test', () => {
 
-  it('should return true for stolen car', function (done) {
+  it('should return true for stolen car', done => {
 
-    var map = {
+    const map = {
       'status.stolen': true
     };
 
-    var response = stoleBuilder.build(map);
+    const response = stoleBuilder.build(map);
 
     expect(response).to.be.true;
     done();
   });
 
-  it('should return false for not stolen', function (done) {
+  it('should return false for not stolen', done => {
 
-    var map = {
+    const map = {
       'status.stolen': false
     };
 
-    var response = stoleBuilder.build(map);
+    const response = stoleBuilder.build(map);
     expect(response).to.be.false;
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'status.stolen': null
     };
 
-    var response = stoleBuilder.build(map);
+    const response = stoleBuilder.build(map);
     expect(response).to.be.fale;
     done();
   });

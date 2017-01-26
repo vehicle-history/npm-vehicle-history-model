@@ -1,14 +1,14 @@
-var options = require('config');
-var eventsResponseBuilder = require('../../lib/builder/eventsResponseBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const eventsResponseBuilder = require('../../lib/builder/eventsResponseBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('events response builder test', function () {
+describe('events response builder test', () => {
 
-  it('should build events response', function (done) {
+  it('should build events response', done => {
 
-    var map = {
+    const map = {
       'plate.value': 'AAE 1111',
       'plate.country': 'PL',
       'production.year': 1988,
@@ -124,7 +124,7 @@ describe('events response builder test', function () {
       ]
     };
 
-    eventsResponseBuilder.build(map, function (err, events) {
+    eventsResponseBuilder.build(map, (err, events) => {
       should.exist(events);
       expect(events).to.have.length(10);
 

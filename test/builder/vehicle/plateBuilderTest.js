@@ -1,61 +1,61 @@
-var options = require('config');
-var plateBuilder = require('../../../lib/builder/vehicle/plateBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const plateBuilder = require('../../../lib/builder/vehicle/plateBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car plate builder test', function () {
+describe('car plate builder test', () => {
 
-  it('should return plate', function (done) {
+  it('should return plate', done => {
 
-    var map = {
+    const map = {
       'plate.value': 'PAA 1111',
       'plate.country': 'PL'
     };
 
-    var response = plateBuilder.build(map);
+    const response = plateBuilder.build(map);
     response.value.should.equal('PAA 1111');
     response.country.should.equal('PL');
 
     done();
   });
 
-  it('should return null for empty value', function (done) {
+  it('should return null for empty value', done => {
 
-    var map = {
+    const map = {
       'plate.value': '',
       'plate.country': ''
     };
 
-    var response = plateBuilder.build(map);
+    const response = plateBuilder.build(map);
     expect(response).to.be.null;
 
     done();
   });
 
 
-  it('should return null for UNKNOWN country and null value', function (done) {
+  it('should return null for UNKNOWN country and null value', done => {
 
-    var map = {
+    const map = {
       'plate.value': null,
       'plate.country': 'UNKNOWN'
     };
 
-    var response = plateBuilder.build(map);
+    const response = plateBuilder.build(map);
     expect(response).to.be.null;
 
     done();
 
   });
 
-  it('should return UNKNOWN country for unknown value', function (done) {
+  it('should return UNKNOWN country for unknown value', done => {
 
-    var map = {
+    const map = {
       'plate.value': 'PAA 1111',
       'plate.country': 'UNKNOWN'
     };
 
-    var response = plateBuilder.build(map);
+    const response = plateBuilder.build(map);
     response.value.should.equal('PAA 1111');
     response.country.should.equal('UNKNOWN');
 

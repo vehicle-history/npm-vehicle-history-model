@@ -1,18 +1,18 @@
-var options = require('config');
-var policyBuilder = require('../../../lib/builder/vehicle/policyBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const policyBuilder = require('../../../lib/builder/vehicle/policyBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car policy builder test', function () {
+describe('car policy builder test', () => {
 
-  it('should return valid policy', function (done) {
+  it('should return valid policy', done => {
 
-    var map = {
+    const map = {
       'policy.status': 'UPTODATE'
     };
 
-    var response = policyBuilder.build(map);
+    const response = policyBuilder.build(map);
 
     should.exist(response);
     should.exist(response.status);
@@ -20,13 +20,13 @@ describe('car policy builder test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'policy.status': null
     };
 
-    var response = policyBuilder.build(map);
+    const response = policyBuilder.build(map);
     expect(response).to.be.null;
     done();
   });

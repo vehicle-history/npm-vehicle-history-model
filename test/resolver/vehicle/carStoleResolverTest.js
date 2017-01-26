@@ -1,13 +1,13 @@
-var carStoleResolver = require('../../../lib/resolver/vehicle/carStoleResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const carStoleResolver = require('../../../lib/resolver/vehicle/carStoleResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car stolen status resolver test', function () {
+describe('car stolen status resolver test', () => {
 
-  it('should be stolen status', function (done) {
+  it('should be stolen status', done => {
 
-    var map = {
+    const map = {
       'status.stolen': 'skradziony'
     };
 
@@ -16,9 +16,9 @@ describe('car stolen status resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'status.stolen': null
     };
 

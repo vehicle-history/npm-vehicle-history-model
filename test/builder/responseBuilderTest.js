@@ -1,15 +1,15 @@
-var options = require('config');
-var SearchCarRequest = require('../../lib/model/searchCarRequest').SearchCarRequest;
-var responseBuilder = require('../../lib/builder/responseBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const SearchCarRequest = require('../../lib/model/searchCarRequest').SearchCarRequest;
+const responseBuilder = require('../../lib/builder/responseBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('response builder test', function () {
+describe('response builder test', () => {
 
-  it('should build response', function (done) {
+  it('should build response', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
@@ -129,13 +129,13 @@ describe('response builder test', function () {
       ]
     };
 
-    responseBuilder.build(map, options, function (err, response) {
+    responseBuilder.build(map, options, (err, response) => {
 
       should.exist(response, 'response');
       should.exist(response.vehicle, 'response.vehicle');
       should.exist(response.events, 'response.events');
-      var vehicle = response.vehicle;
-      var events = response.events;
+      const vehicle = response.vehicle;
+      const events = response.events;
 
       expect(vehicle).to.have.deep.property('name.make', 'AUDI');
       expect(vehicle).to.have.deep.property('name.name', 'name');

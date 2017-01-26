@@ -1,16 +1,16 @@
-var chai = require('chai');
-var should = chai.should();
-var stolenEvent = require('../../../../lib/model/response/event/stolenEvent');
+const chai = require('chai');
+const should = chai.should();
+const stolenEvent = require('../../../../lib/model/response/event/stolenEvent');
 
-describe('stolenEvent model test', function () {
+describe('stolenEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new stolenEvent.StolenEvent(
+    const model = new stolenEvent.StolenEvent(
       type, createdAt, description
     );
 
@@ -22,9 +22,9 @@ describe('stolenEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new stolenEvent.StolenEventBuilder()
+    const model = new stolenEvent.StolenEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

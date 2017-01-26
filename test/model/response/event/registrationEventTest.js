@@ -1,17 +1,17 @@
-var chai = require('chai');
-var should = chai.should();
-var registrationEvent = require('../../../../lib/model/response/event/registrationEvent');
+const chai = require('chai');
+const should = chai.should();
+const registrationEvent = require('../../../../lib/model/response/event/registrationEvent');
 
-describe('registrationEvent model test', function () {
+describe('registrationEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var abroadRegistration = true;
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const abroadRegistration = true;
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new registrationEvent.RegistrationEvent(
+    const model = new registrationEvent.RegistrationEvent(
       type, createdAt, description, abroadRegistration
     );
 
@@ -24,9 +24,9 @@ describe('registrationEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new registrationEvent.RegistrationEventBuilder()
+    const model = new registrationEvent.RegistrationEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

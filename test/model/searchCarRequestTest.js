@@ -1,17 +1,17 @@
-var chai = require('chai');
-var should = chai.should();
-var searchCarRequest = require('../../lib/model/searchCarRequest');
+const chai = require('chai');
+const should = chai.should();
+const searchCarRequest = require('../../lib/model/searchCarRequest');
 
-describe('searchCarRequest model test', function () {
+describe('searchCarRequest model test', () => {
 
-  var plate = 'AAS 12345';
-  var vin = 'vinvinvin';
-  var firstRegistrationDate = '12.01.1988';
-  var country = 'PL';
+  const plate = 'AAS 12345';
+  const vin = 'vinvinvin';
+  const firstRegistrationDate = '12.01.1988';
+  const country = 'PL';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new searchCarRequest.SearchCarRequest(
+    const model = new searchCarRequest.SearchCarRequest(
       plate,
       vin,
       firstRegistrationDate,
@@ -27,9 +27,9 @@ describe('searchCarRequest model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new searchCarRequest.SearchCarRequestBuilder()
+    const model = new searchCarRequest.SearchCarRequestBuilder()
       .withPlate(plate)
       .withVin(vin)
       .withFirstRegistrationDate(firstRegistrationDate)

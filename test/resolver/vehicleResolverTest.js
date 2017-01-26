@@ -1,14 +1,14 @@
-var options = require('config');
-var carResolver = require('../../lib/resolver/vehicleResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carResolver = require('../../lib/resolver/vehicleResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('vehicle resolver test', function () {
+describe('vehicle resolver test', () => {
 
-  it('should resolve vehicle data', function (done) {
+  it('should resolve vehicle data', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
@@ -29,7 +29,7 @@ describe('vehicle resolver test', function () {
       'vin.value': 'ABC123456789DEF'
     };
 
-    carResolver.resolver(map, options, function (err, map) {
+    carResolver.resolver(map, options, (err, map) => {
 
       should.exist(map, 'map');
 

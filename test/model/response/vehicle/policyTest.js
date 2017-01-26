@@ -1,32 +1,30 @@
-var chai = require('chai');
-var should = chai.should();
-var policy = require('../../../../lib/model/response/vehicle/policy');
+const chai = require('chai');
+const should = chai.should();
+const policy = require('../../../../lib/model/response/vehicle/policy');
 
-describe('policy model test', function () {
+describe('policy model test', () => {
 
-  var status = 'UNKNOWN';
+  const status = 'status';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var policyModel = new policy.Policy(
+    const policyModel = new policy.Policy(
       status
     );
 
     should.exist(policyModel);
     policyModel.status.should.be.equal(status);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var policyModel = new policy.PolicyBuilder()
+    const policyModel = new policy.PolicyBuilder()
       .withStatus(status)
       .build();
 
     should.exist(policyModel);
     policyModel.status.should.be.equal(status);
-
     done();
   });
 

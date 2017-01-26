@@ -1,14 +1,14 @@
-var options = require('config');
-var carVariantResolver = require('../../../lib/resolver/vehicle/carVariantResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carVariantResolver = require('../../../lib/resolver/vehicle/carVariantResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car variant resolver test', function () {
+describe('car variant resolver test', () => {
 
-  it('should return valid type and kind', function (done) {
+  it('should return valid type and kind', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'car',
       'variant.kind': 'hatchback'
     };
@@ -24,9 +24,9 @@ describe('car variant resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'variant.type': null,
       'variant.kind': null
     };
@@ -42,9 +42,9 @@ describe('car variant resolver test', function () {
     done();
   });
 
-  it('should return object with some null values', function (done) {
+  it('should return object with some null values', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'car',
       'variant.kind': null
     };
@@ -61,9 +61,9 @@ describe('car variant resolver test', function () {
     done();
   });
 
-  it('should return default type for unknown value', function (done) {
+  it('should return default type for unknown value', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'unknown',
       'variant.kind': null
     };
@@ -79,9 +79,9 @@ describe('car variant resolver test', function () {
     done();
   });
 
-  it('should return default kind for unknown value and default type for unknown value', function (done) {
+  it('should return default kind for unknown value and default type for unknown value', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'unknown',
       'variant.kind': 'unknown'
     };

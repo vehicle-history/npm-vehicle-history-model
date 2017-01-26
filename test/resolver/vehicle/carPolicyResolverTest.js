@@ -1,14 +1,14 @@
-var options = require('config');
-var carPolicyResolver = require('../../../lib/resolver/vehicle/carPolicyResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carPolicyResolver = require('../../../lib/resolver/vehicle/carPolicyResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car policy resolver test', function () {
+describe('car policy resolver test', () => {
 
-  it('should return valid policy', function (done) {
+  it('should return valid policy', done => {
 
-    var map = {
+    const map = {
       'policy.status': 'actual'
     };
 
@@ -19,9 +19,9 @@ describe('car policy resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'policy.status': null
     };
 

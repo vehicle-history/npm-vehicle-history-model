@@ -1,13 +1,13 @@
-var carProductionResolver = require('../../../lib/resolver/vehicle/carProductionResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const carProductionResolver = require('../../../lib/resolver/vehicle/carProductionResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car production resolver test', function () {
+describe('car production resolver test', () => {
 
-  it('should return valid production object', function (done) {
+  it('should return valid production object', done => {
 
-    var map = {
+    const map = {
       'production.year': '2011'
     };
 
@@ -20,9 +20,9 @@ describe('car production resolver test', function () {
 
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'production.year': null
     };
 
