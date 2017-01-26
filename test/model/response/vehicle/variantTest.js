@@ -1,15 +1,15 @@
-var chai = require('chai');
-var should = chai.should();
-var variant = require('../../../../lib/model/response/vehicle/variant');
+const chai = require('chai');
+const should = chai.should();
+const variant = require('../../../../lib/model/response/vehicle/variant');
 
-describe('variant model test', function () {
+describe('variant model test', () => {
 
-  var type = 'UNKNOWN';
-  var kind = 'UNKNOWN_KIND';
+  const type = 'type';
+  const kind = 'kind';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var variantModel = new variant.Variant(
+    const variantModel = new variant.Variant(
       type,
       kind
     );
@@ -17,13 +17,12 @@ describe('variant model test', function () {
     should.exist(variantModel);
     variantModel.type.should.be.equal(type);
     variantModel.kind.should.be.equal(kind);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var variantModel = new variant.VariantBuilder()
+    const variantModel = new variant.VariantBuilder()
       .withType(type)
       .withKind(kind)
       .build();
@@ -31,7 +30,6 @@ describe('variant model test', function () {
     should.exist(variantModel);
     variantModel.type.should.be.equal(type);
     variantModel.kind.should.be.equal(kind);
-
     done();
   });
 

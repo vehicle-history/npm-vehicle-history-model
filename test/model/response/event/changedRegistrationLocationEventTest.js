@@ -1,17 +1,17 @@
-var chai = require('chai');
-var should = chai.should();
-var changedRegistrationLocationEvent = require('../../../../lib/model/response/event/changedRegistrationLocationEvent');
+const chai = require('chai');
+const should = chai.should();
+const changedRegistrationLocationEvent = require('../../../../lib/model/response/event/changedRegistrationLocationEvent');
 
-describe('changedRegistrationLocationEvent model test', function () {
+describe('changedRegistrationLocationEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var location = {location: 'location'};
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const location = {location: 'location'};
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new changedRegistrationLocationEvent.ChangedRegistrationLocationEvent(
+    const model = new changedRegistrationLocationEvent.ChangedRegistrationLocationEvent(
       type, createdAt, description, location
     );
 
@@ -24,9 +24,9 @@ describe('changedRegistrationLocationEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new changedRegistrationLocationEvent.ChangedRegistrationLocationEventBuilder()
+    const model = new changedRegistrationLocationEvent.ChangedRegistrationLocationEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

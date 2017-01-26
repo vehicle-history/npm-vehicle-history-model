@@ -1,17 +1,17 @@
-var chai = require('chai');
-var should = chai.should();
-var deregistrationEvent = require('../../../../lib/model/response/event/deregistrationEvent');
+const chai = require('chai');
+const should = chai.should();
+const deregistrationEvent = require('../../../../lib/model/response/event/deregistrationEvent');
 
-describe('deregistrationEvent model test', function () {
+describe('deregistrationEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var note = 'note';
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const note = 'note';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new deregistrationEvent.DeregistrationEvent(
+    const model = new deregistrationEvent.DeregistrationEvent(
       type, createdAt, description, note
     );
 
@@ -24,9 +24,9 @@ describe('deregistrationEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new deregistrationEvent.DeregistrationEventBuilder()
+    const model = new deregistrationEvent.DeregistrationEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

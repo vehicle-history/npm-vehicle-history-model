@@ -1,19 +1,19 @@
-var options = require('config');
-var engineBuilder = require('../../../lib/builder/vehicle/engineBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const engineBuilder = require('../../../lib/builder/vehicle/engineBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car engine builder test', function () {
+describe('car engine builder test', () => {
 
-  it('should return valid cc and fuel type', function (done) {
+  it('should return valid cc and fuel type', done => {
 
-    var map = {
+    const map = {
       'engine.cc': 1398,
       'engine.fuel': 'PETROL'
     };
 
-    var response = engineBuilder.build(map);
+    const response = engineBuilder.build(map);
 
     should.exist(response);
     should.exist(response.cubicCapacity);
@@ -23,14 +23,14 @@ describe('car engine builder test', function () {
     done();
   });
 
-  it('should return null for missing cc', function (done) {
+  it('should return null for missing cc', done => {
 
-    var map = {
+    const map = {
       'engine.cc': null,
       'engine.fuel': 'PETROL'
     };
 
-    var response = engineBuilder.build(map);
+    const response = engineBuilder.build(map);
     expect(response).to.be.null;
     done();
   });

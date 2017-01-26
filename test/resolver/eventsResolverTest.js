@@ -1,14 +1,14 @@
-var options = require('config');
-var eventsResolver = require('../../lib/resolver/eventsResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const eventsResolver = require('../../lib/resolver/eventsResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('events resolver builder test', function () {
+describe('events resolver builder test', () => {
 
-  it('should resolve events', function (done) {
+  it('should resolve events', done => {
 
-    var map = {
+    const map = {
       'production.year': 1988,
       'plate.country': 'PL',
       'events': [
@@ -95,11 +95,11 @@ describe('events resolver builder test', function () {
       ]
     };
 
-    eventsResolver.resolver(map, options, function (err, map) {
+    eventsResolver.resolver(map, options, (err, map) => {
       should.exist(map, 'map');
       should.exist(map.events, 'map.events');
 
-      var events = map.events;
+      const events = map.events;
 
       expect(events).to.have.length(8);
 

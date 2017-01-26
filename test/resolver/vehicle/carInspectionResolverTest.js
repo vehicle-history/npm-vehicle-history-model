@@ -1,14 +1,14 @@
-var options = require('config');
-var carInspectionResolver = require('../../../lib/resolver/vehicle/carInspectionResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carInspectionResolver = require('../../../lib/resolver/vehicle/carInspectionResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car inspection resolver test', function () {
+describe('car inspection resolver test', () => {
 
-  it('should return valid inspection', function (done) {
+  it('should return valid inspection', done => {
 
-    var map = {
+    const map = {
       'inspection.status': 'actual'
     };
 
@@ -19,9 +19,9 @@ describe('car inspection resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'inspection.status': null
     };
 

@@ -1,27 +1,27 @@
-var options = require('config');
-var SearchCarRequestBuilder = require('../../lib/model/searchCarRequest').SearchCarRequestBuilder;
-var resolver = require('../../lib/resolver/resolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const SearchCarRequestBuilder = require('../../lib/model/searchCarRequest').SearchCarRequestBuilder;
+const resolver = require('../../lib/resolver/resolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('resolver builder test', function () {
+describe('resolver builder test', () => {
 
-  it('should resolve vehicle and events', function (done) {
+  it('should resolve vehicle and events', done => {
 
-    var plate = 'AAE 1111';
-    var vin = 'ABC123456789DEF';
-    var firstRegistrationDate = '21-11-2011';
-    var country = 'PL';
+    const plate = 'AAE 1111';
+    const vin = 'ABC123456789DEF';
+    const firstRegistrationDate = '21-11-2011';
+    const country = 'PL';
 
-    var searchCarRequest = new SearchCarRequestBuilder()
+    const searchCarRequest = new SearchCarRequestBuilder()
       .withPlate(plate)
       .withVin(vin)
       .withFirstRegistrationDate(firstRegistrationDate)
       .withCountry(country)
       .build();
 
-    var map = {
+    const map = {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model',
@@ -101,11 +101,11 @@ describe('resolver builder test', function () {
       ]
     };
 
-    resolver.resolver(map, searchCarRequest, options, function (err, map) {
+    resolver.resolver(map, searchCarRequest, options, (err, map) => {
       should.exist(map);
       should.exist(map.events);
 
-      var events = map.events;
+      const events = map.events;
 
       expect(map).to.have.property('name.manufacturer', 'AUDI');
       expect(map).to.have.property('name.name', 'name');

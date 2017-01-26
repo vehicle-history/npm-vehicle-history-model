@@ -1,14 +1,14 @@
-var options = require('config');
-var carMileageResolver = require('../../../lib/resolver/vehicle/carMileageResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carMileageResolver = require('../../../lib/resolver/vehicle/carMileageResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car mileage resolver test', function () {
+describe('car mileage resolver test', () => {
 
-  it('should return valid mileage value and mileage type', function (done) {
+  it('should return valid mileage value and mileage type', done => {
 
-    var map = {
+    const map = {
       'mileage.value': '13981',
       'mileage.type': 'mile'
     };
@@ -23,9 +23,9 @@ describe('car mileage resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'mileage.value': null,
       'mileage.type': null
     };
@@ -37,9 +37,9 @@ describe('car mileage resolver test', function () {
     done();
   });
 
-  it('should return object with some null values', function (done) {
+  it('should return object with some null values', done => {
 
-    var map = {
+    const map = {
       'mileage.value': '13981',
       'mileage.type': null
     };
@@ -54,9 +54,9 @@ describe('car mileage resolver test', function () {
     done();
   });
 
-  it('should return default type for unknown value', function (done) {
+  it('should return default type for unknown value', done => {
 
-    var map = {
+    const map = {
       'mileage.value': 111,
       'mileage.type': 'unknown'
     };
@@ -70,9 +70,9 @@ describe('car mileage resolver test', function () {
     done();
   });
 
-  it('should return null object for null mileage value', function (done) {
+  it('should return null object for null mileage value', done => {
 
-    var map = {
+    const map = {
       'mileage.value': null,
       'mileage.type': 'unknown'
     };
@@ -85,9 +85,9 @@ describe('car mileage resolver test', function () {
   });
 
 
-  it('should resolve type from value', function (done) {
+  it('should resolve type from value', done => {
 
-    var map = {
+    const map = {
       'mileage.value': '13981 mile',
       'mileage.type': null
     };

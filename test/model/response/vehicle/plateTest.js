@@ -1,30 +1,35 @@
-var chai = require('chai');
-var should = chai.should();
-var plate = require('../../../../lib/model/response/vehicle/plate');
+const chai = require('chai');
+const should = chai.should();
+const plate = require('../../../../lib/model/response/vehicle/plate');
 
-describe('plate model test', function () {
+describe('plate model test', () => {
 
-  it('should create model', function (done) {
+  const value = 'value';
+  const country = 'country';
 
-    var plateModel = new plate.Plate('ABC12345', 'PL');
+  it('should create model', done => {
+
+    const plateModel = new plate.Plate(
+      value,
+      country
+    );
+
     should.exist(plateModel);
-    plateModel.value.should.be.equal('ABC12345');
-    plateModel.country.should.be.equal('PL');
-
+    plateModel.value.should.be.equal(value);
+    plateModel.country.should.be.equal(country);
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var plateModel = new plate.PlateBuilder()
-      .withValue('ABC12345')
-      .withCountry('PL')
+    const plateModel = new plate.PlateBuilder()
+      .withValue(value)
+      .withCountry(country)
       .build();
 
     should.exist(plateModel);
-    plateModel.value.should.be.equal('ABC12345');
-    plateModel.country.should.be.equal('PL');
-
+    plateModel.value.should.be.equal(value);
+    plateModel.country.should.be.equal(country);
     done();
   });
 

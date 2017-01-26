@@ -1,161 +1,161 @@
-var chai = require('chai');
-var should = chai.should();
-var index = require('../index');
-var resolver = index.resolver;
+const chai = require('chai');
+const should = chai.should();
+const index = require('../index');
+const resolver = index.resolver;
 
-describe('index test', function () {
+describe('index test', () => {
 
-  it('should export VehicleNotFoundError error', function (done) {
+  it('should export VehicleNotFoundError error', done => {
 
-    var VehicleNotFoundError = index.error.VehicleNotFoundError;
+    const VehicleNotFoundError = index.error.VehicleNotFoundError;
     should.exist(VehicleNotFoundError);
     done();
   });
 
-  it('should export ServiceUnavailableError error', function (done) {
+  it('should export ServiceUnavailableError error', done => {
 
-    var ServiceUnavailableError = index.error.ServiceUnavailableError;
+    const ServiceUnavailableError = index.error.ServiceUnavailableError;
     should.exist(ServiceUnavailableError);
     done();
   });
 
-  it('should export InvalidVehiclePlateError error', function (done) {
+  it('should export InvalidVehiclePlateError error', done => {
 
-    var InvalidVehiclePlateError = index.error.InvalidVehiclePlateError;
+    const InvalidVehiclePlateError = index.error.InvalidVehiclePlateError;
     should.exist(InvalidVehiclePlateError);
     done();
   });
 
-  it('should export carResponseBuilder function', function (done) {
+  it('should export carResponseBuilder function', done => {
 
-    var carResponseBuilder = index.builder.carResponseBuilder;
+    const carResponseBuilder = index.builder.carResponseBuilder;
     should.exist(carResponseBuilder);
     done();
   });
 
-  it('should export responseBuilder function', function (done) {
+  it('should export responseBuilder function', done => {
 
-    var responseBuilder = index.builder.responseBuilder;
+    const responseBuilder = index.builder.responseBuilder;
     should.exist(responseBuilder);
     done();
   });
 
-  it('should export eventsResponseBuilder function', function (done) {
+  it('should export eventsResponseBuilder function', done => {
 
-    var eventsResponseBuilder = index.builder.eventsResponseBuilder;
+    const eventsResponseBuilder = index.builder.eventsResponseBuilder;
     should.exist(eventsResponseBuilder);
     done();
   });
 
-  it('should export eventEnum function', function (done) {
+  it('should export eventEnum function', done => {
 
-    var eventEnum = index.enum.eventEnum;
+    const eventEnum = index.enum.eventEnum;
     should.exist(eventEnum);
     done();
   });
 
-  it('should export variantEnum function', function (done) {
+  it('should export variantEnum function', done => {
 
-    var variantEnum = index.enum.variantEnum;
+    const variantEnum = index.enum.variantEnum;
     should.exist(variantEnum);
     done();
   });
 
-  it('should export mileageEnum function', function (done) {
+  it('should export mileageEnum function', done => {
 
-    var mileageEnum = index.enum.mileageEnum;
+    const mileageEnum = index.enum.mileageEnum;
     should.exist(mileageEnum);
     done();
   });
 
-  it('should export SearchCarRequest model', function (done) {
+  it('should export SearchCarRequest model', done => {
 
-    var searchCarRequest = index.model.searchCarRequest;
+    const searchCarRequest = index.model.searchCarRequest;
     should.exist(searchCarRequest);
     should.exist(searchCarRequest.SearchCarRequest);
     should.exist(searchCarRequest.SearchCarRequestBuilder);
     done();
   });
 
-  it('should export Car model', function (done) {
+  it('should export Car model', done => {
 
-    var car = index.model.car;
+    const car = index.model.car;
     should.exist(car);
     should.exist(car.Car);
     should.exist(car.CarBuilder);
     done();
   });
 
-  it('should export Report model', function (done) {
+  it('should export Report model', done => {
 
-    var report = index.model.report;
+    const report = index.model.report;
     should.exist(report);
     should.exist(report.Report);
     should.exist(report.ReportBuilder);
     done();
   });
 
-  it('should export vehicleReportsCollection model', function (done) {
+  it('should export vehicleReportsCollection model', done => {
 
-    var vehicleReportsCollection = index.model.vehicleReportsCollection;
+    const vehicleReportsCollection = index.model.vehicleReportsCollection;
     should.exist(vehicleReportsCollection);
     should.exist(vehicleReportsCollection.VehicleReportsCollection);
     should.exist(vehicleReportsCollection.VehicleReportsCollectionBuilder);
     done();
   });
 
-  it('should export changedRegistrationLocationEvent function', function (done) {
+  it('should export changedRegistrationLocationEvent function', done => {
 
-    var changedRegistrationLocationEvent = index.model.changedRegistrationLocationEvent;
+    const changedRegistrationLocationEvent = index.model.changedRegistrationLocationEvent;
     should.exist(changedRegistrationLocationEvent);
     done();
   });
 
-  it('should export inspectionEvent function', function (done) {
+  it('should export inspectionEvent function', done => {
 
-    var inspectionEvent = index.model.inspectionEvent;
+    const inspectionEvent = index.model.inspectionEvent;
     should.exist(inspectionEvent);
     done();
   });
 
-  it('should export location function', function (done) {
+  it('should export location function', done => {
 
-    var location = index.model.location;
+    const location = index.model.location;
     should.exist(location);
     done();
   });
 
-  it('should export mileage function', function (done) {
+  it('should export mileage function', done => {
 
-    var mileage = index.model.mileage;
+    const mileage = index.model.mileage;
     should.exist(mileage);
     done();
   });
 
-  it('should export resolver', function (done) {
+  it('should export resolver', done => {
 
-    var resolver = index.resolver.resolver;
+    const resolver = index.resolver.resolver;
     should.exist(resolver);
     done();
   });
 
-  it('should export eventsResolver', function (done) {
+  it('should export eventsResolver', done => {
 
-    var eventsResolver = index.resolver.eventsResolver;
+    const eventsResolver = index.resolver.eventsResolver;
     should.exist(eventsResolver);
     done();
   });
 
-  it('should export vehicleResolver', function (done) {
+  it('should export vehicleResolver', done => {
 
-    var vehicleResolver = index.resolver.vehicleResolver;
+    const vehicleResolver = index.resolver.vehicleResolver;
     should.exist(vehicleResolver);
     done();
   });
 
-  it('should export meta version', function (done) {
+  it('should export meta version', done => {
 
-    var version = index.VERSION;
+    const version = index.VERSION;
     should.exist(version);
     done();
   });

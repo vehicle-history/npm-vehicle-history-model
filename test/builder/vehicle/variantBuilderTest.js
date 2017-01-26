@@ -1,19 +1,19 @@
-var options = require('config');
-var variantBuilder = require('../../../lib/builder/vehicle/variantBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const variantBuilder = require('../../../lib/builder/vehicle/variantBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car variant builder test', function () {
+describe('car variant builder test', () => {
 
-  it('should return valid type and kind', function (done) {
+  it('should return valid type and kind', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'CAR',
       'variant.kind': 'HATCHBACK'
     };
 
-    var response = variantBuilder.build(map);
+    const response = variantBuilder.build(map);
 
     should.exist(response);
     should.exist(response.type);
@@ -24,14 +24,14 @@ describe('car variant builder test', function () {
   });
 
 
-  it('should return default typ for unknown value', function (done) {
+  it('should return default typ for unknown value', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'UNKNOWN',
       'variant.kind': 'HATCHBACK'
     };
 
-    var response = variantBuilder.build(map)
+    const response = variantBuilder.build(map);
 
     should.exist(response);
     should.exist(response.type);
@@ -41,14 +41,14 @@ describe('car variant builder test', function () {
     done();
   });
 
-  it('should return object with some null values', function (done) {
+  it('should return object with some null values', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'CAR',
       'variant.kind': 'UNKNOWN'
     };
 
-    var response = variantBuilder.build(map);
+    const response = variantBuilder.build(map);
     should.exist(response);
     should.exist(response.type);
     response.type.should.equal('CAR');
@@ -57,14 +57,14 @@ describe('car variant builder test', function () {
     done();
   });
 
-  it('should return null type for unknown values', function (done) {
+  it('should return null type for unknown values', done => {
 
-    var map = {
+    const map = {
       'variant.type': 'UNKNOWN',
       'variant.kind': 'UNKNOWN'
     };
 
-    var response = variantBuilder.build(map);
+    const response = variantBuilder.build(map);
     expect(response).to.be.null;
     done();
   });

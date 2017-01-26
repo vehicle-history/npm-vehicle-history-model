@@ -1,18 +1,18 @@
-var chai = require('chai');
-var should = chai.should();
-var inspectionEvent = require('../../../../lib/model/response/event/inspectionEvent');
+const chai = require('chai');
+const should = chai.should();
+const inspectionEvent = require('../../../../lib/model/response/event/inspectionEvent');
 
-describe('inspectionEvent model test', function () {
+describe('inspectionEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var expireAt = 'iso date 2';
-  var mileage = {mileage: 'mileage'};
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const expireAt = 'iso date 2';
+  const mileage = {mileage: 'mileage'};
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new inspectionEvent.InspectionEvent(
+    const model = new inspectionEvent.InspectionEvent(
       type, createdAt, description, expireAt, mileage
     );
 
@@ -26,9 +26,9 @@ describe('inspectionEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new inspectionEvent.InspectionEventBuilder()
+    const model = new inspectionEvent.InspectionEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

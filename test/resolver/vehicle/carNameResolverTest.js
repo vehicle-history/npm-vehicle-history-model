@@ -1,14 +1,14 @@
-var options = require('config');
-var carNameResolver = require('../../../lib/resolver/vehicle/carNameResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carNameResolver = require('../../../lib/resolver/vehicle/carNameResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car name resolver test', function () {
+describe('car name resolver test', () => {
 
-  it('should return valid name object', function (done) {
+  it('should return valid name object', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': 'AUDI',
       'name.name': 'name',
       'name.model': 'model'
@@ -27,9 +27,9 @@ describe('car name resolver test', function () {
 
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': null,
       'name.name': null,
       'name.model': null
@@ -45,9 +45,9 @@ describe('car name resolver test', function () {
 
   });
 
-  it('should return object with some null values', function (done) {
+  it('should return object with some null values', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': 'BMW',
       'name.name': null,
       'name.model': null
@@ -63,9 +63,9 @@ describe('car name resolver test', function () {
 
   });
 
-  it('should return null unknown make and other null values', function (done) {
+  it('should return null unknown make and other null values', done => {
 
-    var map = {
+    const map = {
       'name.manufacturer': 'unknown-value',
       'name.name': null,
       'name.model': null

@@ -1,14 +1,14 @@
-var options = require('config');
-var carEngineResolver = require('../../../lib/resolver/vehicle/carEngineResolver');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const carEngineResolver = require('../../../lib/resolver/vehicle/carEngineResolver');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car engine resolver test', function () {
+describe('car engine resolver test', () => {
 
-  it('should return valid cc and fuel type', function (done) {
+  it('should return valid cc and fuel type', done => {
 
-    var map = {
+    const map = {
       'engine.cc': 1398,
       'engine.fuel': 'petrol'
     };
@@ -22,9 +22,9 @@ describe('car engine resolver test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'engine.cc': null,
       'engine.fuel': null
     };
@@ -36,9 +36,9 @@ describe('car engine resolver test', function () {
     done();
   });
 
-  it('should return object with some null values', function (done) {
+  it('should return object with some null values', done => {
 
-    var map = {
+    const map = {
       'engine.cc': '1398 cm³',
       'engine.fuel': null
     };
@@ -53,9 +53,9 @@ describe('car engine resolver test', function () {
     done();
   });
 
-  it('should return default fuel type for unknown value', function (done) {
+  it('should return default fuel type for unknown value', done => {
 
-    var map = {
+    const map = {
       'engine.cc': null,
       'engine.fuel': 'unknown'
     };

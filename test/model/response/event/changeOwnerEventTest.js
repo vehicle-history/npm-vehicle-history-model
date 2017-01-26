@@ -1,19 +1,19 @@
-var chai = require('chai');
-var should = chai.should();
-var changeOwnerEvent = require('../../../../lib/model/response/event/changeOwnerEvent');
+const chai = require('chai');
+const should = chai.should();
+const changeOwnerEvent = require('../../../../lib/model/response/event/changeOwnerEvent');
 
-describe('changeOwnerEvent model test', function () {
+describe('changeOwnerEvent model test', () => {
 
-  var type = {type: 'type'};
-  var createdAt = 'iso date';
-  var description = 'description';
-  var firstOwner = true;
-  var ownerType = 'PRIVATE';
-  var location = {location: 'location'};
+  const type = {type: 'type'};
+  const createdAt = 'iso date';
+  const description = 'description';
+  const firstOwner = true;
+  const ownerType = 'PRIVATE';
+  const location = {location: 'location'};
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var model = new changeOwnerEvent.ChangeOwnerEvent(
+    const model = new changeOwnerEvent.ChangeOwnerEvent(
       type, createdAt, description, firstOwner, ownerType, location
     );
 
@@ -28,9 +28,9 @@ describe('changeOwnerEvent model test', function () {
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var model = new changeOwnerEvent.ChangeOwnerEventBuilder()
+    const model = new changeOwnerEvent.ChangeOwnerEventBuilder()
       .withType(type)
       .withCreatedAt(createdAt)
       .withDescription(description)

@@ -1,15 +1,15 @@
-var chai = require('chai');
-var should = chai.should();
-var engine = require('../../../../lib/model/response/vehicle/engine');
+const chai = require('chai');
+const should = chai.should();
+const engine = require('../../../../lib/model/response/vehicle/engine');
 
-describe('engine model test', function () {
+describe('engine model test', () => {
 
-  var cubicCapacity = 1234;
-  var fuel = 'PETROL';
+  const cubicCapacity = 'cubicCapacity';
+  const fuel = 'fuel';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var engineModel = new engine.Engine(
+    const engineModel = new engine.Engine(
       cubicCapacity,
       fuel
     );
@@ -17,13 +17,12 @@ describe('engine model test', function () {
     should.exist(engineModel);
     engineModel.cubicCapacity.should.be.equal(cubicCapacity);
     engineModel.fuel.should.be.equal(fuel);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var engineModel = new engine.EngineBuilder()
+    const engineModel = new engine.EngineBuilder()
       .withCubicCapacity(cubicCapacity)
       .withFuel(fuel)
       .build();
@@ -31,7 +30,6 @@ describe('engine model test', function () {
     should.exist(engineModel);
     engineModel.cubicCapacity.should.be.equal(cubicCapacity);
     engineModel.fuel.should.be.equal(fuel);
-
     done();
   });
 

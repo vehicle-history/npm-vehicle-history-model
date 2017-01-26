@@ -1,19 +1,19 @@
-var options = require('config');
-var registrationBuilder = require('../../../lib/builder/vehicle/registrationBuilder');
-var chai = require('chai');
-var should = chai.should();
-var expect = chai.expect;
+const options = require('config');
+const registrationBuilder = require('../../../lib/builder/vehicle/registrationBuilder');
+const chai = require('chai');
+const should = chai.should();
+const expect = chai.expect;
 
-describe('car policy builder test', function () {
+describe('car policy builder test', () => {
 
-  it('should return valid registration', function (done) {
+  it('should return valid registration', done => {
 
-    var map = {
+    const map = {
       'registration.status': 'REGISTERED',
       'registration.firstDate': '2007-08-08T00:00:00.000Z'
     };
 
-    var response = registrationBuilder.build(map);
+    const response = registrationBuilder.build(map);
 
     should.exist(response);
 
@@ -26,14 +26,14 @@ describe('car policy builder test', function () {
     done();
   });
 
-  it('should return null for empty date', function (done) {
+  it('should return null for empty date', done => {
 
-    var map = {
+    const map = {
       'registration.status': 'REGISTERED',
       'registration.firstDate': null
     };
 
-    var response = registrationBuilder.build(map);
+    const response = registrationBuilder.build(map);
 
     should.exist(response.status);
     response.status.should.equal('REGISTERED');
@@ -43,27 +43,27 @@ describe('car policy builder test', function () {
     done();
   });
 
-  it('should return null for all null values', function (done) {
+  it('should return null for all null values', done => {
 
-    var map = {
+    const map = {
       'registration.status': null,
       'registration.firstDate': null
     };
 
-    var response = registrationBuilder.build(map);
+    const response = registrationBuilder.build(map);
     expect(response).to.be.null;
 
     done();
   });
 
-  it('should return null for UNKNOWN status and null firstDate', function (done) {
+  it('should return null for UNKNOWN status and null firstDate', done => {
 
-    var map = {
+    const map = {
       'registration.status': 'UNKNOWN',
       'registration.firstDate': null
     };
 
-    var response = registrationBuilder.build(map);
+    const response = registrationBuilder.build(map);
     expect(response).to.be.null;
 
     done();

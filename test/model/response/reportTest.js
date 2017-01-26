@@ -1,15 +1,15 @@
-var chai = require('chai');
-var should = chai.should();
-var report = require('../../../lib/model/response/report');
+const chai = require('chai');
+const should = chai.should();
+const report = require('../../../lib/model/response/report');
 
-describe('report model test', function () {
+describe('report model test', () => {
 
-  var vehicle = {vehicle: 'vehicle'};
-  var events = {events: 'events'};
+  const vehicle = 'vehicle';
+  const events = 'events';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var reportModel = new report.Report(
+    const reportModel = new report.Report(
       vehicle,
       events
     );
@@ -17,13 +17,12 @@ describe('report model test', function () {
     should.exist(reportModel);
     reportModel.vehicle.should.be.equal(vehicle);
     reportModel.events.should.be.equal(events);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var reportModel = new report.ReportBuilder()
+    const reportModel = new report.ReportBuilder()
       .withVehicle(vehicle)
       .withEvents(events)
       .build();
@@ -31,7 +30,6 @@ describe('report model test', function () {
     should.exist(reportModel);
     reportModel.vehicle.should.be.equal(vehicle);
     reportModel.events.should.be.equal(events);
-
     done();
   });
 

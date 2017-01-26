@@ -1,15 +1,15 @@
-var chai = require('chai');
-var should = chai.should();
-var registration = require('../../../../lib/model/response/vehicle/registration');
+const chai = require('chai');
+const should = chai.should();
+const registration = require('../../../../lib/model/response/vehicle/registration');
 
-describe('registration model test', function () {
+describe('registration model test', () => {
 
-  var status = 'UNKNOWN';
-  var firstAt = 'iso date';
+  const status = 'status';
+  const firstAt = 'firstAt';
 
-  it('should create model', function (done) {
+  it('should create model', done => {
 
-    var registrationModel = new registration.Registration(
+    const registrationModel = new registration.Registration(
       status,
       firstAt
     );
@@ -17,13 +17,12 @@ describe('registration model test', function () {
     should.exist(registrationModel);
     registrationModel.status.should.be.equal(status);
     registrationModel.firstAt.should.be.equal(firstAt);
-
     done();
   });
 
-  it('should create model by builder', function (done) {
+  it('should create model by builder', done => {
 
-    var registrationModel = new registration.RegistrationBuilder()
+    const registrationModel = new registration.RegistrationBuilder()
       .withStatus(status)
       .withFirstAt(firstAt)
       .build();
@@ -31,7 +30,6 @@ describe('registration model test', function () {
     should.exist(registrationModel);
     registrationModel.status.should.be.equal(status);
     registrationModel.firstAt.should.be.equal(firstAt);
-
     done();
   });
 
