@@ -1,7 +1,10 @@
 1.1.0 / 2017-01-27
 ===================
 
-  * es6 and updated CI
+  * Updated model
+  * es6: for loops
+  * es6: maps
+  * eslint, jshint, CI
 
 0.9.43 / 2015-05-24
 ===================
