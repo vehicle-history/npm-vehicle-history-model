@@ -36,7 +36,7 @@ describe('response builder test', () => {
             country: 'PL'
           },
           note: null,
-          createdAt: '2012-05-12T22:00:00.000Z',
+          createdAt: '12.05.2012',
           expireAt: null,
           description: 'First owner',
           firstOwner: null,
@@ -48,7 +48,7 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: null,
-          createdAt: '2012-05-16T22:00:00.000Z',
+          createdAt: '16.05.2012',
           expireAt: null,
           description: 'Abroad registration',
           firstOwner: null,
@@ -60,7 +60,7 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: null,
-          createdAt: '2012-06-16T22:00:00.000Z',
+          createdAt: '16.06.2012',
           expireAt: null,
           description: 'First registration',
           firstOwner: null,
@@ -72,8 +72,8 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: null,
-          createdAt: '2013-06-16T22:00:00.000Z',
-          expireAt: '2014-06-16T22:00:00.000Z',
+          createdAt: '16.06.2013',
+          expireAt: '16.06.2014',
           description: 'Inspection (17.06.2014)',
           firstOwner: null,
           mileage: {
@@ -87,7 +87,7 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: null,
-          createdAt: '2013-06-16T22:00:00.000Z',
+          createdAt: '16.06.2013',
           expireAt: null,
           description: 'Holder',
           firstOwner: null,
@@ -99,7 +99,7 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: 'note',
-          createdAt: '2014-06-16T22:00:00.000Z',
+          createdAt: '16.06.2014',
           expireAt: null,
           description: 'Deregistration',
           firstOwner: null,
@@ -114,7 +114,7 @@ describe('response builder test', () => {
             country: 'PL'
           },
           note: null,
-          createdAt: '2012-05-12T22:00:00.000Z',
+          createdAt: '12.05.2012',
           expireAt: null,
           description: 'Changed registration location',
           firstOwner: null,
@@ -126,7 +126,7 @@ describe('response builder test', () => {
           ownerType: null,
           location: null,
           note: null,
-          createdAt: '2012-05-12T22:00:00.000Z',
+          createdAt: '12.05.2012',
           expireAt: null,
           description: 'Stolen',
           firstOwner: null,
@@ -175,7 +175,7 @@ describe('response builder test', () => {
       expect(events).to.have.length(9);
 
       expect(events).to.have.deep.property('[0].type', 'PRODUCTION');
-      expect(events).to.have.deep.property('[0].createdAt', '2016-12-31T23:00:00.000Z');
+      expect(events).to.have.deep.property('[0].createdAt', '1987-12-31T23:00:00.000Z');
       expect(events).to.have.deep.property('[0].note', null);
       expect(events).to.have.deep.property('[0].firstOwner', null);
       expect(events).to.have.deep.property('[0].ownerType', null);
@@ -185,7 +185,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[0].mileage', null);
 
       expect(events).to.have.deep.property('[1].type', 'CHANGE_OWNER');
-      expect(events).to.have.deep.property('[1].createdAt', '2012-05-12T22:00:00.000Z');
+      expect(events).to.have.deep.property('[1].createdAt', '12.05.2012');
       expect(events).to.have.deep.property('[1].note', null);
       expect(events).to.have.deep.property('[1].firstOwner', null);
       expect(events).to.have.deep.property('[1].ownerType', 'PRIVATE');
@@ -196,7 +196,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[1].mileage', null);
 
       expect(events).to.have.deep.property('[2].type', 'REGISTRATION');
-      expect(events).to.have.deep.property('[2].createdAt', '2012-05-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[2].createdAt', '16.05.2012');
       expect(events).to.have.deep.property('[2].note', null);
       expect(events).to.have.deep.property('[2].firstOwner', null);
       expect(events).to.have.deep.property('[2].ownerType', null);
@@ -206,7 +206,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[2].mileage', null);
 
       expect(events).to.have.deep.property('[3].type', 'REGISTRATION');
-      expect(events).to.have.deep.property('[3].createdAt', '2012-06-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[3].createdAt', '16.06.2012');
       expect(events).to.have.deep.property('[3].note', null);
       expect(events).to.have.deep.property('[3].firstOwner', null);
       expect(events).to.have.deep.property('[3].ownerType', null);
@@ -216,17 +216,17 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[3].mileage', null);
 
       expect(events).to.have.deep.property('[4].type', 'INSPECTION');
-      expect(events).to.have.deep.property('[4].createdAt', '2013-06-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[4].createdAt', '16.06.2013');
       expect(events).to.have.deep.property('[4].note', null);
       expect(events).to.have.deep.property('[4].firstOwner', null);
       expect(events).to.have.deep.property('[4].ownerType', null);
       expect(events).to.have.deep.property('[4].location', null);
-      expect(events).to.have.deep.property('[4].expireAt', '2014-06-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[4].expireAt', '16.06.2014');
       expect(events).to.have.deep.property('[4].mileage.value', 177000);
       expect(events).to.have.deep.property('[4].mileage.type', 'KM');
 
       expect(events).to.have.deep.property('[5].type', 'HOLDER');
-      expect(events).to.have.deep.property('[5].createdAt', '2013-06-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[5].createdAt', '16.06.2013');
       expect(events).to.have.deep.property('[5].note', null);
       expect(events).to.have.deep.property('[5].firstOwner', null);
       expect(events).to.have.deep.property('[5].ownerType', null);
@@ -235,7 +235,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[5].mileage', null);
 
       expect(events).to.have.deep.property('[6].type', 'DEREGISTRATION');
-      expect(events).to.have.deep.property('[6].createdAt', '2014-06-16T22:00:00.000Z');
+      expect(events).to.have.deep.property('[6].createdAt', '16.06.2014');
       expect(events).to.have.deep.property('[6].note', 'note');
       expect(events).to.have.deep.property('[6].firstOwner', null);
       expect(events).to.have.deep.property('[6].ownerType', null);
@@ -245,7 +245,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[6].mileage', null);
 
       expect(events).to.have.deep.property('[7].type', 'CHANGED_REGISTRATION_LOCATION');
-      expect(events).to.have.deep.property('[7].createdAt', '2012-05-12T22:00:00.000Z');
+      expect(events).to.have.deep.property('[7].createdAt', '12.05.2012');
       expect(events).to.have.deep.property('[7].note', null);
       expect(events).to.have.deep.property('[7].firstOwner', null);
       expect(events).to.have.deep.property('[7].ownerType', null);
@@ -256,7 +256,7 @@ describe('response builder test', () => {
       expect(events).to.have.deep.property('[7].mileage', null);
 
       expect(events).to.have.deep.property('[8].type', 'STOLEN');
-      expect(events).to.have.deep.property('[8].createdAt', '2012-05-12T22:00:00.000Z');
+      expect(events).to.have.deep.property('[8].createdAt', '12.05.2012');
       expect(events).to.have.deep.property('[8].note', null);
       expect(events).to.have.deep.property('[8].firstOwner', null);
       expect(events).to.have.deep.property('[8].ownerType', null);
