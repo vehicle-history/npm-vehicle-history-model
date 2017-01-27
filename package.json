@@ -1,12 +1,13 @@
 {
   "name": "vehicle-history-model",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Vehicle history model.",
   "main": "./index.js",
   "dependencies": {
     "assert-plus": "1.0.0",
     "async": "2.1.4",
-    "datejs": "1.0.0-rc3",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
     "winston": "2.3.1",
     "winston-loggly": "1.3.1"
   },
@@ -14,13 +15,14 @@
     "chai": "3.5.0",
     "config": "1.24.0",
     "istanbul": "0.4.5",
-    "mocha": "3.2.0"
+    "mocha": "3.2.0",
+    "nsp": "2.6.2"
   },
   "scripts": {
-    "prepublish": "npm prune",
+    "prepublish": "npm prune && node_modules/nsp/bin/nsp check",
     "test": "mocha --recursive test",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive test",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive test"
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --check-leaks --report lcovonly -- --recursive test"
   },
   "repository": {
     "type": "git",
@@ -42,9 +44,9 @@
   "license": "MIT",
   "homepage": "https://github.com/vehicle-history/npm-vehicle-history-model",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
   "readmeFilename": "README.md",
-  "_id": "vehicle-history-model@1.1.0",
-  "_from": "vehicle-history-model@^1.1.0"
+  "_id": "vehicle-history-model@1.2.0",
+  "_from": "vehicle-history-model@^1.2.0"
 }
