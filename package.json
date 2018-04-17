@@ -6,8 +6,8 @@
   "dependencies": {
     "assert-plus": "1.0.0",
     "async": "2.6.0",
-    "moment": "2.22.0",
-    "moment-timezone": "0.5.14",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.15",
     "winston": "3.0.0-rc2",
     "winston-loggly": "1.3.1"
   },
